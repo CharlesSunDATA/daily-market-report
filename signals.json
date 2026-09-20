@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-20T23:44:49+09:30",
+  "updated_at": "2026-09-21T02:45:13+09:30",
   "signals": [
+    {
+      "id": "20260921-0245-kashkari-inflation",
+      "timestamp": "2026-09-21T02:45:13+09:30",
+      "light": "🔴",
+      "title": "Kashkari：美國通膨不只能源，服務業價格壓力仍廣泛",
+      "summary": "Kashkari支持Fed上週升息並強調核心通膨仍過高，強化高利率維持更久與長債殖利率壓力，對高估值科技與半導體估值偏負面。",
+      "tickers": ["QQQ", "SMH", "NVDA", "AMD", "AVGO"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/feds-kashkari-says-inflation-goes-beyond-oil-prices-according-fox-news-interview-2026-09-20/",
+      "source_time": "2026-09-20T15:06:46Z"
+    },
     {
       "id": "20260920-2344-iran-escalation-warning",
       "timestamp": "2026-09-20T23:44:49+09:30",
