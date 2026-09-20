@@ -1,0 +1,96 @@
+{
+  "updated_at": "2026-09-20T16:22:49+09:30",
+  "signals": [
+    {
+      "id": "20260920-1622-saudi-houthi",
+      "timestamp": "2026-09-20T16:22:49+09:30",
+      "light": "🔴",
+      "title": "Saudi 對胡塞轉為持續主動打擊",
+      "summary": "區域升級提高能源與通膨尾部風險，科技估值可能承壓。",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX",
+        "COP",
+        "VLO",
+        "MPC",
+        "PSX",
+        "QQQ",
+        "SMH"
+      ]
+    },
+    {
+      "id": "20260920-1453-cxmt-dram",
+      "timestamp": "2026-09-20T14:53:36+09:30",
+      "light": "🔴",
+      "title": "CXMT 第五代 DRAM 進入量產",
+      "summary": "中國DRAM供給能力提升，增加MU中期commodity/mobile DRAM競爭壓力。",
+      "tickers": [
+        "MU"
+      ]
+    },
+    {
+      "id": "20260920-1002-hormuz-flow",
+      "timestamp": "2026-09-20T10:02:00+09:30",
+      "light": "🟢",
+      "title": "Hormuz 能源與貨運通行量回升至六個月高位",
+      "summary": "實際通行改善降低原油/LNG供應中斷風險，對科技風險偏好較有利。",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX",
+        "COP",
+        "VLO",
+        "MPC",
+        "PSX",
+        "QQQ",
+        "SMH"
+      ]
+    },
+    {
+      "id": "20260920-0437-yanbu-claim",
+      "timestamp": "2026-09-20T04:37:11+09:30",
+      "light": "🔴",
+      "title": "胡塞宣稱攻擊 Yanbu Aramco 設施",
+      "summary": "損害尚未確認，但替代出口路線遭攻擊會提高Saudi能源物流風險。",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX",
+        "COP",
+        "VLO",
+        "MPC",
+        "PSX",
+        "QQQ",
+        "SMH"
+      ]
+    },
+    {
+      "id": "20260920-0201-riyadh-fuel",
+      "timestamp": "2026-09-20T02:01:21+09:30",
+      "light": "🔴",
+      "title": "Riyadh 機場航空燃料儲存區遭攻擊起火",
+      "summary": "責任歸屬未確認；若攻擊擴大至能源物流設施，油價與區域風險溢價可能上升。",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX",
+        "COP",
+        "QQQ",
+        "SMH"
+      ]
+    },
+    {
+      "id": "20260919-2251-iran-connectivity",
+      "timestamp": "2026-09-19T22:51:52+09:30",
+      "light": "🟡",
+      "title": "伊朗金融與航空對外連接進一步受限",
+      "summary": "Bank Mellat伊斯坦堡牌照撤銷、Mahan Air部分航線停飛，增加伊朗經濟壓力但市場影響偏間接。",
+      "tickers": [
+        "XLE",
+        "QQQ",
+        "SMH"
+      ]
+    }
+  ]
+}
