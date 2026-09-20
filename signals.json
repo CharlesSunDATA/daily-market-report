@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-20T22:47:30+09:30",
+  "updated_at": "2026-09-20T23:44:49+09:30",
   "signals": [
+    {
+      "id": "20260920-2344-iran-escalation-warning",
+      "timestamp": "2026-09-20T23:44:49+09:30",
+      "light": "🔴",
+      "title": "伊朗警告美國與盟友勿發動新一輪攻擊",
+      "summary": "伊朗軍方稱掌握可能遭襲情報並威脅持續報復美軍基地與區域盟友，使Hormuz、油價與科技估值的地緣風險溢價再度升高。",
+      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/iran-warns-against-new-escalation-by-us-allies-2026-09-20/",
+      "source_time": "2026-09-20"
+    },
     {
       "id": "20260920-2247-us-china-ai-trade-talks",
       "timestamp": "2026-09-20T22:47:30+09:30",
