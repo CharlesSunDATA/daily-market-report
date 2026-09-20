@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-09-21T02:45:13+09:30",
+  "updated_at": "2026-09-21T03:45:04+09:30",
   "signals": [
+    {
+      "id": "20260921-0345-qatarenergy-hormuz-delay",
+      "timestamp": "2026-09-21T03:45:04+09:30",
+      "light": "🔴",
+      "title": "Hormuz危機開始拖延QatarEnergy擴產設備交付",
+      "summary": "QatarEnergy警告關鍵設備難以到貨、部分North Field LNG擴產可能延後，顯示Hormuz衝擊已由即期能源流量延伸至中期新增供給，支撐全球LNG風險溢價。",
+      "tickers": ["LNG", "XLE"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/energy/qatarenergy-says-hormuz-crisis-may-delay-some-expansion-projects-2026-09-20/",
+      "source_time": "2026-09-20"
+    },
+    {
+      "id": "20260921-0345-nippon-life-datacenter",
+      "timestamp": "2026-09-21T03:45:04+09:30",
+      "light": "🟢",
+      "title": "Nippon Life規劃約127.5億美元美國資料中心融資",
+      "summary": "大型保險資金持續投入美國data center基礎建設，強化AI CapEx融資可得性並支持電力、散熱與高速網路設備需求。",
+      "tickers": ["VRT", "ANET", "MRVL"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/japans-nippon-life-plans-13-billion-data-center-financing-us-nikkei-asia-reports-2026-09-19/",
+      "source_time": "2026-09-20"
+    },
     {
       "id": "20260921-0245-kashkari-inflation",
       "timestamp": "2026-09-21T02:45:13+09:30",
