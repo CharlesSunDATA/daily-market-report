@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-22T03:46:20+09:30",
+  "updated_at": "2026-09-22T08:45:16+09:30",
   "signals": [
+    {
+      "id": "20260920-2247-us-china-ai-trade-talks",
+      "timestamp": "2026-09-22T08:45:16+09:30",
+      "light": "🟡",
+      "title": "Xi訪美9/23–25正式確認，Trump-Xi會談進入事件窗",
+      "summary": "中國外交部正式確認Xi將於9月23–25日訪美，使美中AI、晶片出口管制、關稅與關鍵礦物談判進入明確事件窗，但政策結果仍待峰會確認。",
+      "tickers": ["NVDA", "AMD", "AVGO", "MRVL", "TSM", "SMH"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/chinas-xi-visit-us-september-23-25-2026-09-21/",
+      "source_time": "2026-09-21"
+    },
     {
       "id": "20260922-0346-goolsbee-demand-inflation",
       "timestamp": "2026-09-22T03:46:20+09:30",
@@ -43,17 +54,6 @@
       "tickers": ["XLE", "XOM", "CVX", "COP"],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/world/middle-east/houthis-push-control-yemen-highlands-trump-reported-have-called-off-airstrikes-2026-09-21/",
-      "source_time": "2026-09-21"
-    },
-    {
-      "id": "20260920-2247-us-china-ai-trade-talks",
-      "timestamp": "2026-09-21T18:47:32+09:30",
-      "light": "🟡",
-      "title": "美中AI談判升級至國安事件通知機制",
-      "summary": "Bessent表示美中已討論建立AI國安事件通知機制，顯示AI政策溝通由一般磋商走向具體框架，但晶片出口管制與稀土風險仍未解除。",
-      "tickers": ["NVDA", "AMD", "AVGO", "MRVL", "TSM", "SMH"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/",
       "source_time": "2026-09-21"
     },
     {
@@ -177,14 +177,6 @@
       "light": "🟢",
       "title": "Hormuz 能源與貨運通行量回升至六個月高位",
       "summary": "實際通行改善降低原油/LNG供應中斷風險，對科技風險偏好較有利。",
-      "tickers": ["XLE", "XOM", "CVX", "COP", "VLO", "MPC", "PSX", "QQQ", "SMH"]
-    },
-    {
-      "id": "20260920-0437-yanbu-claim",
-      "timestamp": "2026-09-20T04:37:11+09:30",
-      "light": "🔴",
-      "title": "胡塞宣稱攻擊 Yanbu Aramco 設施",
-      "summary": "損害尚未確認，但替代出口路線遭攻擊會提高Saudi能源物流風險。",
       "tickers": ["XLE", "XOM", "CVX", "COP", "VLO", "MPC", "PSX", "QQQ", "SMH"]
     }
   ]
