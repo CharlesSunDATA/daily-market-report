@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-21T20:46:56+09:30",
+  "updated_at": "2026-09-21T21:49:51+09:30",
   "signals": [
+    {
+      "id": "20260921-2149-global-diesel-shortage",
+      "timestamp": "2026-09-21T21:49:51+09:30",
+      "light": "🔴",
+      "title": "全球柴油短缺料延續至2027年",
+      "summary": "美國柴油庫存降至1982年有紀錄以來同期最低、EIA預估餾分油庫存至2027年大部分時間仍低於五年低點，延長能源通膨壓力並支撐煉油利差。",
+      "tickers": ["VLO", "MPC", "PSX", "XLE"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/energy/global-diesel-shortage-likely-last-into-2027-storage-tanks-drain-2026-09-21/",
+      "source_time": "2026-09-21T10:05:00Z"
+    },
     {
       "id": "20260921-2046-houthi-red-sea-highlands",
       "timestamp": "2026-09-21T20:46:56+09:30",
