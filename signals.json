@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-21T14:43:04+09:30",
+  "updated_at": "2026-09-21T15:47:19+09:30",
   "signals": [
+    {
+      "id": "20260921-1547-hormuz-sts-freight",
+      "timestamp": "2026-09-21T15:47:19+09:30",
+      "light": "🔴",
+      "title": "Hormuz瓶頸轉向STS與油輪運費",
+      "summary": "Hormuz油流雖靠STS轉運維持，但9月約40%通行量已依賴STS、海灣至中國VLCC運費升至每桶逾30美元並超過原油成本四分之一，顯示供應風險正由實體斷流轉為高成本物流與能源通膨壓力。",
+      "tickers": ["XLE", "XOM", "CVX", "COP", "VLO", "MPC", "PSX", "QQQ", "SMH"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/commentary/reuters-open-interest/hormuz-shuttles-keep-oil-flowing-high-cost-2026-09-21/",
+      "source_time": "2026-09-21T06:00:00Z"
+    },
     {
       "id": "20260921-1443-hormuz-vessel-traffic",
       "timestamp": "2026-09-21T14:43:04+09:30",
