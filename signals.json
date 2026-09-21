@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-21T15:47:19+09:30",
+  "updated_at": "2026-09-21T18:47:32+09:30",
   "signals": [
+    {
+      "id": "20260920-2247-us-china-ai-trade-talks",
+      "timestamp": "2026-09-21T18:47:32+09:30",
+      "light": "🟡",
+      "title": "美中AI談判升級至國安事件通知機制",
+      "summary": "Bessent表示美中已討論建立AI國安事件通知機制，顯示AI政策溝通由一般磋商走向具體框架，但晶片出口管制與稀土風險仍未解除。",
+      "tickers": ["NVDA", "AMD", "AVGO", "MRVL", "TSM", "SMH"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/",
+      "source_time": "2026-09-21"
+    },
     {
       "id": "20260921-1547-hormuz-sts-freight",
       "timestamp": "2026-09-21T15:47:19+09:30",
@@ -87,17 +98,6 @@
       "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/world/asia-pacific/iran-warns-against-new-escalation-by-us-allies-2026-09-20/",
-      "source_time": "2026-09-20"
-    },
-    {
-      "id": "20260920-2247-us-china-ai-trade-talks",
-      "timestamp": "2026-09-20T22:47:30+09:30",
-      "light": "🟡",
-      "title": "美中啟動 AI、貿易與關鍵礦產談判",
-      "summary": "Bessent與何立峰在紐約磋商AI護欄、關稅休戰與稀土供應，為半導體出口限制與關鍵材料風險帶來雙向政策催化。",
-      "tickers": ["NVDA", "AMD", "AVGO", "MRVL", "TSM", "SMH"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/finance/us-treasurys-bessent-chinas-he-launch-talks-ai-trade-critical-minerals-2026-09-20/",
       "source_time": "2026-09-20"
     },
     {
