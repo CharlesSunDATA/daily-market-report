@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-21T09:45:34+09:30",
+  "updated_at": "2026-09-21T10:43:29+09:30",
   "signals": [
+    {
+      "id": "20260921-1043-saudi-export-recovery",
+      "timestamp": "2026-09-21T10:43:29+09:30",
+      "light": "🟢",
+      "title": "Saudi 原油出口回升至逾400萬桶/日",
+      "summary": "Saudi改由Hormuz增加出貨，使9月出口由8月低點240萬桶/日回升至逾400萬桶/日，部分抵銷Yanbu受襲造成的供給風險並壓低油價風險溢價。",
+      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/energy/oil-rises-after-houthi-attack-saudi-capital-2026-09-20/",
+      "source_time": "2026-09-21T07:40:49+09:30"
+    },
     {
       "id": "20260921-0945-europe-jetfuel-deficit",
       "timestamp": "2026-09-21T09:45:34+09:30",
