@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-21T23:43:11+09:30",
+  "updated_at": "2026-09-22T03:46:20+09:30",
   "signals": [
+    {
+      "id": "20260922-0346-goolsbee-demand-inflation",
+      "timestamp": "2026-09-22T03:46:20+09:30",
+      "light": "🔴",
+      "title": "Goolsbee：強勁需求正加入美國通膨壓力",
+      "summary": "Goolsbee稱AI投資等強勁需求正疊加關稅與油價供給衝擊、若需求過熱Fed須更果斷升息，進一步提高高估值科技與半導體的利率敏感風險。",
+      "tickers": ["QQQ", "SMH", "NVDA", "AMD", "AVGO"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/feds-goolsbee-strong-demand-may-be-adding-us-inflation-no-ambiguity-how-fed-2026-09-21/",
+      "source_time": "2026-09-21"
+    },
     {
       "id": "20260921-2343-meta-alberta-datacenter-power",
       "timestamp": "2026-09-21T23:43:11+09:30",
@@ -175,14 +186,6 @@
       "title": "胡塞宣稱攻擊 Yanbu Aramco 設施",
       "summary": "損害尚未確認，但替代出口路線遭攻擊會提高Saudi能源物流風險。",
       "tickers": ["XLE", "XOM", "CVX", "COP", "VLO", "MPC", "PSX", "QQQ", "SMH"]
-    },
-    {
-      "id": "20260920-0201-riyadh-fuel",
-      "timestamp": "2026-09-20T02:01:21+09:30",
-      "light": "🔴",
-      "title": "Riyadh 機場航空燃料儲存區遭攻擊起火",
-      "summary": "責任歸屬未確認；若攻擊擴大至能源物流設施，油價與區域風險溢價可能上升。",
-      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"]
     }
   ]
 }
