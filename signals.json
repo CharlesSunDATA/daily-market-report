@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-21T03:45:04+09:30",
+  "updated_at": "2026-09-21T09:45:34+09:30",
   "signals": [
+    {
+      "id": "20260921-0945-europe-jetfuel-deficit",
+      "timestamp": "2026-09-21T09:45:34+09:30",
+      "light": "🔴",
+      "title": "歐洲Q4航空燃料缺口估達51萬桶/日",
+      "summary": "中東供應受伊朗衝突干擾、歐洲航空燃料庫存降至七年低點，Q4缺口估達51萬桶/日，強化煉油品與能源通膨風險溢價。",
+      "tickers": ["VLO", "MPC", "PSX", "XLE"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/energy/europe-faces-q4-jet-fuel-supply-deficit-even-south-korea-becomes-latest-big-2026-09-21/",
+      "source_time": "2026-09-21"
+    },
     {
       "id": "20260921-0345-qatarenergy-hormuz-delay",
       "timestamp": "2026-09-21T03:45:04+09:30",
