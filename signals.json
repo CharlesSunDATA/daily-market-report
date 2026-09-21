@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-21T21:49:51+09:30",
+  "updated_at": "2026-09-21T23:43:11+09:30",
   "signals": [
+    {
+      "id": "20260921-2343-meta-alberta-datacenter-power",
+      "timestamp": "2026-09-21T23:43:11+09:30",
+      "light": "🟢",
+      "title": "Meta加拿大C$130億資料中心強化AI電力需求",
+      "summary": "Meta規劃在Alberta興建C$130億資料中心、Capital Power將在其自備電力設施2030年啟用前供應250MW，並稱正洽談更多hyperscaler專案，進一步驗證AI資料中心電力基建需求。",
+      "tickers": ["META", "VRT"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/legal/litigation/meta-data-center-boosts-alberta-appeal-hyperscalers-capital-power-says-2026-09-21/",
+      "source_time": "2026-09-21"
+    },
     {
       "id": "20260921-2149-global-diesel-shortage",
       "timestamp": "2026-09-21T21:49:51+09:30",
@@ -172,14 +183,6 @@
       "title": "Riyadh 機場航空燃料儲存區遭攻擊起火",
       "summary": "責任歸屬未確認；若攻擊擴大至能源物流設施，油價與區域風險溢價可能上升。",
       "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"]
-    },
-    {
-      "id": "20260919-2251-iran-connectivity",
-      "timestamp": "2026-09-19T22:51:52+09:30",
-      "light": "🟡",
-      "title": "伊朗金融與航空對外連接進一步受限",
-      "summary": "Bank Mellat伊斯坦堡牌照撤銷、Mahan Air部分航線停飛，增加伊朗經濟壓力但市場影響偏間接。",
-      "tickers": ["XLE", "QQQ", "SMH"]
     }
   ]
 }
