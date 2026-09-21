@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-21T18:47:32+09:30",
+  "updated_at": "2026-09-21T20:46:56+09:30",
   "signals": [
+    {
+      "id": "20260921-2046-houthi-red-sea-highlands",
+      "timestamp": "2026-09-21T20:46:56+09:30",
+      "light": "🔴",
+      "title": "胡塞推進葉門戰略高地，Red Sea能源走廊風險再升級",
+      "summary": "Reuters引述五名葉門軍方消息人士稱胡塞正試圖奪取分隔紅海沿岸與政府控制南部的Kahboub Mountains，若推進成功將進一步威脅Bab el-Mandeb與Saudi替代能源出口路線並支撐油價風險溢價。",
+      "tickers": ["XLE", "XOM", "CVX", "COP"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/middle-east/houthis-push-control-yemen-highlands-trump-reported-have-called-off-airstrikes-2026-09-21/",
+      "source_time": "2026-09-21"
+    },
     {
       "id": "20260920-2247-us-china-ai-trade-talks",
       "timestamp": "2026-09-21T18:47:32+09:30",
