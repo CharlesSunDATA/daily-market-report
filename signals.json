@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-21T10:43:29+09:30",
+  "updated_at": "2026-09-21T14:43:04+09:30",
   "signals": [
+    {
+      "id": "20260921-1443-hormuz-vessel-traffic",
+      "timestamp": "2026-09-21T14:43:04+09:30",
+      "light": "🔴",
+      "title": "Hormuz可見商船通行仍遠低於戰前水準",
+      "summary": "週末僅約12艘商品船通過Hormuz、遠低於戰前約125艘大型商船/日，顯示即使實際油流具韌性，航運與能源物流尾部風險仍未解除。",
+      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/middle-east/vessels-trickle-through-strait-hormuz-mideast-tension-persists-2026-09-21/",
+      "source_time": "2026-09-21"
+    },
     {
       "id": "20260921-1043-saudi-export-recovery",
       "timestamp": "2026-09-21T10:43:29+09:30",
