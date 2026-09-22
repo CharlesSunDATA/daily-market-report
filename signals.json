@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-22T12:43:41+09:30",
+  "updated_at": "2026-09-22T13:46:30+09:30",
   "signals": [
+    {
+      "id": "20260922-1346-libya-sharara-output-cut",
+      "timestamp": "2026-09-22T13:46:30+09:30",
+      "light": "🔴",
+      "title": "Libya Sharara油田因武裝團體關閉管線減產約20萬桶/日",
+      "summary": "Libya NOC確認武裝團體關閉Sharara至Zawiya管線閥門、使主要油田產量驟減約20萬桶/日，在中東供應仍受限之際進一步收緊全球原油供給並支撐能源風險溢價。",
+      "tickers": ["XLE", "XOM", "CVX", "COP"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/energy/armed-group-shuts-valve-libyas-sharara-crude-pipeline-cuts-output-noc-says-2026-09-21/",
+      "source_time": "2026-09-21T19:43:45Z"
+    },
     {
       "id": "20260922-1243-alibaba-zhenwu-v900-20gw",
       "timestamp": "2026-09-22T12:43:41+09:30",
