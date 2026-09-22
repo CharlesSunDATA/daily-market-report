@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-22T15:47:16+09:30",
+  "updated_at": "2026-09-22T18:46:17+09:30",
   "signals": [
+    {
+      "id": "20260921-1443-hormuz-vessel-traffic",
+      "timestamp": "2026-09-22T18:46:17+09:30",
+      "light": "🔴",
+      "title": "Hormuz可見商船通行驟降至2艘，油輪與LPG船另遭攻擊",
+      "summary": "Kpler初步數據顯示Hormuz週一可見商品船通行由前一日10艘降至僅2艘，且一艘原油油輪與一艘LPG船分別遇襲，顯示能源航運實體風險再升級並支撐油價與通膨風險溢價。",
+      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/middle-east/hormuz-vessel-traffic-falls-two-data-shows-2026-09-22/",
+      "source_time": "2026-09-22"
+    },
     {
       "id": "20260922-1547-meta-muse-demand",
       "timestamp": "2026-09-22T15:47:16+09:30",
@@ -112,17 +123,6 @@
       "source_time": "2026-09-21T06:00:00Z"
     },
     {
-      "id": "20260921-1443-hormuz-vessel-traffic",
-      "timestamp": "2026-09-21T14:43:04+09:30",
-      "light": "🔴",
-      "title": "Hormuz可見商船通行仍遠低於戰前水準",
-      "summary": "週末僅約12艘商品船通過Hormuz、遠低於戰前約125艘大型商船/日，顯示即使實際油流具韌性，航運與能源物流尾部風險仍未解除。",
-      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/world/middle-east/vessels-trickle-through-strait-hormuz-mideast-tension-persists-2026-09-21/",
-      "source_time": "2026-09-21"
-    },
-    {
       "id": "20260921-1043-saudi-export-recovery",
       "timestamp": "2026-09-21T10:43:29+09:30",
       "light": "🟢",
@@ -198,14 +198,6 @@
       "source": "Reuters",
       "source_url": "https://www.reuters.com/business/aerospace-defense/turkey-says-it-could-help-meet-saudi-military-needs-under-defence-pact-2026-09-19/",
       "source_time": "2026-09-20"
-    },
-    {
-      "id": "20260920-1622-saudi-houthi",
-      "timestamp": "2026-09-20T16:22:49+09:30",
-      "light": "🔴",
-      "title": "Saudi 對胡塞轉為持續主動打擊",
-      "summary": "區域升級提高能源與通膨尾部風險，科技估值可能承壓。",
-      "tickers": ["XLE", "XOM", "CVX", "COP", "VLO", "MPC", "PSX", "QQQ", "SMH"]
     }
   ]
 }
