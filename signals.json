@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-22T10:47:28+09:30",
+  "updated_at": "2026-09-22T12:43:41+09:30",
   "signals": [
+    {
+      "id": "20260922-1243-alibaba-zhenwu-v900-20gw",
+      "timestamp": "2026-09-22T12:43:41+09:30",
+      "light": "🟡",
+      "title": "Alibaba推出新AI晶片並規劃2032年逾20GW資料中心容量",
+      "summary": "Alibaba發布性能較前代提升三倍的Zhenwu V900 AI晶片並計畫2032年前將全球資料中心容量擴至逾20GW，一方面驗證AI基建需求持續擴張、另一方面提高中國自研加速器對NVDA與AMD中國市場的替代壓力。",
+      "tickers": ["NVDA", "AMD", "VRT", "ANET"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/retail-consumer/alibaba-plans-ai-model-with-5-trillion-10-trillion-parameters-unveils-new-chip-2026-09-22/",
+      "source_time": "2026-09-22"
+    },
     {
       "id": "20260922-1047-texas-datacenter-permit-freeze",
       "timestamp": "2026-09-22T10:47:28+09:30",
