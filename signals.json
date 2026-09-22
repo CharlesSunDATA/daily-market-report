@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-22T13:46:30+09:30",
+  "updated_at": "2026-09-22T15:47:16+09:30",
   "signals": [
+    {
+      "id": "20260922-1547-meta-muse-demand",
+      "timestamp": "2026-09-22T15:47:16+09:30",
+      "light": "🟢",
+      "title": "Meta Muse上線兩週需求強勁，AI Agent採用出現實際驗證",
+      "summary": "Meta Muse在美國上線兩週後錄得強勁需求與使用量，為持續型AI Agent的消費端採用與推論算力需求提供早期實證，對META與AI Compute需求偏正面。",
+      "tickers": ["META", "NVDA"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-22/",
+      "source_time": "2026-09-22T02:08:58Z"
+    },
     {
       "id": "20260922-1346-libya-sharara-output-cut",
       "timestamp": "2026-09-22T13:46:30+09:30",
@@ -195,14 +206,6 @@
       "title": "Saudi 對胡塞轉為持續主動打擊",
       "summary": "區域升級提高能源與通膨尾部風險，科技估值可能承壓。",
       "tickers": ["XLE", "XOM", "CVX", "COP", "VLO", "MPC", "PSX", "QQQ", "SMH"]
-    },
-    {
-      "id": "20260920-1453-cxmt-dram",
-      "timestamp": "2026-09-20T14:53:36+09:30",
-      "light": "🔴",
-      "title": "CXMT 第五代 DRAM 進入量產",
-      "summary": "中國DRAM供給能力提升，增加MU中期commodity/mobile DRAM競爭壓力。",
-      "tickers": ["MU"]
     }
   ]
 }
