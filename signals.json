@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-22T20:42:40+09:30",
+  "updated_at": "2026-09-22T22:45:29+09:30",
   "signals": [
+    {
+      "id": "20260921-1043-saudi-export-recovery",
+      "timestamp": "2026-09-22T22:45:29+09:30",
+      "light": "🟢",
+      "title": "Saudi重啟East-West Pipeline，Yanbu出口準備恢復",
+      "summary": "Saudi Arabia已重啟可繞過Hormuz的East-West Pipeline並準備恢復Yanbu原油出口、目標逐步回到約400萬桶/日輸送能力，降低Hormuz單點瓶頸與油價風險溢價。",
+      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/energy/saudi-arabia-restarts-east-west-oil-pipeline-resume-exports-yanbu-sources-say-2026-09-22/",
+      "source_time": "2026-09-22T10:08:22Z"
+    },
     {
       "id": "20260922-2042-ai-debt-spreads",
       "timestamp": "2026-09-22T20:42:40+09:30",
@@ -132,17 +143,6 @@
       "source": "Reuters",
       "source_url": "https://www.reuters.com/commentary/reuters-open-interest/hormuz-shuttles-keep-oil-flowing-high-cost-2026-09-21/",
       "source_time": "2026-09-21T06:00:00Z"
-    },
-    {
-      "id": "20260921-1043-saudi-export-recovery",
-      "timestamp": "2026-09-21T10:43:29+09:30",
-      "light": "🟢",
-      "title": "Saudi 原油出口回升至逾400萬桶/日",
-      "summary": "Saudi改由Hormuz增加出貨，使9月出口由8月低點240萬桶/日回升至逾400萬桶/日，部分抵銷Yanbu受襲造成的供給風險並壓低油價風險溢價。",
-      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/energy/oil-rises-after-houthi-attack-saudi-capital-2026-09-20/",
-      "source_time": "2026-09-21T07:40:49+09:30"
     },
     {
       "id": "20260921-0945-europe-jetfuel-deficit",
