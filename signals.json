@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-22T19:47:00+09:30",
+  "updated_at": "2026-09-22T20:42:40+09:30",
   "signals": [
+    {
+      "id": "20260922-2042-ai-debt-spreads",
+      "timestamp": "2026-09-22T20:42:40+09:30",
+      "light": "🟡",
+      "title": "AI債券供給激增，hyperscaler融資利差開始擴大",
+      "summary": "AI相關公司債因資料中心與晶片融資需求暴增而交易於約115bp利差、明顯高於大盤約78bp，顯示資本市場開始要求更高AI CapEx融資補償並提高長期資金成本風險。",
+      "tickers": ["META", "GOOGL", "QQQ"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/legal/transactional/corporate-bond-buyers-get-picky-with-flood-ai-debt-2026-09-22/",
+      "source_time": "2026-09-22"
+    },
     {
       "id": "20260921-1443-hormuz-vessel-traffic",
       "timestamp": "2026-09-22T19:47:00+09:30",
