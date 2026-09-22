@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-22T22:45:29+09:30",
+  "updated_at": "2026-09-23T00:43:02+09:30",
   "signals": [
+    {
+      "id": "20260921-1443-hormuz-vessel-traffic",
+      "timestamp": "2026-09-23T00:43:02+09:30",
+      "light": "🟡",
+      "title": "Hormuz外交解封路徑擴大：法國與美國推動UN護航任務",
+      "summary": "法國正與美國協調起草UN安理會決議、擬建立國際任務恢復Hormuz航運，疊加伊朗7日內重開提議，使能源供應風險出現更具體的外交下行路徑但仍待安理會與各方落實。",
+      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/france-mulls-new-un-security-council-resolution-hormuz-diplomats-say-2026-09-22/",
+      "source_time": "2026-09-22T13:50:05Z"
+    },
     {
       "id": "20260921-1043-saudi-export-recovery",
       "timestamp": "2026-09-22T22:45:29+09:30",
@@ -21,17 +32,6 @@
       "tickers": ["META", "GOOGL", "QQQ"],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/legal/transactional/corporate-bond-buyers-get-picky-with-flood-ai-debt-2026-09-22/",
-      "source_time": "2026-09-22"
-    },
-    {
-      "id": "20260921-1443-hormuz-vessel-traffic",
-      "timestamp": "2026-09-22T19:47:00+09:30",
-      "light": "🟡",
-      "title": "Hormuz風險轉為雙向：通行僅2艘，但伊朗據報提議7日內重開",
-      "summary": "Hormuz可見商船通行雖驟降至2艘且油輪仍遇襲，但伊朗據報已透過中間人提議在美方降低軍事壓力後7日內重開海峽，令能源供應風險由單向惡化轉為高度依賴外交進展的雙向事件風險。",
-      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/energy/oil-rises-slightly-ahead-potential-us-iran-talks-2026-09-22/",
       "source_time": "2026-09-22"
     },
     {
@@ -187,28 +187,6 @@
       "source": "Reuters",
       "source_url": "https://www.reuters.com/business/feds-kashkari-says-inflation-goes-beyond-oil-prices-according-fox-news-interview-2026-09-20/",
       "source_time": "2026-09-20T15:06:46Z"
-    },
-    {
-      "id": "20260920-2344-iran-escalation-warning",
-      "timestamp": "2026-09-20T23:44:49+09:30",
-      "light": "🔴",
-      "title": "伊朗警告美國與盟友勿發動新一輪攻擊",
-      "summary": "伊朗軍方稱掌握可能遭襲情報並威脅持續報復美軍基地與區域盟友，使Hormuz、油價與科技估值的地緣風險溢價再度升高。",
-      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/world/asia-pacific/iran-warns-against-new-escalation-by-us-allies-2026-09-20/",
-      "source_time": "2026-09-20"
-    },
-    {
-      "id": "20260920-2247-turkey-saudi-defense",
-      "timestamp": "2026-09-20T22:47:30+09:30",
-      "light": "🟡",
-      "title": "土耳其表態可依防務協議支援 Saudi",
-      "summary": "土耳其稱可協助Saudi滿足軍事技術需求，顯示胡塞衝突存在區域擴大風險，但也可能提升Saudi能源設施防護能力。",
-      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/aerospace-defense/turkey-says-it-could-help-meet-saudi-military-needs-under-defence-pact-2026-09-19/",
-      "source_time": "2026-09-20"
     }
   ]
 }
