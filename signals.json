@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-23T00:43:02+09:30",
+  "updated_at": "2026-09-23T01:45:48+09:30",
   "signals": [
     {
       "id": "20260921-1443-hormuz-vessel-traffic",
-      "timestamp": "2026-09-23T00:43:02+09:30",
-      "light": "🟡",
-      "title": "Hormuz外交解封路徑擴大：法國與美國推動UN護航任務",
-      "summary": "法國正與美國協調起草UN安理會決議、擬建立國際任務恢復Hormuz航運，疊加伊朗7日內重開提議，使能源供應風險出現更具體的外交下行路徑但仍待安理會與各方落實。",
+      "timestamp": "2026-09-23T01:45:48+09:30",
+      "light": "🔴",
+      "title": "Trump呼籲全面經濟孤立伊朗，近期Hormuz外交解封希望降溫",
+      "summary": "Trump在UN呼籲各國全面經濟孤立伊朗且未展現近期妥協意願、稱可能要等11月期中選舉後才達成協議，使伊朗7日內重開Hormuz提議的短期落地機率下降並重新抬高能源風險溢價。",
       "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
       "source": "Reuters",
-      "source_url": "https://www.reuters.com/world/france-mulls-new-un-security-council-resolution-hormuz-diplomats-say-2026-09-22/",
-      "source_time": "2026-09-22T13:50:05Z"
+      "source_url": "https://www.reuters.com/world/middle-east/tehran-hints-hormuz-talks-with-us-leaders-gather-un-2026-09-22/",
+      "source_time": "2026-09-22T12:16:00Z"
     },
     {
       "id": "20260921-1043-saudi-export-recovery",
