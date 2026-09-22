@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-22T08:45:16+09:30",
+  "updated_at": "2026-09-22T10:47:28+09:30",
   "signals": [
+    {
+      "id": "20260922-1047-texas-datacenter-permit-freeze",
+      "timestamp": "2026-09-22T10:47:28+09:30",
+      "light": "🔴",
+      "title": "Texas暫停新資料中心州級許可，等待電網稽核",
+      "summary": "Texas州長Abbott下令在完成資料中心電網影響稽核前暫停新的州級許可，顯示AI資料中心擴張的電力與監管瓶頸正在實質化並提高新專案延遲風險。",
+      "tickers": ["VRT", "ANET", "NVDA", "AMD"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/energy/texas-gov-abbott-halts-all-state-issued-permits-data-centers-until-grid-audit-is-2026-09-21/",
+      "source_time": "2026-09-21"
+    },
     {
       "id": "20260920-2247-us-china-ai-trade-talks",
       "timestamp": "2026-09-22T08:45:16+09:30",
@@ -170,14 +181,6 @@
       "title": "CXMT 第五代 DRAM 進入量產",
       "summary": "中國DRAM供給能力提升，增加MU中期commodity/mobile DRAM競爭壓力。",
       "tickers": ["MU"]
-    },
-    {
-      "id": "20260920-1002-hormuz-flow",
-      "timestamp": "2026-09-20T10:02:00+09:30",
-      "light": "🟢",
-      "title": "Hormuz 能源與貨運通行量回升至六個月高位",
-      "summary": "實際通行改善降低原油/LNG供應中斷風險，對科技風險偏好較有利。",
-      "tickers": ["XLE", "XOM", "CVX", "COP", "VLO", "MPC", "PSX", "QQQ", "SMH"]
     }
   ]
 }
