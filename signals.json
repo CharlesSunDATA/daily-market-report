@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-09-22T18:46:17+09:30",
+  "updated_at": "2026-09-22T19:47:00+09:30",
   "signals": [
     {
       "id": "20260921-1443-hormuz-vessel-traffic",
-      "timestamp": "2026-09-22T18:46:17+09:30",
-      "light": "🔴",
-      "title": "Hormuz可見商船通行驟降至2艘，油輪與LPG船另遭攻擊",
-      "summary": "Kpler初步數據顯示Hormuz週一可見商品船通行由前一日10艘降至僅2艘，且一艘原油油輪與一艘LPG船分別遇襲，顯示能源航運實體風險再升級並支撐油價與通膨風險溢價。",
+      "timestamp": "2026-09-22T19:47:00+09:30",
+      "light": "🟡",
+      "title": "Hormuz風險轉為雙向：通行僅2艘，但伊朗據報提議7日內重開",
+      "summary": "Hormuz可見商船通行雖驟降至2艘且油輪仍遇襲，但伊朗據報已透過中間人提議在美方降低軍事壓力後7日內重開海峽，令能源供應風險由單向惡化轉為高度依賴外交進展的雙向事件風險。",
       "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
       "source": "Reuters",
-      "source_url": "https://www.reuters.com/world/middle-east/hormuz-vessel-traffic-falls-two-data-shows-2026-09-22/",
+      "source_url": "https://www.reuters.com/business/energy/oil-rises-slightly-ahead-potential-us-iran-talks-2026-09-22/",
       "source_time": "2026-09-22"
     },
     {
