@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-23T16:42:45+09:30",
+  "updated_at": "2026-09-23T20:48:23+09:30",
   "signals": [
+    {
+      "id": "20260921-1443-hormuz-vessel-traffic",
+      "timestamp": "2026-09-23T20:48:23+09:30",
+      "light": "🟡",
+      "title": "美伊恢復數月來首次穿梭談判，Gulf原油供應同步改善",
+      "summary": "美伊透過卡達調停者恢復數月來首次穿梭談判且UAE出口已回到戰前水準、Saudi擴大Hormuz外交付，降低短期原油供應尾部風險，但雙方立場未變且約三分之一Gulf原油仍缺席全球市場。",
+      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/middle-east/hope-progress-after-us-iran-hold-first-shuttle-talks-months-2026-09-23/",
+      "source_time": "2026-09-23T10:31:00Z"
+    },
     {
       "id": "20260922-0346-goolsbee-demand-inflation",
       "timestamp": "2026-09-23T16:42:45+09:30",
@@ -11,17 +22,6 @@
       "source": "Reuters",
       "source_url": "https://www.reuters.com/business/feds-barkin-says-economy-may-be-firming-inflation-not-limited-energy-tariff-2026-09-22/",
       "source_time": "2026-09-22T16:53:04Z"
-    },
-    {
-      "id": "20260921-1443-hormuz-vessel-traffic",
-      "timestamp": "2026-09-23T15:44:33+09:30",
-      "light": "🟡",
-      "title": "美伊舉行3小時會談，Hormuz風險由單向惡化轉為外交與航運拉鋸",
-      "summary": "Trump確認美伊代表在紐約舉行約3小時且具生產性的會談並預期可達成協議，為Hormuz重開帶來實質外交下行風險，但近期船舶通行仍極低且能源船遭襲，能源風險轉為高度事件驅動。",
-      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/world/middle-east/tehran-hints-hormuz-talks-with-us-leaders-gather-un-2026-09-22/",
-      "source_time": "2026-09-22"
     },
     {
       "id": "20260921-1043-saudi-export-recovery",
@@ -121,17 +121,6 @@
       "source": "Reuters",
       "source_url": "https://www.reuters.com/business/energy/global-diesel-shortage-likely-last-into-2027-storage-tanks-drain-2026-09-21/",
       "source_time": "2026-09-21T10:05:00Z"
-    },
-    {
-      "id": "20260921-2046-houthi-red-sea-highlands",
-      "timestamp": "2026-09-21T20:46:56+09:30",
-      "light": "🔴",
-      "title": "胡塞推進葉門戰略高地，Red Sea能源走廊風險再升級",
-      "summary": "Reuters引述五名葉門軍方消息人士稱胡塞正試圖奪取分隔紅海沿岸與政府控制南部的Kahboub Mountains，若推進成功將進一步威脅Bab el-Mandeb與Saudi替代能源出口路線並支撐油價風險溢價。",
-      "tickers": ["XLE", "XOM", "CVX", "COP"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/world/middle-east/houthis-push-control-yemen-highlands-trump-reported-have-called-off-airstrikes-2026-09-21/",
-      "source_time": "2026-09-21"
     }
   ]
 }
