@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-24T01:45:03+09:30",
+  "updated_at": "2026-09-24T04:46:35+09:30",
   "signals": [
+    {
+      "id": "20260921-1443-hormuz-vessel-traffic",
+      "timestamp": "2026-09-24T04:46:35+09:30",
+      "light": "🔴",
+      "title": "美伊談判仍相距甚遠，伊朗拒絕投降令Hormuz解封預期再降溫",
+      "summary": "伊朗高層確認與美方結束戰爭的立場仍相距甚遠且Pezeshkian公開拒絕在美方壓力下投降，使Hormuz短期解封與能源供應正常化機率下降並重新推高油價與通膨風險。",
+      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/middle-east/hope-progress-after-us-iran-hold-first-shuttle-talks-months-2026-09-23/",
+      "source_time": "2026-09-23"
+    },
     {
       "id": "20260922-0346-goolsbee-demand-inflation",
       "timestamp": "2026-09-24T01:45:03+09:30",
@@ -10,17 +21,6 @@
       "tickers": ["QQQ", "SMH", "NVDA", "AMD", "AVGO"],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-23/",
-      "source_time": "2026-09-23"
-    },
-    {
-      "id": "20260921-1443-hormuz-vessel-traffic",
-      "timestamp": "2026-09-23T23:47:14+09:30",
-      "light": "🟡",
-      "title": "Hormuz通行仍近乎停滯：僅3艘商品船通過，外交改善尚未轉化為實物流量",
-      "summary": "最新航運資料顯示Hormuz週二僅3艘商品船通過、遠低於約15艘的10日均值，顯示美伊談判與Gulf繞道出口改善尚未解除實體供應瓶頸，能源風險溢價仍難快速消退。",
-      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/world/middle-east/shipping-traffic-via-strait-hormuz-stays-below-10-day-average-data-shows-2026-09-23/",
       "source_time": "2026-09-23"
     },
     {
