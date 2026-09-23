@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-23T15:44:33+09:30",
+  "updated_at": "2026-09-23T16:42:45+09:30",
   "signals": [
+    {
+      "id": "20260922-0346-goolsbee-demand-inflation",
+      "timestamp": "2026-09-23T16:42:45+09:30",
+      "light": "🔴",
+      "title": "Collins與Barkin強化Fed鷹派確認：通膨風險已擴散至需求面",
+      "summary": "Collins支持最新升息並主張更限制性利率、Barkin稱經濟正在轉強且通膨已不限於能源與關稅衝擊，強化Fed可能維持高利率甚至再升息的風險並壓縮高估值科技與半導體估值空間。",
+      "tickers": ["QQQ", "SMH", "NVDA", "AMD", "AVGO"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/feds-barkin-says-economy-may-be-firming-inflation-not-limited-energy-tariff-2026-09-22/",
+      "source_time": "2026-09-22T16:53:04Z"
+    },
     {
       "id": "20260921-1443-hormuz-vessel-traffic",
       "timestamp": "2026-09-23T15:44:33+09:30",
@@ -90,17 +101,6 @@
       "source_time": "2026-09-21"
     },
     {
-      "id": "20260922-0346-goolsbee-demand-inflation",
-      "timestamp": "2026-09-22T03:46:20+09:30",
-      "light": "🔴",
-      "title": "Goolsbee：強勁需求正加入美國通膨壓力",
-      "summary": "Goolsbee稱AI投資等強勁需求正疊加關稅與油價供給衝擊、若需求過熱Fed須更果斷升息，進一步提高高估值科技與半導體的利率敏感風險。",
-      "tickers": ["QQQ", "SMH", "NVDA", "AMD", "AVGO"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/feds-goolsbee-strong-demand-may-be-adding-us-inflation-no-ambiguity-how-fed-2026-09-21/",
-      "source_time": "2026-09-21"
-    },
-    {
       "id": "20260921-2343-meta-alberta-datacenter-power",
       "timestamp": "2026-09-21T23:43:11+09:30",
       "light": "🟢",
@@ -132,17 +132,6 @@
       "source": "Reuters",
       "source_url": "https://www.reuters.com/world/middle-east/houthis-push-control-yemen-highlands-trump-reported-have-called-off-airstrikes-2026-09-21/",
       "source_time": "2026-09-21"
-    },
-    {
-      "id": "20260921-1547-hormuz-sts-freight",
-      "timestamp": "2026-09-21T15:47:19+09:30",
-      "light": "🔴",
-      "title": "Hormuz瓶頸轉向STS與油輪運費",
-      "summary": "Hormuz油流雖靠STS轉運維持，但9月約40%通行量已依賴STS、海灣至中國VLCC運費升至每桶逾30美元並超過原油成本四分之一，顯示供應風險正由實體斷流轉為高成本物流與能源通膨壓力。",
-      "tickers": ["XLE", "XOM", "CVX", "COP", "VLO", "MPC", "PSX", "QQQ", "SMH"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/commentary/reuters-open-interest/hormuz-shuttles-keep-oil-flowing-high-cost-2026-09-21/",
-      "source_time": "2026-09-21T06:00:00Z"
     }
   ]
 }
