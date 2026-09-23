@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-23T01:45:48+09:30",
+  "updated_at": "2026-09-23T12:46:05+09:30",
   "signals": [
     {
       "id": "20260921-1443-hormuz-vessel-traffic",
-      "timestamp": "2026-09-23T01:45:48+09:30",
-      "light": "🔴",
-      "title": "Trump呼籲全面經濟孤立伊朗，近期Hormuz外交解封希望降溫",
-      "summary": "Trump在UN呼籲各國全面經濟孤立伊朗且未展現近期妥協意願、稱可能要等11月期中選舉後才達成協議，使伊朗7日內重開Hormuz提議的短期落地機率下降並重新抬高能源風險溢價。",
+      "timestamp": "2026-09-23T12:46:05+09:30",
+      "light": "🟡",
+      "title": "Trump稱伊朗協議可能很快，Tehran提出一週內重開Hormuz條件",
+      "summary": "Trump在UN威脅若無協議可摧毀伊朗但同時稱協議可能很快達成，而Tehran表示若美方降低軍事壓力並解除港口封鎖可在一週內重開Hormuz，使能源供應尾部風險由單向惡化轉為高度事件驅動。",
       "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
       "source": "Reuters",
-      "source_url": "https://www.reuters.com/world/middle-east/tehran-hints-hormuz-talks-with-us-leaders-gather-un-2026-09-22/",
-      "source_time": "2026-09-22T12:16:00Z"
+      "source_url": "https://www.reuters.com/world/middle-east/iran-ready-reopen-strait-hormuz-if-us-eases-military-pressure-lifts-blockade-2026-09-22/",
+      "source_time": "2026-09-22"
     },
     {
       "id": "20260921-1043-saudi-export-recovery",
@@ -143,50 +143,6 @@
       "source": "Reuters",
       "source_url": "https://www.reuters.com/commentary/reuters-open-interest/hormuz-shuttles-keep-oil-flowing-high-cost-2026-09-21/",
       "source_time": "2026-09-21T06:00:00Z"
-    },
-    {
-      "id": "20260921-0945-europe-jetfuel-deficit",
-      "timestamp": "2026-09-21T09:45:34+09:30",
-      "light": "🔴",
-      "title": "歐洲Q4航空燃料缺口估達51萬桶/日",
-      "summary": "中東供應受伊朗衝突干擾、歐洲航空燃料庫存降至七年低點，Q4缺口估達51萬桶/日，強化煉油品與能源通膨風險溢價。",
-      "tickers": ["VLO", "MPC", "PSX", "XLE"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/energy/europe-faces-q4-jet-fuel-supply-deficit-even-south-korea-becomes-latest-big-2026-09-21/",
-      "source_time": "2026-09-21"
-    },
-    {
-      "id": "20260921-0345-qatarenergy-hormuz-delay",
-      "timestamp": "2026-09-21T03:45:04+09:30",
-      "light": "🔴",
-      "title": "Hormuz危機開始拖延QatarEnergy擴產設備交付",
-      "summary": "QatarEnergy警告關鍵設備難以到貨、部分North Field LNG擴產可能延後，顯示Hormuz衝擊已由即期能源流量延伸至中期新增供給，支撐全球LNG風險溢價。",
-      "tickers": ["LNG", "XLE"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/energy/qatarenergy-says-hormuz-crisis-may-delay-some-expansion-projects-2026-09-20/",
-      "source_time": "2026-09-20"
-    },
-    {
-      "id": "20260921-0345-nippon-life-datacenter",
-      "timestamp": "2026-09-21T03:45:04+09:30",
-      "light": "🟢",
-      "title": "Nippon Life規劃約127.5億美元美國資料中心融資",
-      "summary": "大型保險資金持續投入美國data center基礎建設，強化AI CapEx融資可得性並支持電力、散熱與高速網路設備需求。",
-      "tickers": ["VRT", "ANET", "MRVL"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/world/asia-pacific/japans-nippon-life-plans-13-billion-data-center-financing-us-nikkei-asia-reports-2026-09-19/",
-      "source_time": "2026-09-20"
-    },
-    {
-      "id": "20260921-0245-kashkari-inflation",
-      "timestamp": "2026-09-21T02:45:13+09:30",
-      "light": "🔴",
-      "title": "Kashkari：美國通膨不只能源，服務業價格壓力仍廣泛",
-      "summary": "Kashkari支持Fed上週升息並強調核心通膨仍過高，強化高利率維持更久與長債殖利率壓力，對高估值科技與半導體估值偏負面。",
-      "tickers": ["QQQ", "SMH", "NVDA", "AMD", "AVGO"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/feds-kashkari-says-inflation-goes-beyond-oil-prices-according-fox-news-interview-2026-09-20/",
-      "source_time": "2026-09-20T15:06:46Z"
     }
   ]
 }
