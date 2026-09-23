@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-09-23T12:46:05+09:30",
+  "updated_at": "2026-09-23T14:43:51+09:30",
   "signals": [
     {
       "id": "20260921-1443-hormuz-vessel-traffic",
-      "timestamp": "2026-09-23T12:46:05+09:30",
-      "light": "🟡",
-      "title": "Trump稱伊朗協議可能很快，Tehran提出一週內重開Hormuz條件",
-      "summary": "Trump在UN威脅若無協議可摧毀伊朗但同時稱協議可能很快達成，而Tehran表示若美方降低軍事壓力並解除港口封鎖可在一週內重開Hormuz，使能源供應尾部風險由單向惡化轉為高度事件驅動。",
+      "timestamp": "2026-09-23T14:43:51+09:30",
+      "light": "🔴",
+      "title": "Hormuz商品船通行驟降至2艘，兩艘能源船再遭襲",
+      "summary": "最新航運資料顯示Hormuz商品船通行由前一日10艘降至僅2艘且原油與LPG船各遭一次攻擊，顯示即使外交解封訊號升溫，實體航運與能源供應風險仍明顯惡化並支撐油價風險溢價。",
       "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
       "source": "Reuters",
-      "source_url": "https://www.reuters.com/world/middle-east/iran-ready-reopen-strait-hormuz-if-us-eases-military-pressure-lifts-blockade-2026-09-22/",
+      "source_url": "https://www.reuters.com/world/middle-east/hormuz-vessel-traffic-falls-two-data-shows-2026-09-22/",
       "source_time": "2026-09-22"
     },
     {
