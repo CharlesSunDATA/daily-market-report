@@ -1,6 +1,28 @@
 {
-  "updated_at": "2026-09-23T20:48:23+09:30",
+  "updated_at": "2026-09-23T22:46:04+09:30",
   "signals": [
+    {
+      "id": "20260923-2246-global-gas-tightness",
+      "timestamp": "2026-09-23T22:46:04+09:30",
+      "light": "🔴",
+      "title": "全球天然氣市場開始定價供應緊張延續至明年夏季",
+      "summary": "Iran戰爭持續擾亂Gulf LNG出口且歐洲開始與亞洲競價補庫，遠期曲線已把供應緊張定價至明年夏季，延長能源通膨壓力並提高美國LNG出口商的相對議價環境。",
+      "tickers": ["LNG", "XLE"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/energy/global-gas-market-pricing-prolonged-tightness-due-iran-war-igu-executive-says-2026-09-23/",
+      "source_time": "2026-09-23T11:46:00Z"
+    },
+    {
+      "id": "20260923-2246-fed-cfo-inflation",
+      "timestamp": "2026-09-23T22:46:04+09:30",
+      "light": "🔴",
+      "title": "Fed企業調查顯示定價預期再升，融資成本開始壓抑CapEx",
+      "summary": "Fed最新約500家企業CFO調查顯示今年平均漲價預期升至5.3%且42%不投資企業已因融資不利或保留現金而縮手，強化通膨黏性與高利率壓抑CapEx的雙重風險。",
+      "tickers": ["QQQ", "SMH"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/corporate-finance-chiefs-lift-inflation-outlook-cite-rates-concern-fed-survey-2026-09-23/",
+      "source_time": "2026-09-23T11:03:00Z"
+    },
     {
       "id": "20260921-1443-hormuz-vessel-traffic",
       "timestamp": "2026-09-23T20:48:23+09:30",
@@ -99,28 +121,6 @@
       "source": "Reuters",
       "source_url": "https://www.reuters.com/world/china/chinas-xi-visit-us-september-23-25-2026-09-21/",
       "source_time": "2026-09-21"
-    },
-    {
-      "id": "20260921-2343-meta-alberta-datacenter-power",
-      "timestamp": "2026-09-21T23:43:11+09:30",
-      "light": "🟢",
-      "title": "Meta加拿大C$130億資料中心強化AI電力需求",
-      "summary": "Meta規劃在Alberta興建C$130億資料中心、Capital Power將在其自備電力設施2030年啟用前供應250MW，並稱正洽談更多hyperscaler專案，進一步驗證AI資料中心電力基建需求。",
-      "tickers": ["META", "VRT"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/legal/litigation/meta-data-center-boosts-alberta-appeal-hyperscalers-capital-power-says-2026-09-21/",
-      "source_time": "2026-09-21"
-    },
-    {
-      "id": "20260921-2149-global-diesel-shortage",
-      "timestamp": "2026-09-21T21:49:51+09:30",
-      "light": "🔴",
-      "title": "全球柴油短缺料延續至2027年",
-      "summary": "美國柴油庫存降至1982年有紀錄以來同期最低、EIA預估餾分油庫存至2027年大部分時間仍低於五年低點，延長能源通膨壓力並支撐煉油利差。",
-      "tickers": ["VLO", "MPC", "PSX", "XLE"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/energy/global-diesel-shortage-likely-last-into-2027-storage-tanks-drain-2026-09-21/",
-      "source_time": "2026-09-21T10:05:00Z"
     }
   ]
 }
