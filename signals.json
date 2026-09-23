@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-09-23T14:43:51+09:30",
+  "updated_at": "2026-09-23T15:44:33+09:30",
   "signals": [
     {
       "id": "20260921-1443-hormuz-vessel-traffic",
-      "timestamp": "2026-09-23T14:43:51+09:30",
-      "light": "🔴",
-      "title": "Hormuz商品船通行驟降至2艘，兩艘能源船再遭襲",
-      "summary": "最新航運資料顯示Hormuz商品船通行由前一日10艘降至僅2艘且原油與LPG船各遭一次攻擊，顯示即使外交解封訊號升溫，實體航運與能源供應風險仍明顯惡化並支撐油價風險溢價。",
+      "timestamp": "2026-09-23T15:44:33+09:30",
+      "light": "🟡",
+      "title": "美伊舉行3小時會談，Hormuz風險由單向惡化轉為外交與航運拉鋸",
+      "summary": "Trump確認美伊代表在紐約舉行約3小時且具生產性的會談並預期可達成協議，為Hormuz重開帶來實質外交下行風險，但近期船舶通行仍極低且能源船遭襲，能源風險轉為高度事件驅動。",
       "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
       "source": "Reuters",
-      "source_url": "https://www.reuters.com/world/middle-east/hormuz-vessel-traffic-falls-two-data-shows-2026-09-22/",
+      "source_url": "https://www.reuters.com/world/middle-east/tehran-hints-hormuz-talks-with-us-leaders-gather-un-2026-09-22/",
       "source_time": "2026-09-22"
     },
     {
