@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-23T23:47:14+09:30",
+  "updated_at": "2026-09-24T01:45:03+09:30",
   "signals": [
+    {
+      "id": "20260922-0346-goolsbee-demand-inflation",
+      "timestamp": "2026-09-24T01:45:03+09:30",
+      "light": "🔴",
+      "title": "Barr明示仍需進一步升息，強勁PMI把10年債殖利率推破5%",
+      "summary": "Fed Governor Michael Barr明示可能仍需進一步升息，加上9月美國綜合PMI升至58.4使10年債殖利率升至5.054%、10月升息機率約73%，進一步壓縮高估值科技與半導體估值空間。",
+      "tickers": ["QQQ", "SMH", "NVDA", "AMD", "AVGO"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-23/",
+      "source_time": "2026-09-23"
+    },
     {
       "id": "20260921-1443-hormuz-vessel-traffic",
       "timestamp": "2026-09-23T23:47:14+09:30",
@@ -33,17 +44,6 @@
       "source": "Reuters",
       "source_url": "https://www.reuters.com/business/corporate-finance-chiefs-lift-inflation-outlook-cite-rates-concern-fed-survey-2026-09-23/",
       "source_time": "2026-09-23T11:03:00Z"
-    },
-    {
-      "id": "20260922-0346-goolsbee-demand-inflation",
-      "timestamp": "2026-09-23T16:42:45+09:30",
-      "light": "🔴",
-      "title": "Collins與Barkin強化Fed鷹派確認：通膨風險已擴散至需求面",
-      "summary": "Collins支持最新升息並主張更限制性利率、Barkin稱經濟正在轉強且通膨已不限於能源與關稅衝擊，強化Fed可能維持高利率甚至再升息的風險並壓縮高估值科技與半導體估值空間。",
-      "tickers": ["QQQ", "SMH", "NVDA", "AMD", "AVGO"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/feds-barkin-says-economy-may-be-firming-inflation-not-limited-energy-tariff-2026-09-22/",
-      "source_time": "2026-09-22T16:53:04Z"
     },
     {
       "id": "20260921-1043-saudi-export-recovery",
