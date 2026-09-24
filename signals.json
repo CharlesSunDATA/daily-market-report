@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-24T04:46:35+09:30",
+  "updated_at": "2026-09-24T12:45:31+09:30",
   "signals": [
+    {
+      "id": "20260924-1245-us-china-trade-truce",
+      "timestamp": "2026-09-24T12:45:31+09:30",
+      "light": "🟢",
+      "title": "美中貿易休戰延長至1月10日，近期關稅再升級尾部風險下降",
+      "summary": "Bessent確認美中已把原定11月10日到期的貿易休戰延長至1月10日，降低近期關稅再升級風險，但晶片與稀土出口管制核心分歧仍未解決。",
+      "tickers": ["NVDA", "AMD", "AVGO", "MRVL", "TSM", "SMH"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/trump-plans-grand-spectacle-potentially-tense-xi-talks-2026-09-23/",
+      "source_time": "2026-09-23T10:01:00Z"
+    },
     {
       "id": "20260921-1443-hormuz-vessel-traffic",
       "timestamp": "2026-09-24T04:46:35+09:30",
@@ -88,39 +99,6 @@
       "source": "Reuters",
       "source_url": "https://www.reuters.com/business/energy/armed-group-shuts-valve-libyas-sharara-crude-pipeline-cuts-output-noc-says-2026-09-21/",
       "source_time": "2026-09-21T19:43:45Z"
-    },
-    {
-      "id": "20260922-1243-alibaba-zhenwu-v900-20gw",
-      "timestamp": "2026-09-22T12:43:41+09:30",
-      "light": "🟡",
-      "title": "Alibaba推出新AI晶片並規劃2032年逾20GW資料中心容量",
-      "summary": "Alibaba發布性能較前代提升三倍的Zhenwu V900 AI晶片並計畫2032年前將全球資料中心容量擴至逾20GW，一方面驗證AI基建需求持續擴張、另一方面提高中國自研加速器對NVDA與AMD中國市場的替代壓力。",
-      "tickers": ["NVDA", "AMD", "VRT", "ANET"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/retail-consumer/alibaba-plans-ai-model-with-5-trillion-10-trillion-parameters-unveils-new-chip-2026-09-22/",
-      "source_time": "2026-09-22"
-    },
-    {
-      "id": "20260922-1047-texas-datacenter-permit-freeze",
-      "timestamp": "2026-09-22T10:47:28+09:30",
-      "light": "🔴",
-      "title": "Texas暫停新資料中心州級許可，等待電網稽核",
-      "summary": "Texas州長Abbott下令在完成資料中心電網影響稽核前暫停新的州級許可，顯示AI資料中心擴張的電力與監管瓶頸正在實質化並提高新專案延遲風險。",
-      "tickers": ["VRT", "ANET", "NVDA", "AMD"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/energy/texas-gov-abbott-halts-all-state-issued-permits-data-centers-until-grid-audit-is-2026-09-21/",
-      "source_time": "2026-09-21"
-    },
-    {
-      "id": "20260920-2247-us-china-ai-trade-talks",
-      "timestamp": "2026-09-22T08:45:16+09:30",
-      "light": "🟡",
-      "title": "Xi訪美9/23–25正式確認，Trump-Xi會談進入事件窗",
-      "summary": "中國外交部正式確認Xi將於9月23–25日訪美，使美中AI、晶片出口管制、關稅與關鍵礦物談判進入明確事件窗，但政策結果仍待峰會確認。",
-      "tickers": ["NVDA", "AMD", "AVGO", "MRVL", "TSM", "SMH"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/world/china/chinas-xi-visit-us-september-23-25-2026-09-21/",
-      "source_time": "2026-09-21"
     }
   ]
 }
