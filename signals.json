@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-24T21:46:12+09:30",
+  "updated_at": "2026-09-25T00:45:49+09:30",
   "signals": [
     {
       "id": "20260922-0346-goolsbee-demand-inflation",
-      "timestamp": "2026-09-24T21:46:12+09:30",
+      "timestamp": "2026-09-25T00:45:49+09:30",
       "light": "🔴",
-      "title": "30年美債殖利率升至2004年來最高，市場進一步確認Fed緊縮風險",
-      "summary": "30年美債殖利率升破5.44%至2004年來最高且市場已押注至明年4月前約三次升息，將Williams的鷹派表態轉化為實際金融條件收緊並進一步壓縮高估值科技與半導體估值。",
+      "title": "美國新屋銷售大幅超預期，進一步確認Fed緊縮與長端利率風險",
+      "summary": "8月新屋銷售年化684,000戶、遠高於市場預期615,000戶且創八個月高點，在30年債殖利率已升至2004年來最高之際進一步強化需求韌性與Fed續升息風險，壓縮高估值科技與半導體估值。",
       "tickers": ["QQQ", "SMH", "NVDA", "AMD", "AVGO"],
       "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/us-30-year-bond-yield-rises-highest-since-2004-selloff-deepens-2026-09-24/",
-      "source_time": "2026-09-24T09:04:00Z"
+      "source_url": "https://www.reuters.com/world/us/us-new-home-sales-jump-eight-month-high-august-2026-09-24/",
+      "source_time": "2026-09-24T14:40:00Z"
     },
     {
       "id": "20260924-1245-us-china-trade-truce",
@@ -55,17 +55,6 @@
       "source": "Reuters",
       "source_url": "https://www.reuters.com/business/corporate-finance-chiefs-lift-inflation-outlook-cite-rates-concern-fed-survey-2026-09-23/",
       "source_time": "2026-09-23T11:03:00Z"
-    },
-    {
-      "id": "20260921-1043-saudi-export-recovery",
-      "timestamp": "2026-09-22T22:45:29+09:30",
-      "light": "🟢",
-      "title": "Saudi重啟East-West Pipeline，Yanbu出口準備恢復",
-      "summary": "Saudi Arabia已重啟可繞過Hormuz的East-West Pipeline並準備恢復Yanbu原油出口、目標逐步回到約400萬桶/日輸送能力，降低Hormuz單點瓶頸與油價風險溢價。",
-      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/energy/saudi-arabia-restarts-east-west-oil-pipeline-resume-exports-yanbu-sources-say-2026-09-22/",
-      "source_time": "2026-09-22T10:08:22Z"
     }
   ]
 }
