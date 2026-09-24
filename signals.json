@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-24T18:43:25+09:30",
+  "updated_at": "2026-09-24T21:46:12+09:30",
   "signals": [
     {
       "id": "20260922-0346-goolsbee-demand-inflation",
-      "timestamp": "2026-09-24T18:43:25+09:30",
+      "timestamp": "2026-09-24T21:46:12+09:30",
       "light": "🔴",
-      "title": "Williams認同年內再升息合理，Fed鷹派訊號獲FOMC副主席級別確認",
-      "summary": "紐約Fed主席兼FOMC副主席John Williams表示年內再升息是合理判斷且通膨仍是最大挑戰，進一步確認Fed緊縮週期尚未結束並持續壓縮高估值科技與半導體估值空間。",
+      "title": "30年美債殖利率升至2004年來最高，市場進一步確認Fed緊縮風險",
+      "summary": "30年美債殖利率升破5.44%至2004年來最高且市場已押注至明年4月前約三次升息，將Williams的鷹派表態轉化為實際金融條件收緊並進一步壓縮高估值科技與半導體估值。",
       "tickers": ["QQQ", "SMH", "NVDA", "AMD", "AVGO"],
       "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/feds-williams-says-it-is-reasonable-see-another-us-rate-hike-this-year-2026-09-24/",
-      "source_time": "2026-09-24T08:37:00Z"
+      "source_url": "https://www.reuters.com/business/us-30-year-bond-yield-rises-highest-since-2004-selloff-deepens-2026-09-24/",
+      "source_time": "2026-09-24T09:04:00Z"
     },
     {
       "id": "20260924-1245-us-china-trade-truce",
@@ -66,17 +66,6 @@
       "source": "Reuters",
       "source_url": "https://www.reuters.com/business/energy/saudi-arabia-restarts-east-west-oil-pipeline-resume-exports-yanbu-sources-say-2026-09-22/",
       "source_time": "2026-09-22T10:08:22Z"
-    },
-    {
-      "id": "20260922-2042-ai-debt-spreads",
-      "timestamp": "2026-09-22T20:42:40+09:30",
-      "light": "🟡",
-      "title": "AI債券供給激增，hyperscaler融資利差開始擴大",
-      "summary": "AI相關公司債因資料中心與晶片融資需求暴增而交易於約115bp利差、明顯高於大盤約78bp，顯示資本市場開始要求更高AI CapEx融資補償並提高長期資金成本風險。",
-      "tickers": ["META", "GOOGL", "QQQ"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/legal/transactional/corporate-bond-buyers-get-picky-with-flood-ai-debt-2026-09-22/",
-      "source_time": "2026-09-22"
     }
   ]
 }
