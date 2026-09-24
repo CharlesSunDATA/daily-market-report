@@ -1,6 +1,17 @@
 {
-  "updated_at": "2026-09-24T12:45:31+09:30",
+  "updated_at": "2026-09-24T18:43:25+09:30",
   "signals": [
+    {
+      "id": "20260922-0346-goolsbee-demand-inflation",
+      "timestamp": "2026-09-24T18:43:25+09:30",
+      "light": "🔴",
+      "title": "Williams認同年內再升息合理，Fed鷹派訊號獲FOMC副主席級別確認",
+      "summary": "紐約Fed主席兼FOMC副主席John Williams表示年內再升息是合理判斷且通膨仍是最大挑戰，進一步確認Fed緊縮週期尚未結束並持續壓縮高估值科技與半導體估值空間。",
+      "tickers": ["QQQ", "SMH", "NVDA", "AMD", "AVGO"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/feds-williams-says-it-is-reasonable-see-another-us-rate-hike-this-year-2026-09-24/",
+      "source_time": "2026-09-24T08:37:00Z"
+    },
     {
       "id": "20260924-1245-us-china-trade-truce",
       "timestamp": "2026-09-24T12:45:31+09:30",
@@ -21,17 +32,6 @@
       "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/world/middle-east/hope-progress-after-us-iran-hold-first-shuttle-talks-months-2026-09-23/",
-      "source_time": "2026-09-23"
-    },
-    {
-      "id": "20260922-0346-goolsbee-demand-inflation",
-      "timestamp": "2026-09-24T01:45:03+09:30",
-      "light": "🔴",
-      "title": "Barr明示仍需進一步升息，強勁PMI把10年債殖利率推破5%",
-      "summary": "Fed Governor Michael Barr明示可能仍需進一步升息，加上9月美國綜合PMI升至58.4使10年債殖利率升至5.054%、10月升息機率約73%，進一步壓縮高估值科技與半導體估值空間。",
-      "tickers": ["QQQ", "SMH", "NVDA", "AMD", "AVGO"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-23/",
       "source_time": "2026-09-23"
     },
     {
@@ -77,28 +77,6 @@
       "source": "Reuters",
       "source_url": "https://www.reuters.com/legal/transactional/corporate-bond-buyers-get-picky-with-flood-ai-debt-2026-09-22/",
       "source_time": "2026-09-22"
-    },
-    {
-      "id": "20260922-1547-meta-muse-demand",
-      "timestamp": "2026-09-22T15:47:16+09:30",
-      "light": "🟢",
-      "title": "Meta Muse上線兩週需求強勁，AI Agent採用出現實際驗證",
-      "summary": "Meta Muse在美國上線兩週後錄得強勁需求與使用量，為持續型AI Agent的消費端採用與推論算力需求提供早期實證，對META與AI Compute需求偏正面。",
-      "tickers": ["META", "NVDA"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-09-22/",
-      "source_time": "2026-09-22T02:08:58Z"
-    },
-    {
-      "id": "20260922-1346-libya-sharara-output-cut",
-      "timestamp": "2026-09-22T13:46:30+09:30",
-      "light": "🔴",
-      "title": "Libya Sharara油田因武裝團體關閉管線減產約20萬桶/日",
-      "summary": "Libya NOC確認武裝團體關閉Sharara至Zawiya管線閥門、使主要油田產量驟減約20萬桶/日，在中東供應仍受限之際進一步收緊全球原油供給並支撐能源風險溢價。",
-      "tickers": ["XLE", "XOM", "CVX", "COP"],
-      "source": "Reuters",
-      "source_url": "https://www.reuters.com/business/energy/armed-group-shuts-valve-libyas-sharara-crude-pipeline-cuts-output-noc-says-2026-09-21/",
-      "source_time": "2026-09-21T19:43:45Z"
     }
   ]
 }
