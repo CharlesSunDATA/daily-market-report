@@ -1,13 +1,92 @@
 {
-  "updated_at": "2026-09-25T00:45:49+09:30",
+  "updated_at": "2026-09-25T09:45:27+09:30",
   "signals": [
+    {
+      "id": "20260924-oracle-jupiter-force-majeure-power-delay",
+      "timestamp": "2026-09-25T09:45:27+09:30",
+      "light": "🔴",
+      "title": "Oracle因供電延遲對Project Jupiter啟動不可抗力，AI資料中心落地風險升級",
+      "summary": "Reuters確認Oracle因新墨西哥州Project Jupiter供電取得延遲而向Blue Owl發出force majeure通知；後續採訪顯示專案可能延後一年。該園區取得約180億美元融資並服務OpenAI/Stargate，將電力、許可與融資由一般風險升級為可驗證的AI CapEx落地瓶頸；Oracle與Blue Owl仍稱承諾不變。",
+      "tickers": [
+        "ORCL",
+        "OWL",
+        "QQQ",
+        "SMH",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "VRT"
+      ],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/oracle-cites-force-majeure-shield-itself-controversial-data-center-bloomberg-2026-09-24/",
+      "source_time": "2026-09-24T12:44:00Z",
+      "first_seen_at": "2026-09-25T09:45:27+09:30",
+      "last_material_change_at": "2026-09-24T22:55:00Z",
+      "notified_at": "2026-09-25T09:45:27+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "oracle-project-jupiter-force-majeure-power-delay-2026-09-24",
+      "credibility": "B+",
+      "sources": [
+        {
+          "name": "Reuters - force majeure report",
+          "url": "https://www.reuters.com/business/oracle-cites-force-majeure-shield-itself-controversial-data-center-bloomberg-2026-09-24/",
+          "source_time": "2026-09-24T12:44:00Z"
+        },
+        {
+          "name": "Reuters - financing follow-up",
+          "url": "https://www.reuters.com/business/energy/oracle-blue-owl-project-delay-sends-ripples-through-ai-financing-sources-say-2026-09-24/",
+          "source_time": "2026-09-24T22:55:00Z"
+        }
+      ]
+    },
+    {
+      "id": "20260924-akamai-anthropic-cloud-deal",
+      "timestamp": "2026-09-25T09:45:27+09:30",
+      "light": "🟢",
+      "title": "Anthropic簽署Akamai 116億美元雲端合約，新增55億美元CapEx與記憶體採購",
+      "summary": "Akamai與Anthropic簽訂七年、116億美元雲端服務合約，Anthropic可取得最高5%股權；Akamai預估初始承諾需約55億美元CapEx，並把2026年CapEx提高約17億美元以預購包括記憶體在內的元件，另授權Jabil採購約17億美元記憶體。這是AI算力需求與Memory需求的新增可量化訂單，但未證實Google TPU/Scorpio-X架構轉換。",
+      "tickers": [
+        "AKAM",
+        "MU",
+        "JBL",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "QQQ",
+        "SMH"
+      ],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/technology/akamai-anthropic-sign-116-billion-cloud-services-deal-2026-09-24/",
+      "source_time": "2026-09-24T20:09:00Z",
+      "first_seen_at": "2026-09-25T09:45:27+09:30",
+      "last_material_change_at": "2026-09-24T20:09:00Z",
+      "notified_at": "2026-09-25T09:45:27+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "akamai-anthropic-seven-year-cloud-services-deal-2026-09-24",
+      "credibility": "A/B+",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/technology/akamai-anthropic-sign-116-billion-cloud-services-deal-2026-09-24/",
+          "source_time": "2026-09-24T20:09:00Z"
+        }
+      ]
+    },
     {
       "id": "20260922-0346-goolsbee-demand-inflation",
       "timestamp": "2026-09-25T00:45:49+09:30",
       "light": "🔴",
       "title": "美國新屋銷售大幅超預期，進一步確認Fed緊縮與長端利率風險",
       "summary": "8月新屋銷售年化684,000戶、遠高於市場預期615,000戶且創八個月高點，在30年債殖利率已升至2004年來最高之際進一步強化需求韌性與Fed續升息風險，壓縮高估值科技與半導體估值。",
-      "tickers": ["QQQ", "SMH", "NVDA", "AMD", "AVGO"],
+      "tickers": [
+        "QQQ",
+        "SMH",
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/world/us/us-new-home-sales-jump-eight-month-high-august-2026-09-24/",
       "source_time": "2026-09-24T14:40:00Z"
@@ -18,7 +97,14 @@
       "light": "🟢",
       "title": "美中貿易休戰延長至1月10日，近期關稅再升級尾部風險下降",
       "summary": "Bessent確認美中已把原定11月10日到期的貿易休戰延長至1月10日，降低近期關稅再升級風險，但晶片與稀土出口管制核心分歧仍未解決。",
-      "tickers": ["NVDA", "AMD", "AVGO", "MRVL", "TSM", "SMH"],
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "TSM",
+        "SMH"
+      ],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/world/china/trump-plans-grand-spectacle-potentially-tense-xi-talks-2026-09-23/",
       "source_time": "2026-09-23T10:01:00Z"
@@ -29,7 +115,14 @@
       "light": "🔴",
       "title": "美伊談判仍相距甚遠，伊朗拒絕投降令Hormuz解封預期再降溫",
       "summary": "伊朗高層確認與美方結束戰爭的立場仍相距甚遠且Pezeshkian公開拒絕在美方壓力下投降，使Hormuz短期解封與能源供應正常化機率下降並重新推高油價與通膨風險。",
-      "tickers": ["XLE", "XOM", "CVX", "COP", "QQQ", "SMH"],
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX",
+        "COP",
+        "QQQ",
+        "SMH"
+      ],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/world/middle-east/hope-progress-after-us-iran-hold-first-shuttle-talks-months-2026-09-23/",
       "source_time": "2026-09-23"
@@ -40,7 +133,10 @@
       "light": "🔴",
       "title": "全球天然氣市場開始定價供應緊張延續至明年夏季",
       "summary": "Iran戰爭持續擾亂Gulf LNG出口且歐洲開始與亞洲競價補庫，遠期曲線已把供應緊張定價至明年夏季，延長能源通膨壓力並提高美國LNG出口商的相對議價環境。",
-      "tickers": ["LNG", "XLE"],
+      "tickers": [
+        "LNG",
+        "XLE"
+      ],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/business/energy/global-gas-market-pricing-prolonged-tightness-due-iran-war-igu-executive-says-2026-09-23/",
       "source_time": "2026-09-23T11:46:00Z"
@@ -51,7 +147,10 @@
       "light": "🔴",
       "title": "Fed企業調查顯示定價預期再升，融資成本開始壓抑CapEx",
       "summary": "Fed最新約500家企業CFO調查顯示今年平均漲價預期升至5.3%且42%不投資企業已因融資不利或保留現金而縮手，強化通膨黏性與高利率壓抑CapEx的雙重風險。",
-      "tickers": ["QQQ", "SMH"],
+      "tickers": [
+        "QQQ",
+        "SMH"
+      ],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/business/corporate-finance-chiefs-lift-inflation-outlook-cite-rates-concern-fed-survey-2026-09-23/",
       "source_time": "2026-09-23T11:03:00Z"
