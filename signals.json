@@ -1,6 +1,35 @@
 {
-  "updated_at": "2026-09-27T06:26:02+09:30",
+  "updated_at": "2026-09-27T08:15:53+09:30",
   "signals": [
+    {
+      "id": "20260925-oracle-peoplesoft-renewed-mass-exploitation",
+      "timestamp": "2026-09-27T08:15:53+09:30",
+      "light": "🔴",
+      "title": "ShinyHunters繞過WAF大規模攻擊Oracle PeopleSoft，資安事件擴散至多產業",
+      "summary": "Google旗下Mandiant與GTIG確認，ShinyHunters已修改CVE-2026-35273攻擊方式，以URL編碼繞過部分組織原先部署的WAF規則，並在全球數十個PeopleSoft系統植入web shell；受害面由6月以高等教育為主，擴大至科技、IT服務、醫療、農業、運輸與政府，另有數百個系統仍可能暴露。這是新的攻擊波與防禦失效證據，不是6月零日漏洞的重述。",
+      "tickers": [
+        "ORCL",
+        "PANW",
+        "CRWD",
+        "NET"
+      ],
+      "source": "Google Cloud Mandiant／Google Threat Intelligence Group",
+      "source_url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft",
+      "source_time": "2026-09-25",
+      "first_seen_at": "2026-09-27T08:15:53+09:30",
+      "last_material_change_at": "2026-09-25",
+      "notified_at": "2026-09-27T08:15:53+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "oracle-peoplesoft-cve-2026-35273-renewed-mass-exploitation-september-2026",
+      "credibility": "A",
+      "sources": [
+        {
+          "name": "Google Cloud Mandiant / GTIG - renewed mass exploitation campaign",
+          "url": "https://cloud.google.com/blog/topics/threat-intelligence/shinyhunters-renewed-mass-exploitation-campaign-targeting-oracle-peoplesoft",
+          "source_time": "2026-09-25"
+        }
+      ]
+    },
     {
       "id": "20260921-1443-hormuz-vessel-traffic",
       "timestamp": "2026-09-26T23:19:57+09:30",
