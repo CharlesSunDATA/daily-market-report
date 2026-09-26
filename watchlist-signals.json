@@ -1,4 +1,23 @@
 {
-  "updated_at": null,
-  "signals": []
+  "updated_at": "2026-09-26T19:49:10+09:30",
+  "signals": [
+    {
+      "id": "20260925-msft-copilot-home-code-autopilot",
+      "timestamp": "2026-09-26T19:49:10+09:30",
+      "light": "🟢",
+      "group": "Cloud／Software／Cyber",
+      "title": "Microsoft推出Copilot Home、Code與Autopilot，擴充企業AI工作流程與計量收費",
+      "summary": "Microsoft於9月25日發表新版Copilot：Home整合Office與Cowork，Code讓企業員工建立應用及自動化流程，Autopilot提供持續運作的代理工作；Cowork、Code及Autopilot採使用量計費。此舉擴大Microsoft 365的AI功能與潛在貨幣化路徑，但Home/Code仍分階段推出、Autopilot仍屬私人預覽，營收與採用率尚待驗證。",
+      "tickers": [
+        "MSFT"
+      ],
+      "source": "Microsoft官方部落格",
+      "source_url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "source_time": "2026-09-25",
+      "first_seen_at": "2026-09-26T19:49:10+09:30",
+      "notified_at": "2026-09-26T19:49:10+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "msft-copilot-home-code-autopilot-launch-2026-09-25"
+    }
+  ]
 }
