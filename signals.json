@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-26T23:19:57+09:30",
+  "updated_at": "2026-09-27T06:26:02+09:30",
   "signals": [
     {
       "id": "20260921-1443-hormuz-vessel-traffic",
@@ -49,22 +49,44 @@
     },
     {
       "id": "20260926-us-iran-phased-truce-oil-close",
-      "timestamp": "2026-09-26T05:35:00+09:30",
-      "light": "🟢",
-      "title": "美伊探索分階段停戰路徑，Brent與WTI收跌約2%",
-      "summary": "談判方探索以重開Hormuz換取解除美方經濟封鎖；Brent收104.32美元、WTI收92.41美元。短期降低油價與通膨風險溢價，但尚未形成正式協議，Saudi/Houthi供應風險仍在。",
+      "timestamp": "2026-09-27T06:26:02+09:30",
+      "light": "🔴",
+      "title": "Trump正式拒絕伊朗七日重開Hormuz方案，降級鏈條中斷",
+      "summary": "Trump於白宮對記者公開表示已拒絕伊朗提出的七日內重開Hormuz並停止區域戰事方案；這把先前的匿名消息升級為總統本人正式確認。美伊仍可能談判，但既有方案不會直接進入執行，短期提高軍事再升級、能源與通膨風險溢價；Hormuz目前的原油流量改善仍依賴美軍護航，不能視為政治正常化。",
       "tickers": [
         "QQQ",
         "SMH",
         "SOXX",
         "XLE",
         "XOM",
-        "CVX"
+        "CVX",
+        "COP",
+        "VLO",
+        "MPC",
+        "PSX",
+        "LNG"
       ],
-      "source": "Reuters",
-      "source_url": "https://www.marketscreener.com/news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-ce785adfd180f425",
-      "source_time": "2026-09-25T19:30:00Z",
-      "credibility": "A"
+      "source": "Reuters；Trump本人公開談話",
+      "source_url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/",
+      "source_time": "2026-09-26T01:59:00Z",
+      "credibility": "A",
+      "first_seen_at": "2026-09-26T05:35:00+09:30",
+      "last_material_change_at": "2026-09-26T01:59:00Z",
+      "notified_at": "2026-09-27T06:26:02+09:30",
+      "notification_revision": 2,
+      "dedupe_key": "us-iran-phased-truce-hormuz-seven-day-plan-september-2026",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.marketscreener.com/news/oil-prices-slide-about-2-as-us-iran-explore-path-out-of-war-ce785adfd180f425",
+          "source_time": "2026-09-25T19:30:00Z"
+        },
+        {
+          "name": "Reuters - Trump publicly confirms rejection of Iran proposal",
+          "url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/",
+          "source_time": "2026-09-26T01:59:00Z"
+        }
+      ]
     },
     {
       "id": "20260926-ai-hardware-relative-strength",
