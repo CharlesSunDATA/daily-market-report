@@ -1,6 +1,40 @@
 {
-  "updated_at": "2026-09-27T18:15:43+09:30",
+  "updated_at": "2026-09-27T19:31:54+09:30",
   "signals": [
+    {
+      "id": "20260926-apple-taction-haptic-patent-verdict",
+      "timestamp": "2026-09-27T19:31:54+09:30",
+      "light": "🔴",
+      "title": "Apple遭陪審團判賠57億美元，創美國專利侵權陪審團裁決紀錄",
+      "summary": "美國陪審團裁定Apple的Taptic Engine侵犯Taction兩項觸覺回饋專利，判賠超過57億美元，為美國同類案件史上最大陪審團裁決。Apple否認使用Taction技術並表示將上訴；因此目前是重大或有負債與法律風險，而非最終現金流出。該事件對AAPL短線偏空，並因Apple在SPY、QQQ與XLK權重較高而帶來有限指數拖累，但不改變AI Compute、Memory、Networking & Optics、Power & Cooling或Macro Valuation主題。",
+      "tickers": [
+        "AAPL",
+        "SPY",
+        "QQQ",
+        "XLK"
+      ],
+      "source": "Reuters；U.S. District Court docket",
+      "source_url": "https://www.reuters.com/legal/litigation/us-jury-says-apple-owes-record-57-billion-haptic-technology-patent-case-2026-09-26/",
+      "source_time": "2026-09-26T14:11:00Z",
+      "first_seen_at": "2026-09-27T19:31:54+09:30",
+      "last_material_change_at": "2026-09-26T14:11:00Z",
+      "notified_at": "2026-09-27T19:31:54+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "apple-taction-haptic-patent-jury-verdict-september-2026",
+      "credibility": "A",
+      "sources": [
+        {
+          "name": "Reuters - jury verdict and Apple appeal statement",
+          "url": "https://www.reuters.com/legal/litigation/us-jury-says-apple-owes-record-57-billion-haptic-technology-patent-case-2026-09-26/",
+          "source_time": "2026-09-26T14:11:00Z"
+        },
+        {
+          "name": "CourtListener - Taction Technology, Inc. v. Apple Inc., No. 3:21-cv-00812",
+          "url": "https://www.courtlistener.com/docket/59854908/taction-technology-inc-v-apple-inc/",
+          "source_time": "2026-09-26"
+        }
+      ]
+    },
     {
       "id": "20260925-us-china-summit-tariff-ai-dialogue",
       "timestamp": "2026-09-27T18:15:43+09:30",
