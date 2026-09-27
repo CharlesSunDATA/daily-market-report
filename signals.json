@@ -1,6 +1,52 @@
 {
-  "updated_at": "2026-09-27T08:15:53+09:30",
+  "updated_at": "2026-09-27T18:15:43+09:30",
   "signals": [
+    {
+      "id": "20260925-us-china-summit-tariff-ai-dialogue",
+      "timestamp": "2026-09-27T18:15:43+09:30",
+      "light": "🟢",
+      "title": "美中峰會落實雙向300億美元非敏感商品降稅，建立AI事件溝通管道",
+      "summary": "白宮正式確認，美中在峰會後就雙向各300億美元非敏感商品取得較優惠關稅待遇共識，並成立美中AI／Super Intelligence對話，下一輪最晚於2026年11月舉行，同時建立AI重大事件雙邊溝通管道。這是先前僅延長貿易休戰與討論機制之後的新政策落地；但高階AI晶片與半導體設備出口管制未納入本次協議，因此對NVDA、AMD、AVGO、MRVL、TSM的直接基本面影響有限。",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "AMZN",
+        "WMT",
+        "TGT",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MRVL",
+        "TSM",
+        "SMH"
+      ],
+      "source": "The White House；China Ministry of Foreign Affairs；Reuters",
+      "source_url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
+      "source_time": "2026-09-26T08:38:00Z",
+      "first_seen_at": "2026-09-27T18:15:43+09:30",
+      "last_material_change_at": "2026-09-26T08:38:00Z",
+      "notified_at": "2026-09-27T18:15:43+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "us-china-september-2026-summit-tariff-cuts-ai-dialogue",
+      "credibility": "A",
+      "sources": [
+        {
+          "name": "White House fact sheet - U.S.-China state visit outcomes",
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
+          "source_time": "2026-09-25"
+        },
+        {
+          "name": "China Ministry of Foreign Affairs - AI dialogue remarks",
+          "url": "https://www.fmprc.gov.cn/mfa_eng/xw/fyrbt/202609/t20260926_12031649.html",
+          "source_time": "2026-09-26T19:06:00+08:00"
+        },
+        {
+          "name": "Reuters - tariff cuts and AI dialogue confirmed",
+          "url": "https://www.reuters.com/world/china/china-us-agree-30-billion-tariff-cut-ai-dialogue-during-xi-visit-2026-09-26/",
+          "source_time": "2026-09-26T08:38:00Z"
+        }
+      ]
+    },
     {
       "id": "20260925-oracle-peoplesoft-renewed-mass-exploitation",
       "timestamp": "2026-09-27T08:15:53+09:30",
