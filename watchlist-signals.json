@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-26T19:49:10+09:30",
+  "updated_at": "2026-09-29T00:43:06+09:30",
   "signals": [
+    {
+      "id": "20260928-meta-enterprise-platform-cj-desai",
+      "timestamp": "2026-09-29T00:43:06+09:30",
+      "light": "🟢",
+      "group": "Cloud／Software／Cyber",
+      "title": "Meta成立企業AI平台業務，由前MongoDB執行長CJ Desai直接向Zuckerberg匯報",
+      "summary": "Meta正式把企業AI列為「下一個主要業務支柱」，成立Meta Enterprise Platform，首波整合Muse、Meta Business Agent、Muse API與Muse Code，並任命前MongoDB執行長Chirantan「CJ」Desai為Chief Enterprise Platform Officer、直接向Mark Zuckerberg匯報。這把Meta從消費者AI與廣告工具進一步推向企業軟體與代理平台市場，為其高額AI基建投資增加新的變現路徑；但公司尚未披露定價、客戶、訂單或收入時程，短期財務貢獻仍待驗證。",
+      "tickers": [
+        "META"
+      ],
+      "source": "Meta官方Newsroom",
+      "source_url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
+      "source_time": "2026-09-28T12:40:00Z",
+      "first_seen_at": "2026-09-29T00:43:06+09:30",
+      "notified_at": "2026-09-29T00:43:06+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "meta-enterprise-platform-launch-cj-desai-2026-09-28"
+    },
     {
       "id": "20260925-msft-copilot-home-code-autopilot",
       "timestamp": "2026-09-26T19:49:10+09:30",
