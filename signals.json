@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T05:05:39+09:30",
+  "updated_at": "2026-09-29T07:04:01+09:30",
   "signals": [
     {
       "id": "20260926-apple-taction-haptic-patent-verdict",
@@ -112,10 +112,10 @@
     },
     {
       "id": "20260921-1443-hormuz-vessel-traffic",
-      "timestamp": "2026-09-28T16:32:06+09:30",
+      "timestamp": "2026-09-29T07:04:01+09:30",
       "light": "🟢",
-      "title": "中東原油出口回升至戰爭後高點，Hormuz恢復獲月度數據確認",
-      "summary": "Kpler初步資料顯示，9月中東主要產油國原油出口回升至1,280萬桶／日，為2月底戰爭爆發以來最高；其中經Hormuz出口約740萬桶／日，Saudi出口約540萬桶／日（8月約244.6萬桶／日），上週另有19艘各載約200萬桶Saudi原油的VLCC通過海峽。相較前次僅有連續48小時約4,000萬桶的護航流量，本次新增的是整月出口與一週VLCC數據，確認實體供應恢復已超越單日集中放行；但區域出口仍比2月戰前1,880萬桶／日少約600萬桶／日，Yanbu與LNG／成品油瓶頸亦未解除。",
+      "title": "Hormuz復航由原油擴大至卡達LNG船，能源瓶頸出現第二項實體改善",
+      "summary": "重大增量：相較前次僅確認9月原油出口回升、LNG瓶頸仍待驗證，Reuters依Kpler與LSEG船舶資料確認，8月沒有可見的卡達相關LNG船穿越Hormuz，但9月已有至少7艘載貨LNG船駛出（其中多數集中於9月17日至27日）及至少1艘空載船駛入；最新GasLog Skagen於9月27日在斯里蘭卡外海重新出現，載有Ras Laffan貨物。這代表復航已由原油擴大至LNG，但仍只是少量、且AIS關閉令完整流量不可見，不能視為回到戰前正常水準。",
       "tickers": [
         "QQQ",
         "SMH",
@@ -129,13 +129,13 @@
         "PSX",
         "LNG"
       ],
-      "source": "Reuters／Kpler",
-      "source_url": "https://www.marketscreener.com/news/mideast-oil-exports-rebound-in-september-as-saudi-arabia-boosts-shipments-ce785adcd880f624",
-      "source_time": "2026-09-28T00:17:00Z",
+      "source": "Reuters；Kpler；LSEG",
+      "source_url": "https://www.reuters.com/business/energy/qatar-linked-lng-traffic-through-hormuz-strait-picks-up-despite-conflict-2026-09-28/",
+      "source_time": "2026-09-28T09:30:00Z",
       "first_seen_at": "2026-09-24T04:46:35+09:30",
-      "last_material_change_at": "2026-09-28T00:17:00Z",
-      "notified_at": "2026-09-28T16:32:06+09:30",
-      "notification_revision": 3,
+      "last_material_change_at": "2026-09-28T09:30:00Z",
+      "notified_at": "2026-09-29T07:04:01+09:30",
+      "notification_revision": 4,
       "dedupe_key": "hormuz-vessel-traffic-us-escorts-september-2026",
       "credibility": "B+",
       "sources": [
@@ -158,8 +158,41 @@
           "name": "Reuters / Kpler - September Middle East crude exports rebound",
           "url": "https://www.marketscreener.com/news/mideast-oil-exports-rebound-in-september-as-saudi-arabia-boosts-shipments-ce785adcd880f624",
           "source_time": "2026-09-28T00:17:00Z"
+        },
+        {
+          "name": "Reuters / Kpler / LSEG - Qatar-linked LNG traffic through Hormuz picks up",
+          "url": "https://www.reuters.com/business/energy/qatar-linked-lng-traffic-through-hormuz-strait-picks-up-despite-conflict-2026-09-28/",
+          "source_time": "2026-09-28T09:30:00Z",
+          "type": "independent vessel-tracking evidence"
         }
-      ]
+      ],
+      "first_notified_at": "2026-09-24T04:46:35+09:30",
+      "new_evidence": "8月卡達相關LNG船無可見Hormuz通行；9月已有至少7艘載貨船駛出、1艘空載船駛入，最新一艘於9月27日帶Ras Laffan貨物出現在斯里蘭卡外海。",
+      "fact": "Reuters依Kpler與LSEG資料列出GasLog Skagen、Al Shamal、Mesaimeer、Al Ghashamiya、Al Samriya、Al Daayen及Shandong Redwood等載貨LNG船已駛出Hormuz；Al Mafyar空載駛入。",
+      "interpretation": "瓶頸由『原油改善、LNG未確認』轉為原油與LNG均出現實體復航；但船數仍少且缺乏完整出口量，屬部分改善而非系統正常化。",
+      "direction": "能源風險溢價偏空；QQQ/SMH邊際偏多；美國LNG出口商混合偏空",
+      "horizon": "短線至中期",
+      "thesis_impact": {
+        "ai_compute": "持平；若能源風險溢價持續回落，估值邊際受益",
+        "memory": "持平",
+        "networking_optics": "持平",
+        "power_cooling": "持平；全球LNG供應風險小幅下降",
+        "macro_valuation": "邊際改善，但高利率壓力未解除"
+      },
+      "institutional_stage": {
+        "status": "Pending/Data unavailable",
+        "note": "未取得可靠ETF creation/redemption資料，不以價格或AUM變化替代；本次不調整Institutional Score/Stage。"
+      },
+      "bottleneck": {
+        "current": "Hormuz LNG通行由零可見流量轉為少量雙向通行；Yanbu／East-West Pipeline與整體船數仍是瓶頸",
+        "scope": "系統性瓶頸開始緩解，但尚未解除"
+      },
+      "coverage_audit": {
+        "catch_up": true,
+        "original_published_at": "2026-09-28T09:30:00Z",
+        "discovered_at": "2026-09-29T07:04:01+09:30",
+        "delay": "約12小時"
+      }
     },
     {
       "id": "20260926-us-iran-phased-truce-oil-close",
