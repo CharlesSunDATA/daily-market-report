@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-29T01:55:07+09:30",
+  "updated_at": "2026-09-29T02:46:49+09:30",
   "signals": [
+    {
+      "id": "20260928-spcx-starship-flight14-first-orbit-starlink-v3",
+      "timestamp": "2026-09-29T02:46:49+09:30",
+      "light": "🟢",
+      "group": "Space／Satellite／Launch",
+      "title": "Starship Flight 14首度完成入軌並部署26顆Starlink V3",
+      "summary": "SpaceX的Starship Flight 14於9月28日成為Starship首個完成軌道插入的任務，並成功部署全部26顆可運作的Starlink V3衛星，首次把Starship由次軌道測試推進至實際軌道載荷運輸。這直接降低Starlink V3大規模擴容與未來商業／NASA任務的技術風險；但一具真空Raptor引擎提早關閉，使原定約10小時任務縮短至約3小時，長時間軌道運作、快速重複使用及在軌加注仍待驗證。",
+      "tickers": [
+        "SPCX"
+      ],
+      "source": "Reuters；Next Spaceflight",
+      "source_url": "https://www.boursorama.com/bourse/actualites/le-starship-de-spacex-effectue-son-premier-vol-orbital-en-deployant-des-satellites-starlink-avant-d-etre-interrompu-prematurement-dc6c7bbe282ed5cdf46f1ef818d33df8",
+      "source_time": "2026-09-28T15:39:00Z",
+      "first_seen_at": "2026-09-29T02:46:49+09:30",
+      "notified_at": "2026-09-29T02:46:49+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "spcx-starship-flight14-first-orbit-starlink-v3-deployment-2026-09-28"
+    },
     {
       "id": "20260928-nvda-150b-buyback-235b-remaining",
       "timestamp": "2026-09-29T01:55:07+09:30",
