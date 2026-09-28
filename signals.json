@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-09-29T07:04:01+09:30",
+  "updated_at": "2026-09-29T09:01:46+09:30",
   "signals": [
+    {
+      "id": "20260929-nvidia-record-buyback-divergence",
+      "timestamp": "2026-09-29T09:01:46+09:30",
+      "light": "🟡",
+      "title": "NVDA新增1500億美元回購並逆勢收高，AI內部價格分裂擴大",
+      "summary": "NVIDIA董事會新增1500億美元回購額度，剩餘回購能力約2350億美元、預計FY2028前使用；NVDA於9月28日逆勢上漲1.66%，但SOXX跌2.09%、AMD跌3.63%、MRVL跌3.88%、COHR跌4.54%。這是現金流與資本配置的正面訊號，但不是AI需求或同業訂單的新增證據。",
+      "tickers": [
+        "NVDA",
+        "SOXX",
+        "AMD",
+        "MRVL",
+        "COHR",
+        "QQQ"
+      ],
+      "source": "NVIDIA；Reuters；market close data",
+      "source_url": "https://au.investing.com/news/stock-market-news/nvidia-boosts-share-buyback-by-record-150-billion-as-ai-boom-fuels-growth-4661724",
+      "source_time": "2026-09-28",
+      "credibility": "A",
+      "first_seen_at": "2026-09-29T09:01:46+09:30",
+      "last_material_change_at": "2026-09-28",
+      "notified_at": "2026-09-29T09:01:46+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "nvidia-record-buyback-ai-price-divergence-2026-09-28",
+      "fact": "新增1500億美元回購、剩餘額度約2350億美元；NVDA +1.66%，多數AI二階硬體股下跌。",
+      "interpretation": "NVDA具個股下檔緩衝，但不能外推為AI產業機構累積；市場正在獎勵現金流並降低資本密集型二階曝險。",
+      "direction": "NVDA偏多；AI breadth偏空",
+      "horizon": "短線"
+    },
     {
       "id": "20260926-apple-taction-haptic-patent-verdict",
       "timestamp": "2026-09-27T19:31:54+09:30",
