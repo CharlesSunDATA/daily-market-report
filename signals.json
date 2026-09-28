@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T16:32:06+09:30",
+  "updated_at": "2026-09-29T05:05:39+09:30",
   "signals": [
     {
       "id": "20260926-apple-taction-haptic-patent-verdict",
@@ -226,22 +226,66 @@
     },
     {
       "id": "20260926-us10y-516-valuation-pressure",
-      "timestamp": "2026-09-26T05:33:00+09:30",
+      "timestamp": "2026-09-29T05:05:39+09:30",
       "light": "🔴",
-      "title": "US10Y維持約5.16%，AI估值與資料中心融資壓力未解除",
-      "summary": "油價回落尚未帶動長債殖利率顯著下降；約5.16%的US10Y仍壓制高久期軟體與高度融資依賴的資料中心專案，ORCL週五再跌1.77%。",
+      "title": "US10Y升至5.26%、30Y創2004年來高位；Fed正式確認AI與油價通膨壓力",
+      "summary": "重大增量：相較前次US10Y約5.16%，10年期殖利率升至5.26%（2007年6月以來高位），30年期升至5.576%（2004年5月以來高位）；10月再升息機率約68%–70%。Fed理事Cook並正式表示，AI資料中心投資、油價與中東供應鏈中斷將在未來數月持續推升通膨，且勞動市場足以承受更高利率。這使高久期科技與高融資依賴的AI基建估值壓力，由市場價格訊號升級為「官方政策風險確認」。",
       "tickers": [
         "QQQ",
         "IGV",
-        "ORCL",
+        "SMH",
+        "SOXX",
         "NVDA",
         "AMD",
-        "VRT"
+        "VRT",
+        "ORCL"
       ],
-      "source": "Market data",
-      "source_url": "https://www.investing.com/rates-bonds/u.s.-10-year-bond-yield",
-      "source_time": "2026-09-25T20:00:00Z",
-      "credibility": "B+"
+      "source": "Federal Reserve；Reuters",
+      "source_url": "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm",
+      "source_time": "2026-09-28T17:26:00Z",
+      "credibility": "A",
+      "first_seen_at": "2026-09-26T05:33:00+09:30",
+      "first_notified_at": "2026-09-26T05:33:00+09:30",
+      "last_material_change_at": "2026-09-28T17:26:00Z",
+      "notified_at": "2026-09-29T05:05:39+09:30",
+      "notification_revision": 2,
+      "dedupe_key": "us10y-valuation-pressure-september-2026",
+      "new_evidence": "US10Y由約5.16%升至5.26%，30Y升至5.576%；Cook正式把AI建設、油價與中東供應鏈中斷列為未來數月通膨壓力，並稱勞動市場可承受更高利率。",
+      "fact": "Reuters：US10Y 5.26%、30Y 5.576%，10月升息機率約68%–70%。Fed官方：Cook預期AI建設、油價與中東供應中斷將延續通膨壓力，未預先承諾升息，後續仍看數據。",
+      "interpretation": "宏觀估值環境進一步惡化；高久期軟體、半導體與以外部融資支撐的資料中心專案面臨更高折現率與資本成本。這是既有事件的重大增量，不是新事件。",
+      "direction": "偏空",
+      "horizon": "短線至中期",
+      "thesis_impact": {
+        "ai_compute": "基本面持平；估值/資本成本惡化",
+        "memory": "持平偏空（需求未反轉，但折現率上升）",
+        "networking_optics": "持平偏空",
+        "power_cooling": "需求仍強，但融資與落地風險上升",
+        "macro_valuation": "惡化"
+      },
+      "institutional_stage": {
+        "status": "Pending/Data unavailable",
+        "note": "未取得可靠ETF creation/redemption資料，不以價格或AUM變化替代；本次不調整Institutional Score/Stage。"
+      },
+      "sources": [
+        {
+          "name": "Federal Reserve — An Update on AI and the Economy",
+          "url": "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm",
+          "published_at": "2026-09-28",
+          "type": "official"
+        },
+        {
+          "name": "Reuters — Stocks fall, squeezed by rising oil prices and Treasury yields",
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-28/",
+          "published_at": "2026-09-28T12:50:00Z",
+          "type": "independent"
+        },
+        {
+          "name": "Reuters — Fed's Cook sees further inflationary pressures ahead",
+          "url": "https://www.reuters.com/world/us/feds-cook-sees-further-inflationary-pressures-ahead-2026-09-28/",
+          "published_at": "2026-09-28T17:26:00Z",
+          "type": "independent"
+        }
+      ]
     },
     {
       "id": "20260924-oracle-jupiter-force-majeure-power-delay",
