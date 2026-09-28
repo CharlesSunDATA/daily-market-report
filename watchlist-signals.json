@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-29T00:43:06+09:30",
+  "updated_at": "2026-09-29T01:55:07+09:30",
   "signals": [
+    {
+      "id": "20260928-nvda-150b-buyback-235b-remaining",
+      "timestamp": "2026-09-29T01:55:07+09:30",
+      "light": "🟢",
+      "group": "AI Compute／GPU",
+      "title": "NVIDIA新增1,500億美元庫藏股授權，剩餘可回購額升至2,350億美元",
+      "summary": "NVIDIA董事會將既有股票回購授權提高1,500億美元，使剩餘可回購總額增至2,350億美元，預計於2028財年結束前執行。這是公司史上也是市場史上規模最大的新增回購授權，顯示管理層對現金流與長期AI需求的信心，並為股價提供潛在承接；但授權不等於立即買入，實際支撐取決於執行速度與價格。",
+      "tickers": [
+        "NVDA"
+      ],
+      "source": "NVIDIA官方Newsroom",
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase",
+      "source_time": "2026-09-28",
+      "first_seen_at": "2026-09-29T01:55:07+09:30",
+      "notified_at": "2026-09-29T01:55:07+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "nvda-share-repurchase-authorization-increase-150b-235b-remaining-2026-09-28"
+    },
+    {
+      "id": "20260928-nvda-open-agent-safety-platform",
+      "timestamp": "2026-09-29T01:55:07+09:30",
+      "light": "🟢",
+      "group": "AI Compute／GPU",
+      "title": "NVIDIA推出Open Agent Safety Platform，把AI代理安全延伸至CPU與DPU硬體層",
+      "summary": "NVIDIA推出Open Agent Safety Platform：OpenShell已廣泛供應，提供AI代理執行邊界；Sentry參考設計則以BlueField-4 DPU在硬體外部監控，能在代理越界時於毫秒內隔離。超過100家組織參與或整合，包括Microsoft、ServiceNow、Anthropic、SpaceXAI與金融及關鍵基礎設施業者。相較七月僅成立Open Secure AI Alliance，本次是可取得軟體與硬體參考設計的產品落地，強化NVIDIA全棧平台黏著度；但目前未披露定價、訂單或收入貢獻。",
+      "tickers": [
+        "NVDA"
+      ],
+      "source": "NVIDIA官方Newsroom",
+      "source_url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+      "source_time": "2026-09-28",
+      "first_seen_at": "2026-09-29T01:55:07+09:30",
+      "notified_at": "2026-09-29T01:55:07+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "nvda-open-agent-safety-platform-openshell-sentry-2026-09-28"
+    },
     {
       "id": "20260928-meta-enterprise-platform-cj-desai",
       "timestamp": "2026-09-29T00:43:06+09:30",
