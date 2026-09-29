@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-29T02:46:49+09:30",
+  "updated_at": "2026-09-29T11:12:10+09:30",
   "signals": [
+    {
+      "id": "20260928-amd-world-labs-82b-acquisition",
+      "timestamp": "2026-09-29T11:12:10+09:30",
+      "light": "🟡",
+      "group": "AI Compute／GPU",
+      "title": "AMD以82億美元全股票收購World Labs，延伸至Physical AI與空間智能",
+      "summary": "AMD同意以約82億美元全股票收購Fei-Fei Li共同創辦的World Labs，預計2026年底完成；World Labs專注能理解及模擬3D環境與物理互動的空間智能／physical AI，並已與AMD合作進行AMD GPU模型訓練及推論最佳化。Fei-Fei Li將加入AMD任執行副總裁暨首席科學家、向Lisa Su匯報。交易長期有助AMD由晶片延伸至模型、軟體與工作負載定義，並以應用洞察反饋硬體／系統路線；但短期屬82億美元全股票大型併購，存在股權稀釋、整合及商業化時程不確定性，投資影響偏正面但伴隨執行風險。",
+      "tickers": [
+        "AMD"
+      ],
+      "source": "AMD；World Labs；Reuters",
+      "source_url": "https://www.reuters.com/technology/amd-acquire-fei-fei-lis-world-labs-82-billion-deal-2026-09-28/",
+      "source_time": "2026-09-28T20:11:00Z",
+      "first_seen_at": "2026-09-29T11:12:10+09:30",
+      "notified_at": "2026-09-29T11:12:10+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "amd-world-labs-all-stock-acquisition-8-2b-2026-09-28"
+    },
     {
       "id": "20260928-spcx-starship-flight14-first-orbit-starlink-v3",
       "timestamp": "2026-09-29T02:46:49+09:30",
