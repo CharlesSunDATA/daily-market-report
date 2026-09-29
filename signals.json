@@ -1,6 +1,97 @@
 {
-  "updated_at": "2026-09-29T13:46:52+09:30",
+  "updated_at": "2026-09-30T09:01:08+09:30",
   "signals": [
+    {
+      "id": "20260930-ai-voluntary-safety-accord",
+      "timestamp": "2026-09-30T09:01:08+09:30",
+      "light": "🟡",
+      "title": "美國政府與AI企業簽署自願安全協議，資料中心擴張獲政策支持但監管折價上升",
+      "summary": "Fact：OpenAI、Anthropic、Meta、Google、Nvidia等企業與美國政府簽署自願安全協議，承諾內控與獨立稽核；Trump同時公開支持資料中心建設。Interpretation：AI CapEx政策方向偏正面，但協議非強制且不等於新增訂單，安全合規成本與監管不確定性上升。",
+      "tickers": [
+        "MSFT",
+        "GOOGL",
+        "META",
+        "NVDA",
+        "AMZN",
+        "PANW",
+        "CRWD",
+        "NET",
+        "QQQ"
+      ],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/us/trump-ai-executives-sign-voluntary-safety-pact-2026-09-29/",
+      "credibility": "A",
+      "status": "new",
+      "first_seen_at": "2026-09-30T09:01:08+09:30",
+      "last_material_change_at": "2026-09-30T09:01:08+09:30",
+      "notified_at": "2026-09-30T09:01:08+09:30",
+      "notification_revision": 1
+    },
+    {
+      "id": "20260926-us10y-516-valuation-pressure",
+      "timestamp": "2026-09-30T09:01:08+09:30",
+      "light": "🔴",
+      "title": "US10Y升至5.293%、30Y升至5.6206%，breadth惡化但升息機率回落",
+      "summary": "Fact：9/29 US10Y升至5.293%、30Y升至5.6206%，NYSE/Nasdaq下跌家數比分別1.66:1、1.47:1；10月升息機率因Williams偏耐心談話降至51.5%。Interpretation：折現率與breadth仍指向Institutional Selling test，但政策尾部壓力沒有同步加速。",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "SMH",
+        "SOXX",
+        "XLK",
+        "IGV",
+        "NVDA",
+        "AVGO",
+        "MRVL",
+        "LITE"
+      ],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/wall-street-futures-slip-treasury-yields-keep-rising-2026-09-29/",
+      "source_time": "2026-09-28T17:26:00Z",
+      "credibility": "A",
+      "first_seen_at": "2026-09-26T05:33:00+09:30",
+      "first_notified_at": "2026-09-26T05:33:00+09:30",
+      "last_material_change_at": "2026-09-30T09:01:08+09:30",
+      "notified_at": "2026-09-30T09:01:08+09:30",
+      "notification_revision": 3,
+      "dedupe_key": "us10y-valuation-pressure-september-2026",
+      "new_evidence": "US10Y由約5.16%升至5.26%，30Y升至5.576%；Cook正式把AI建設、油價與中東供應鏈中斷列為未來數月通膨壓力，並稱勞動市場可承受更高利率。",
+      "fact": "Reuters：US10Y 5.26%、30Y 5.576%，10月升息機率約68%–70%。Fed官方：Cook預期AI建設、油價與中東供應中斷將延續通膨壓力，未預先承諾升息，後續仍看數據。",
+      "interpretation": "宏觀估值環境進一步惡化；高久期軟體、半導體與以外部融資支撐的資料中心專案面臨更高折現率與資本成本。這是既有事件的重大增量，不是新事件。",
+      "direction": "偏空",
+      "horizon": "短線至中期",
+      "thesis_impact": {
+        "ai_compute": "基本面持平；估值/資本成本惡化",
+        "memory": "持平偏空（需求未反轉，但折現率上升）",
+        "networking_optics": "持平偏空",
+        "power_cooling": "需求仍強，但融資與落地風險上升",
+        "macro_valuation": "惡化"
+      },
+      "institutional_stage": {
+        "status": "Pending/Data unavailable",
+        "note": "未取得可靠ETF creation/redemption資料，不以價格或AUM變化替代；本次不調整Institutional Score/Stage。"
+      },
+      "sources": [
+        {
+          "name": "Federal Reserve — An Update on AI and the Economy",
+          "url": "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm",
+          "published_at": "2026-09-28",
+          "type": "official"
+        },
+        {
+          "name": "Reuters — Stocks fall, squeezed by rising oil prices and Treasury yields",
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-28/",
+          "published_at": "2026-09-28T12:50:00Z",
+          "type": "independent"
+        },
+        {
+          "name": "Reuters — Fed's Cook sees further inflationary pressures ahead",
+          "url": "https://www.reuters.com/world/us/feds-cook-sees-further-inflationary-pressures-ahead-2026-09-28/",
+          "published_at": "2026-09-28T17:26:00Z",
+          "type": "independent"
+        }
+      ]
+    },
     {
       "id": "20260928-anthropic-ipo-compute-obligations",
       "timestamp": "2026-09-29T13:46:52+09:30",
@@ -446,6 +537,90 @@
       "horizon": "短線"
     },
     {
+      "id": "20260921-1443-hormuz-vessel-traffic",
+      "timestamp": "2026-09-29T07:04:01+09:30",
+      "light": "🟢",
+      "title": "Hormuz復航由原油擴大至卡達LNG船，能源瓶頸出現第二項實體改善",
+      "summary": "重大增量：相較前次僅確認9月原油出口回升、LNG瓶頸仍待驗證，Reuters依Kpler與LSEG船舶資料確認，8月沒有可見的卡達相關LNG船穿越Hormuz，但9月已有至少7艘載貨LNG船駛出（其中多數集中於9月17日至27日）及至少1艘空載船駛入；最新GasLog Skagen於9月27日在斯里蘭卡外海重新出現，載有Ras Laffan貨物。這代表復航已由原油擴大至LNG，但仍只是少量、且AIS關閉令完整流量不可見，不能視為回到戰前正常水準。",
+      "tickers": [
+        "QQQ",
+        "SMH",
+        "SOXX",
+        "XLE",
+        "XOM",
+        "CVX",
+        "COP",
+        "VLO",
+        "MPC",
+        "PSX",
+        "LNG"
+      ],
+      "source": "Reuters；Kpler；LSEG",
+      "source_url": "https://www.reuters.com/business/energy/qatar-linked-lng-traffic-through-hormuz-strait-picks-up-despite-conflict-2026-09-28/",
+      "source_time": "2026-09-28T09:30:00Z",
+      "first_seen_at": "2026-09-24T04:46:35+09:30",
+      "last_material_change_at": "2026-09-28T09:30:00Z",
+      "notified_at": "2026-09-29T07:04:01+09:30",
+      "notification_revision": 4,
+      "dedupe_key": "hormuz-vessel-traffic-us-escorts-september-2026",
+      "credibility": "B+",
+      "sources": [
+        {
+          "name": "Reuters - prior Hormuz diplomacy/traffic baseline",
+          "url": "https://www.reuters.com/world/middle-east/hope-progress-after-us-iran-hold-first-shuttle-talks-months-2026-09-23/",
+          "source_time": "2026-09-23"
+        },
+        {
+          "name": "CBS News - U.S. official says 40m barrels transited in 48 hours",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/",
+          "source_time": "2026-09-25T17:32:00Z"
+        },
+        {
+          "name": "U.S. CENTCOM - cumulative transit update (900 vessels / 450m barrels)",
+          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4550818/us-finishes-latest-strikes-against-iran/",
+          "source_time": "2026-09-25"
+        },
+        {
+          "name": "Reuters / Kpler - September Middle East crude exports rebound",
+          "url": "https://www.marketscreener.com/news/mideast-oil-exports-rebound-in-september-as-saudi-arabia-boosts-shipments-ce785adcd880f624",
+          "source_time": "2026-09-28T00:17:00Z"
+        },
+        {
+          "name": "Reuters / Kpler / LSEG - Qatar-linked LNG traffic through Hormuz picks up",
+          "url": "https://www.reuters.com/business/energy/qatar-linked-lng-traffic-through-hormuz-strait-picks-up-despite-conflict-2026-09-28/",
+          "source_time": "2026-09-28T09:30:00Z",
+          "type": "independent vessel-tracking evidence"
+        }
+      ],
+      "first_notified_at": "2026-09-24T04:46:35+09:30",
+      "new_evidence": "8月卡達相關LNG船無可見Hormuz通行；9月已有至少7艘載貨船駛出、1艘空載船駛入，最新一艘於9月27日帶Ras Laffan貨物出現在斯里蘭卡外海。",
+      "fact": "Reuters依Kpler與LSEG資料列出GasLog Skagen、Al Shamal、Mesaimeer、Al Ghashamiya、Al Samriya、Al Daayen及Shandong Redwood等載貨LNG船已駛出Hormuz；Al Mafyar空載駛入。",
+      "interpretation": "瓶頸由『原油改善、LNG未確認』轉為原油與LNG均出現實體復航；但船數仍少且缺乏完整出口量，屬部分改善而非系統正常化。",
+      "direction": "能源風險溢價偏空；QQQ/SMH邊際偏多；美國LNG出口商混合偏空",
+      "horizon": "短線至中期",
+      "thesis_impact": {
+        "ai_compute": "持平；若能源風險溢價持續回落，估值邊際受益",
+        "memory": "持平",
+        "networking_optics": "持平",
+        "power_cooling": "持平；全球LNG供應風險小幅下降",
+        "macro_valuation": "邊際改善，但高利率壓力未解除"
+      },
+      "institutional_stage": {
+        "status": "Pending/Data unavailable",
+        "note": "未取得可靠ETF creation/redemption資料，不以價格或AUM變化替代；本次不調整Institutional Score/Stage。"
+      },
+      "bottleneck": {
+        "current": "Hormuz LNG通行由零可見流量轉為少量雙向通行；Yanbu／East-West Pipeline與整體船數仍是瓶頸",
+        "scope": "系統性瓶頸開始緩解，但尚未解除"
+      },
+      "coverage_audit": {
+        "catch_up": true,
+        "original_published_at": "2026-09-28T09:30:00Z",
+        "discovered_at": "2026-09-29T07:04:01+09:30",
+        "delay": "約12小時"
+      }
+    },
+    {
       "id": "20260926-apple-taction-haptic-patent-verdict",
       "timestamp": "2026-09-27T19:31:54+09:30",
       "light": "🔴",
@@ -555,90 +730,6 @@
       ]
     },
     {
-      "id": "20260921-1443-hormuz-vessel-traffic",
-      "timestamp": "2026-09-29T07:04:01+09:30",
-      "light": "🟢",
-      "title": "Hormuz復航由原油擴大至卡達LNG船，能源瓶頸出現第二項實體改善",
-      "summary": "重大增量：相較前次僅確認9月原油出口回升、LNG瓶頸仍待驗證，Reuters依Kpler與LSEG船舶資料確認，8月沒有可見的卡達相關LNG船穿越Hormuz，但9月已有至少7艘載貨LNG船駛出（其中多數集中於9月17日至27日）及至少1艘空載船駛入；最新GasLog Skagen於9月27日在斯里蘭卡外海重新出現，載有Ras Laffan貨物。這代表復航已由原油擴大至LNG，但仍只是少量、且AIS關閉令完整流量不可見，不能視為回到戰前正常水準。",
-      "tickers": [
-        "QQQ",
-        "SMH",
-        "SOXX",
-        "XLE",
-        "XOM",
-        "CVX",
-        "COP",
-        "VLO",
-        "MPC",
-        "PSX",
-        "LNG"
-      ],
-      "source": "Reuters；Kpler；LSEG",
-      "source_url": "https://www.reuters.com/business/energy/qatar-linked-lng-traffic-through-hormuz-strait-picks-up-despite-conflict-2026-09-28/",
-      "source_time": "2026-09-28T09:30:00Z",
-      "first_seen_at": "2026-09-24T04:46:35+09:30",
-      "last_material_change_at": "2026-09-28T09:30:00Z",
-      "notified_at": "2026-09-29T07:04:01+09:30",
-      "notification_revision": 4,
-      "dedupe_key": "hormuz-vessel-traffic-us-escorts-september-2026",
-      "credibility": "B+",
-      "sources": [
-        {
-          "name": "Reuters - prior Hormuz diplomacy/traffic baseline",
-          "url": "https://www.reuters.com/world/middle-east/hope-progress-after-us-iran-hold-first-shuttle-talks-months-2026-09-23/",
-          "source_time": "2026-09-23"
-        },
-        {
-          "name": "CBS News - U.S. official says 40m barrels transited in 48 hours",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/",
-          "source_time": "2026-09-25T17:32:00Z"
-        },
-        {
-          "name": "U.S. CENTCOM - cumulative transit update (900 vessels / 450m barrels)",
-          "url": "https://www.centcom.mil/MEDIA/PUBLIC-RELEASES/Article/4550818/us-finishes-latest-strikes-against-iran/",
-          "source_time": "2026-09-25"
-        },
-        {
-          "name": "Reuters / Kpler - September Middle East crude exports rebound",
-          "url": "https://www.marketscreener.com/news/mideast-oil-exports-rebound-in-september-as-saudi-arabia-boosts-shipments-ce785adcd880f624",
-          "source_time": "2026-09-28T00:17:00Z"
-        },
-        {
-          "name": "Reuters / Kpler / LSEG - Qatar-linked LNG traffic through Hormuz picks up",
-          "url": "https://www.reuters.com/business/energy/qatar-linked-lng-traffic-through-hormuz-strait-picks-up-despite-conflict-2026-09-28/",
-          "source_time": "2026-09-28T09:30:00Z",
-          "type": "independent vessel-tracking evidence"
-        }
-      ],
-      "first_notified_at": "2026-09-24T04:46:35+09:30",
-      "new_evidence": "8月卡達相關LNG船無可見Hormuz通行；9月已有至少7艘載貨船駛出、1艘空載船駛入，最新一艘於9月27日帶Ras Laffan貨物出現在斯里蘭卡外海。",
-      "fact": "Reuters依Kpler與LSEG資料列出GasLog Skagen、Al Shamal、Mesaimeer、Al Ghashamiya、Al Samriya、Al Daayen及Shandong Redwood等載貨LNG船已駛出Hormuz；Al Mafyar空載駛入。",
-      "interpretation": "瓶頸由『原油改善、LNG未確認』轉為原油與LNG均出現實體復航；但船數仍少且缺乏完整出口量，屬部分改善而非系統正常化。",
-      "direction": "能源風險溢價偏空；QQQ/SMH邊際偏多；美國LNG出口商混合偏空",
-      "horizon": "短線至中期",
-      "thesis_impact": {
-        "ai_compute": "持平；若能源風險溢價持續回落，估值邊際受益",
-        "memory": "持平",
-        "networking_optics": "持平",
-        "power_cooling": "持平；全球LNG供應風險小幅下降",
-        "macro_valuation": "邊際改善，但高利率壓力未解除"
-      },
-      "institutional_stage": {
-        "status": "Pending/Data unavailable",
-        "note": "未取得可靠ETF creation/redemption資料，不以價格或AUM變化替代；本次不調整Institutional Score/Stage。"
-      },
-      "bottleneck": {
-        "current": "Hormuz LNG通行由零可見流量轉為少量雙向通行；Yanbu／East-West Pipeline與整體船數仍是瓶頸",
-        "scope": "系統性瓶頸開始緩解，但尚未解除"
-      },
-      "coverage_audit": {
-        "catch_up": true,
-        "original_published_at": "2026-09-28T09:30:00Z",
-        "discovered_at": "2026-09-29T07:04:01+09:30",
-        "delay": "約12小時"
-      }
-    },
-    {
       "id": "20260926-us-iran-phased-truce-oil-close",
       "timestamp": "2026-09-27T06:26:02+09:30",
       "light": "🔴",
@@ -700,69 +791,6 @@
       "source_url": "https://charlessundata.github.io/daily-market-report/reports/2026/09/2026-09-26.html",
       "source_time": "2026-09-25T20:00:00Z",
       "credibility": "A/B+"
-    },
-    {
-      "id": "20260926-us10y-516-valuation-pressure",
-      "timestamp": "2026-09-29T05:05:39+09:30",
-      "light": "🔴",
-      "title": "US10Y升至5.26%、30Y創2004年來高位；Fed正式確認AI與油價通膨壓力",
-      "summary": "重大增量：相較前次US10Y約5.16%，10年期殖利率升至5.26%（2007年6月以來高位），30年期升至5.576%（2004年5月以來高位）；10月再升息機率約68%–70%。Fed理事Cook並正式表示，AI資料中心投資、油價與中東供應鏈中斷將在未來數月持續推升通膨，且勞動市場足以承受更高利率。這使高久期科技與高融資依賴的AI基建估值壓力，由市場價格訊號升級為「官方政策風險確認」。",
-      "tickers": [
-        "QQQ",
-        "IGV",
-        "SMH",
-        "SOXX",
-        "NVDA",
-        "AMD",
-        "VRT",
-        "ORCL"
-      ],
-      "source": "Federal Reserve；Reuters",
-      "source_url": "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm",
-      "source_time": "2026-09-28T17:26:00Z",
-      "credibility": "A",
-      "first_seen_at": "2026-09-26T05:33:00+09:30",
-      "first_notified_at": "2026-09-26T05:33:00+09:30",
-      "last_material_change_at": "2026-09-28T17:26:00Z",
-      "notified_at": "2026-09-29T05:05:39+09:30",
-      "notification_revision": 2,
-      "dedupe_key": "us10y-valuation-pressure-september-2026",
-      "new_evidence": "US10Y由約5.16%升至5.26%，30Y升至5.576%；Cook正式把AI建設、油價與中東供應鏈中斷列為未來數月通膨壓力，並稱勞動市場可承受更高利率。",
-      "fact": "Reuters：US10Y 5.26%、30Y 5.576%，10月升息機率約68%–70%。Fed官方：Cook預期AI建設、油價與中東供應中斷將延續通膨壓力，未預先承諾升息，後續仍看數據。",
-      "interpretation": "宏觀估值環境進一步惡化；高久期軟體、半導體與以外部融資支撐的資料中心專案面臨更高折現率與資本成本。這是既有事件的重大增量，不是新事件。",
-      "direction": "偏空",
-      "horizon": "短線至中期",
-      "thesis_impact": {
-        "ai_compute": "基本面持平；估值/資本成本惡化",
-        "memory": "持平偏空（需求未反轉，但折現率上升）",
-        "networking_optics": "持平偏空",
-        "power_cooling": "需求仍強，但融資與落地風險上升",
-        "macro_valuation": "惡化"
-      },
-      "institutional_stage": {
-        "status": "Pending/Data unavailable",
-        "note": "未取得可靠ETF creation/redemption資料，不以價格或AUM變化替代；本次不調整Institutional Score/Stage。"
-      },
-      "sources": [
-        {
-          "name": "Federal Reserve — An Update on AI and the Economy",
-          "url": "https://www.federalreserve.gov/newsevents/speech/cook20260928a.htm",
-          "published_at": "2026-09-28",
-          "type": "official"
-        },
-        {
-          "name": "Reuters — Stocks fall, squeezed by rising oil prices and Treasury yields",
-          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-09-28/",
-          "published_at": "2026-09-28T12:50:00Z",
-          "type": "independent"
-        },
-        {
-          "name": "Reuters — Fed's Cook sees further inflationary pressures ahead",
-          "url": "https://www.reuters.com/world/us/feds-cook-sees-further-inflationary-pressures-ahead-2026-09-28/",
-          "published_at": "2026-09-28T17:26:00Z",
-          "type": "independent"
-        }
-      ]
     },
     {
       "id": "20260924-oracle-jupiter-force-majeure-power-delay",
