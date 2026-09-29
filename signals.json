@@ -1,6 +1,67 @@
 {
-  "updated_at": "2026-09-29T11:59:19+09:30",
+  "updated_at": "2026-09-29T13:04:00+09:30",
   "signals": [
+    {
+      "id": "20260928-qatar-lng-force-majeure-nov-dec",
+      "timestamp": "2026-09-29T13:04:00+09:30",
+      "light": "🔴",
+      "title": "QatarEnergy延長LNG不可抗力至11月／12月，少量Hormuz復航未轉化為合約供應恢復",
+      "summary": "QatarEnergy對Edison與部分亞洲客戶延長LNG不可抗力：Edison至12月初前仍無法收貨，孟加拉與巴基斯坦等亞洲客戶延至11月。Edison再取消6船、累計未交付35船；Reuters依ICIS資料指出，截至8月底卡達僅出口18船、去年同期509船，降幅96%。這是對先前『少數卡達LNG船恢復通行』的重大反向證據：船舶可見通行改善尚未轉化為穩定的合約履約與出口正常化。",
+      "tickers": [
+        "LNG",
+        "XLE",
+        "XOM",
+        "CVX",
+        "COP",
+        "QQQ",
+        "SMH",
+        "SOXX"
+      ],
+      "source": "Edison；Reuters；ICIS；亞洲交易來源",
+      "source_url": "https://www.reuters.com/business/energy/qatar-will-not-deliver-gas-european-client-edison-until-beginning-december-2026-09-28/",
+      "source_time": "2026-09-28T10:56:00Z",
+      "credibility": "A/B+",
+      "first_seen_at": "2026-09-29T13:04:00+09:30",
+      "last_material_change_at": "2026-09-28T10:56:00Z",
+      "notified_at": "2026-09-29T13:04:00+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "qatarenergy-lng-force-majeure-extension-november-december-2026",
+      "sources": [
+        {
+          "name": "Reuters - QatarEnergy force majeure extended for Edison and Asian clients",
+          "url": "https://www.reuters.com/business/energy/qatar-will-not-deliver-gas-european-client-edison-until-beginning-december-2026-09-28/",
+          "source_time": "2026-09-28T10:56:00Z",
+          "type": "Edison statement, trading sources and ICIS cargo data"
+        }
+      ],
+      "first_notified_at": "2026-09-29T13:04:00+09:30",
+      "new_evidence": "Edison確認至12月初前無QatarEnergy LNG交付，亞洲客戶不可抗力延至11月；Edison累計35船未交付，卡達截至8月底出口18船、去年同期509船。",
+      "fact": "QatarEnergy延長不可抗力；Edison再取消6船、累計35船未交付，已替代其中23船；卡達LNG出口截至8月底年減96%。",
+      "interpretation": "LNG瓶頸仍屬系統性且至少延續至第四季。先前7艘載貨船可見復航只證明少量船流恢復，不能外推為卡達合約供應正常化；瓶頸位於可持續出口量、穩定通行及冬季前替代供應，而非單一船舶是否過海峽。",
+      "direction": "LNG／美國LNG出口商偏多；歐亞天然氣買方、通膨與高久期科技偏空；油氣股混合偏多",
+      "horizon": "短線至中期（11月至12月）",
+      "thesis_impact": {
+        "ai_compute": "基本面持平；能源成本與折現率環境邊際偏空",
+        "memory": "基本面持平；估值環境邊際偏空",
+        "networking_optics": "基本面持平；估值環境邊際偏空",
+        "power_cooling": "輕微惡化；歐亞資料中心天然氣與電力成本風險上升",
+        "macro_valuation": "惡化；冬季天然氣、通膨與US10Y上行壓力增加"
+      },
+      "institutional_stage": {
+        "status": "Pending/Data unavailable",
+        "note": "未取得可靠ETF creation/redemption資料，不以價格或AUM變化替代；本事件不調整Institutional Score/Stage。"
+      },
+      "bottleneck": {
+        "current": "卡達LNG合約履約、可持續出口量與冬季前替代供應；少量Hormuz船舶通行不是主要解除條件",
+        "scope": "系統性LNG供應瓶頸，與原油船流改善分化"
+      },
+      "coverage_audit": {
+        "catch_up": true,
+        "original_published_at": "2026-09-28T20:26:00+09:30",
+        "discovered_at": "2026-09-29T13:04:00+09:30",
+        "delay": "約16小時38分"
+      }
+    },
     {
       "id": "20260929-megaport-978m-ai-contracts-guidance",
       "timestamp": "2026-09-29T11:59:19+09:30",
