@@ -1,6 +1,42 @@
 {
-  "updated_at": "2026-09-29T11:12:10+09:30",
+  "updated_at": "2026-09-30T06:48:29+09:30",
   "signals": [
+    {
+      "id": "20260929-be-fremont-158k-expansion",
+      "timestamp": "2026-09-30T06:48:29+09:30",
+      "light": "🟢",
+      "group": "On-site Power／AI Data Center Energy",
+      "title": "Bloom Energy購入Fremont 15.8萬平方英尺設施，擴產並新增數百個製造職位",
+      "summary": "Fremont市政府表示，Bloom Energy已購入Encyclopedia Circle一座約15.8萬平方英尺設施，用於擴大當地營運並支持新增數百個先進製造職位；消息公布後BE於9月29日上漲約12%。這是AI資料中心即時供電需求正轉化為實體製造投資的直接證據，對產能與交付能力偏正面；但公司尚未披露新增GW產能、資本支出、投產時程或對財測的量化影響，需持續追蹤設備建置與實際出貨。",
+      "tickers": [
+        "BE"
+      ],
+      "source": "City of Fremont；Barron's",
+      "source_url": "https://www.linkedin.com/company/cityoffremont/",
+      "source_time": "2026-09-29T18:28:00Z",
+      "first_seen_at": "2026-09-30T06:48:29+09:30",
+      "notified_at": "2026-09-30T06:48:29+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "be-fremont-158000-sqft-facility-expansion-2026-09-29"
+    },
+    {
+      "id": "20260929-nvts-us-army-alattis-sic",
+      "timestamp": "2026-09-30T06:48:29+09:30",
+      "light": "🟡",
+      "group": "Power Semiconductors",
+      "title": "Navitas獲美國陸軍ALATTIS計畫，開發10 kV超高壓SiC國產製程",
+      "summary": "Navitas經競爭性評選獲美國陸軍選中執行ALATTIS原型計畫，將設計、製造並驗證目前美國尚缺的10 kV SiC IGBT與PiN二極體國產製程；計畫由Army Research Laboratory／DEVCOM贊助，並由JETX支持。此事驗證Navitas的超高壓SiC技術與美國供應鏈能力，並可能把應用由MOSFET延伸至國防及關鍵基礎設施；但未披露合約金額、里程碑付款或商業量產時程，因此論點影響屬策略性偏正面、短期財務中性。",
+      "tickers": [
+        "NVTS"
+      ],
+      "source": "Navitas Semiconductor；U.S. Army ALATTIS／ARL；Barron's",
+      "source_url": "https://www.linkedin.com/company/navitas-semiconductor/",
+      "source_time": "2026-09-28T20:15:00Z",
+      "first_seen_at": "2026-09-30T06:48:29+09:30",
+      "notified_at": "2026-09-30T06:48:29+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "nvts-us-army-alattis-10kv-sic-project-2026-09-28"
+    },
     {
       "id": "20260928-amd-world-labs-82b-acquisition",
       "timestamp": "2026-09-29T11:12:10+09:30",
