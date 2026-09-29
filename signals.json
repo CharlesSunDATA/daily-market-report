@@ -1,6 +1,124 @@
 {
-  "updated_at": "2026-09-29T10:57:30+09:30",
+  "updated_at": "2026-09-29T11:59:19+09:30",
   "signals": [
+    {
+      "id": "20260929-megaport-978m-ai-contracts-guidance",
+      "timestamp": "2026-09-29T11:59:19+09:30",
+      "light": "🟢",
+      "title": "Megaport新增A$9.786億AI基建合約並上調FY2027營收與EBITDA率指引",
+      "summary": "澳洲上市IT基建商Megaport簽下三份AI基礎設施合約，總合約價值A$978.6m，涵蓋GPU／CPU運算、網路與儲存，預計帶來約A$232.4m年化經常性收入；公司把FY2027營收指引由A$620m–730m上調至A$720m–810m，EBITDA率由38%–40%上調至42%–44%。這是AI資料中心由資本支出意向轉為具體多年合約與財務指引的實際落地證據。",
+      "tickers": [
+        "MP1.AX",
+        "NVDA",
+        "ANET",
+        "AVGO",
+        "MRVL",
+        "VRT",
+        "LITE",
+        "COHR",
+        "SMH",
+        "SOXX"
+      ],
+      "source": "Megaport公司公告；Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/australias-megaport-wins-687-million-ai-infrastructure-deals-raises-2027-2026-09-28/",
+      "source_time": "2026-09-28T23:32:00Z",
+      "credibility": "A",
+      "first_seen_at": "2026-09-29T11:59:19+09:30",
+      "last_material_change_at": "2026-09-28T23:32:00Z",
+      "notified_at": "2026-09-29T11:59:19+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "megaport-three-ai-infrastructure-contracts-fy2027-guidance-september-2026",
+      "sources": [
+        {
+          "name": "Reuters - Megaport contracts and FY2027 guidance",
+          "url": "https://www.reuters.com/world/asia-pacific/australias-megaport-wins-687-million-ai-infrastructure-deals-raises-2027-2026-09-28/",
+          "source_time": "2026-09-28T23:32:00Z",
+          "type": "company-announced financial and contract data"
+        }
+      ],
+      "first_notified_at": "2026-09-29T11:59:19+09:30",
+      "new_evidence": "三份新增AI基建合約總值A$978.6m、約A$232.4m ARR，並同步上調FY2027營收與EBITDA率指引。",
+      "fact": "合約涵蓋GPU／CPU compute、networking及storage；FY2027營收指引升至A$720m–810m，EBITDA率升至42%–44%。",
+      "interpretation": "AI Infrastructure資料中心落地率改善，需求不再只停留於CapEx宣示；對GPU、交換器／SerDes、光通訊與電力散熱供應鏈為中期需求驗證，但客戶未披露，不能直接分配至特定美股供應商的新增營收。",
+      "direction": "AI Infrastructure供應鏈中期偏多；特定美股供應商影響待確認",
+      "horizon": "中期（FY2027）",
+      "thesis_impact": {
+        "ai_compute": "改善；具體GPU／CPU運算合約轉化為ARR與上調指引",
+        "memory": "輕微改善；運算落地支持HBM／DRAM需求，但未披露配置",
+        "networking_optics": "改善；合約明確包含networking與storage",
+        "power_cooling": "改善；實體AI基建合約增加落地需求",
+        "macro_valuation": "持平；利率與融資成本壓力未因單一公司合約解除"
+      },
+      "institutional_stage": {
+        "status": "Pending/Data unavailable",
+        "note": "未取得可靠ETF creation/redemption資料，不以價格或AUM變化替代；本事件不調整Institutional Score/Stage。"
+      },
+      "coverage_audit": {
+        "catch_up": true,
+        "original_published_at": "2026-09-29T09:02:00+09:30",
+        "discovered_at": "2026-09-29T11:59:19+09:30",
+        "delay": "約2小時57分"
+      }
+    },
+    {
+      "id": "20260929-meta-firmus-sea-gpu-capacity",
+      "timestamp": "2026-09-29T11:59:19+09:30",
+      "light": "🟢",
+      "title": "Meta與Firmus簽訂東南亞GPU算力協議，既有GB300部署擴大為跨區容量",
+      "summary": "Firmus宣布與Meta簽訂東南亞資料中心GPU算力協議，提供已簽約容量與擴張選項，採用NVIDIA full-stack DSX平台，支援Meta的AI研究、模型開發與訓練；協議建立在Meta已於Firmus墨爾本部署GB300 NVL72系統的基礎上。財務條款未披露，因此是實體部署與區域擴張證據，不是可量化的Meta CapEx或NVIDIA新增營收指引。",
+      "tickers": [
+        "META",
+        "NVDA",
+        "ANET",
+        "AVGO",
+        "MRVL",
+        "VRT",
+        "LITE",
+        "COHR",
+        "SMH",
+        "SOXX"
+      ],
+      "source": "Firmus公司聲明；Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/meta-taps-australias-firmus-ai-computing-capacity-southeast-asia-2026-09-28/",
+      "source_time": "2026-09-28T23:10:00Z",
+      "credibility": "A",
+      "first_seen_at": "2026-09-29T11:59:19+09:30",
+      "last_material_change_at": "2026-09-28T23:10:00Z",
+      "notified_at": "2026-09-29T11:59:19+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "meta-firmus-southeast-asia-gpu-capacity-agreement-september-2026",
+      "sources": [
+        {
+          "name": "Reuters - Firmus announces Meta Southeast Asia GPU capacity agreements",
+          "url": "https://www.reuters.com/world/asia-pacific/meta-taps-australias-firmus-ai-computing-capacity-southeast-asia-2026-09-28/",
+          "source_time": "2026-09-28T23:10:00Z",
+          "type": "company-announced contract and deployment evidence"
+        }
+      ],
+      "first_notified_at": "2026-09-29T11:59:19+09:30",
+      "new_evidence": "Meta由Firmus墨爾本既有GB300 NVL72部署，擴大至東南亞資料中心已簽約GPU容量與擴張選項。",
+      "fact": "Firmus將以NVIDIA full-stack DSX平台支援Meta AI研究、模型開發與訓練；財務條款未披露。",
+      "interpretation": "AI Compute與資料中心實際落地率改善，並確認Blackwell Ultra已由單點部署向亞太區域容量擴張；對NVDA最直接偏多，對networking、optics及power/cooling為方向性需求利多，但尚無正式供應商design win。",
+      "direction": "NVDA中期偏多；AI基建二階供應鏈方向性偏多",
+      "horizon": "中期",
+      "thesis_impact": {
+        "ai_compute": "改善；Meta的GB300部署由墨爾本擴展至東南亞簽約容量",
+        "memory": "輕微改善；GPU訓練容量擴張支持HBM需求",
+        "networking_optics": "改善；DSX full-stack及跨區容量需要高速網路，但未披露供應商",
+        "power_cooling": "改善；區域AI factory容量進入合約落地階段",
+        "macro_valuation": "持平；無合約金額且不改變利率環境"
+      },
+      "institutional_stage": {
+        "status": "Pending/Data unavailable",
+        "note": "未取得可靠ETF creation/redemption資料，不以價格或AUM變化替代；本事件不調整Institutional Score/Stage。"
+      },
+      "coverage_audit": {
+        "catch_up": true,
+        "original_published_at": "2026-09-29T08:40:00+09:30",
+        "discovered_at": "2026-09-29T11:59:19+09:30",
+        "delay": "約3小時19分"
+      }
+    },
     {
       "id": "20260929-samsung-hbm-30pct-dram-capacity-2027",
       "timestamp": "2026-09-29T10:57:30+09:30",
