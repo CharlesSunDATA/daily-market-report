@@ -1,6 +1,54 @@
 {
-  "updated_at": "2026-09-29T09:01:46+09:30",
+  "updated_at": "2026-09-29T10:57:30+09:30",
   "signals": [
+    {
+      "id": "20260929-samsung-hbm-30pct-dram-capacity-2027",
+      "timestamp": "2026-09-29T10:57:30+09:30",
+      "light": "🟢",
+      "title": "Samsung：2027年HBM將占全產業DRAM晶圓產能近30%，較目前約20%躍升",
+      "summary": "Samsung Electronics執行副總裁Kim Taewoo表示，2027年HBM預計占DRAM業者總晶圓產能近30%，高於目前約20%；HBM與標準DRAM共用晶圓產能，因此HBM擴產會約束標準DRAM供給。這是新的官方量化產能結構訊號：確認AI記憶體需求正把全產業晶圓配置更快轉向HBM，同時提高標準DRAM供給偏緊的中期機率；但它不是Samsung、SK hynix或Micron各自的新增出貨／訂單指引。",
+      "tickers": [
+        "MU",
+        "SMH",
+        "SOXX",
+        "NVDA",
+        "AMD"
+      ],
+      "source": "Samsung Electronics管理層；Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/samsung-electronics-says-hbm-account-nearly-30-industry-dram-capacity-next-year-2026-09-29/",
+      "source_time": "2026-09-29T01:03:00Z",
+      "credibility": "A",
+      "first_seen_at": "2026-09-29T10:57:30+09:30",
+      "last_material_change_at": "2026-09-29T01:03:00Z",
+      "notified_at": "2026-09-29T10:57:30+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "samsung-industry-hbm-share-dram-wafer-capacity-2027",
+      "sources": [
+        {
+          "name": "Reuters - Samsung executive quantifies 2027 HBM share of industry DRAM wafer capacity",
+          "url": "https://www.reuters.com/world/asia-pacific/samsung-electronics-says-hbm-account-nearly-30-industry-dram-capacity-next-year-2026-09-29/",
+          "source_time": "2026-09-29T01:03:00Z",
+          "type": "first-hand executive statement"
+        }
+      ],
+      "first_notified_at": "2026-09-29T10:57:30+09:30",
+      "new_evidence": "Samsung管理層首次給出2027年全產業量化預估：HBM占DRAM晶圓產能將由目前約20%升至近30%。",
+      "fact": "Samsung執行副總裁Kim Taewoo表示，HBM與標準DRAM競用同一晶圓產能；2027年HBM預計占DRAM業者總晶圓產能近30%，目前約20%。",
+      "interpretation": "Memory Thesis改善：HBM需求與產能轉移獲得官方量化確認，且標準DRAM供給可能被擠壓；對MU中期偏多，但HBM供給競爭也將升高，因此不是單向的市占或毛利利多。",
+      "direction": "MU／Memory中期偏多；HBM競爭面混合",
+      "horizon": "中期（2027年）",
+      "thesis_impact": {
+        "ai_compute": "改善；HBM供應鏈投入加速，支持AI運算需求仍具結構性",
+        "memory": "改善；HBM產能占比由約20%升至近30%，同時提高標準DRAM供給受限機率",
+        "networking_optics": "持平",
+        "power_cooling": "持平",
+        "macro_valuation": "持平；屬產業供給結構訊號，不直接改變利率或大盤估值"
+      },
+      "institutional_stage": {
+        "status": "Pending/Data unavailable",
+        "note": "未取得可靠ETF creation/redemption資料，不以價格或AUM變化替代；本事件不調整Institutional Score/Stage。"
+      }
+    },
     {
       "id": "20260929-nvidia-record-buyback-divergence",
       "timestamp": "2026-09-29T09:01:46+09:30",
