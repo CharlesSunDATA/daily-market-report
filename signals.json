@@ -1,6 +1,96 @@
 {
-  "updated_at": "2026-10-03T08:58:00+09:30",
+  "updated_at": "2026-10-04T08:57:54+10:30",
   "signals": [
+    {
+      "id": "20261004-vistra-doe-nuclear-loan",
+      "timestamp": "2026-10-04T08:57:54+10:30",
+      "light": "🟢",
+      "title": "美國擬貸款42億美元予Vistra提升核電輸出",
+      "summary": "Fact：DOE融資涵蓋Vistra六座反應爐／四座核電站、逾6.5GW資產。Interpretation：AI資料中心電力瓶頸獲政策資金支持，VST最直接；GEV、ETN、VRT需以工程PO確認。",
+      "tickers": [
+        "VST",
+        "CEG",
+        "GEV",
+        "ETN",
+        "VRT"
+      ],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/",
+      "credibility": "A/B",
+      "status": "new",
+      "first_seen_at": "2026-10-04T08:57:54+10:30",
+      "last_material_change_at": "2026-10-04T08:57:54+10:30",
+      "notified_at": "2026-10-04T08:57:54+10:30",
+      "notification_revision": 1
+    },
+    {
+      "id": "20261004-iraq-hormuz-vlcc-transit",
+      "timestamp": "2026-10-04T08:56:54+10:30",
+      "light": "🟢",
+      "title": "伊拉克VLCC載約200萬桶原油通過Hormuz",
+      "summary": "Fact：伊拉克國營油輪公司完成數十年來首次此類大型運輸。Interpretation：通行能力獲實證、油價gap-up風險下降；但一船不代表保險與日常吞吐正常化。",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX",
+        "DAL",
+        "FDX",
+        "QQQ"
+      ],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/",
+      "credibility": "A/B",
+      "status": "new",
+      "first_seen_at": "2026-10-04T08:56:54+10:30",
+      "last_material_change_at": "2026-10-04T08:56:54+10:30",
+      "notified_at": "2026-10-04T08:56:54+10:30",
+      "notification_revision": 1
+    },
+    {
+      "id": "20261004-ai-funding-gap-leverage",
+      "timestamp": "2026-10-04T08:55:54+10:30",
+      "light": "🔴",
+      "title": "AI基建五年需逾4.2兆美元新增收入支應，槓桿放大下行風險",
+      "summary": "Fact：Bain估算凸顯AI建設的收入覆蓋門檻。Interpretation：需求未反轉，但SPV、vendor financing、客戶集中與晶片殘值將提高估值折扣。",
+      "tickers": [
+        "AMZN",
+        "ORCL",
+        "AVGO",
+        "NVDA",
+        "VRT",
+        "ANET",
+        "MRVL"
+      ],
+      "source": "Reuters／Bain",
+      "source_url": "https://www.reuters.com/",
+      "credibility": "B",
+      "status": "new",
+      "first_seen_at": "2026-10-04T08:55:54+10:30",
+      "last_material_change_at": "2026-10-04T08:55:54+10:30",
+      "notified_at": "2026-10-04T08:55:54+10:30",
+      "notification_revision": 1
+    },
+    {
+      "id": "20261004-ai-safety-governance",
+      "timestamp": "2026-10-04T08:54:54+10:30",
+      "light": "🟡",
+      "title": "AI自願安全承諾無明列後果，OpenAI安全員工離職",
+      "summary": "Fact：六家公司承諾屬自願性；OpenAI安全員工批評快速開發文化。Interpretation：短期合規成本低，中期監管、人才與聲譽風險上升，尚非算力需求反轉。",
+      "tickers": [
+        "NVDA",
+        "META",
+        "GOOGL",
+        "MSFT"
+      ],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/",
+      "credibility": "B",
+      "status": "new",
+      "first_seen_at": "2026-10-04T08:54:54+10:30",
+      "last_material_change_at": "2026-10-04T08:54:54+10:30",
+      "notified_at": "2026-10-04T08:54:54+10:30",
+      "notification_revision": 1
+    },
     {
       "id": "20261003-payroll-fed-repricing",
       "timestamp": "2026-10-03T08:58:00+09:30",
