@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-09-30T06:48:29+09:30",
+  "updated_at": "2026-10-03T15:23:16+09:30",
   "signals": [
+    {
+      "id": "20260930-rklb-synspective-20-electron",
+      "timestamp": "2026-10-03T15:23:16+09:30",
+      "light": "🟢",
+      "group": "Space／Satellite／Launch",
+      "title": "Rocket Lab與Synspective簽訂20次Electron發射合約，發射積壓訂單超過100次",
+      "summary": "漏報回補。Fact：Rocket Lab於2026年9月30日公布與Synspective簽訂20次Electron發射的多年合約，為Electron史上最大商業發射合約；任務預計2028至2031年執行，合約金額未披露，Electron發射積壓訂單因此超過100次。Inference：提高中期發射收入可見度並驗證小型衛星星座客戶的重複採購，對RKLB論點偏正面；但近2–4季收入貢獻有限，價值取決於排程、發射節奏與毛利。Priced-in程度待驗證；下一驗證點為新增合約金額／backlog及2028年起實際發射。",
+      "tickers": [
+        "RKLB"
+      ],
+      "source": "Rocket Lab Investor Relations",
+      "source_url": "https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-secures-largest-ever-electron-commercial-deal-20",
+      "source_time": "2026-09-30",
+      "first_seen_at": "2026-10-03T15:23:16+09:30",
+      "notified_at": "2026-10-03T15:23:16+09:30",
+      "notification_revision": 1,
+      "dedupe_key": "rklb-synspective-20-electron-launch-contract-2026-09-30"
+    },
     {
       "id": "20260929-be-fremont-158k-expansion",
       "timestamp": "2026-09-30T06:48:29+09:30",
