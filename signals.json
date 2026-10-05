@@ -1,6 +1,117 @@
 {
-  "updated_at": "2026-10-05T08:57:22+10:30",
+  "updated_at": "2026-10-06T08:55:29+10:30",
   "signals": [
+    {
+      "id": "20261006-nasdaq-record-breadth-divergence",
+      "timestamp": "2026-10-06T08:55:29+10:30",
+      "light": "🟡",
+      "title": "Nasdaq創收盤新高但breadth背離",
+      "summary": "Fact：Nasdaq +1.10%，但2,167家下跌、1,960家上漲，新低281遠高於新高87。Interpretation：大型科技主導的Selective Mark-Up，尚非全面機構累積。",
+      "tickers": [
+        "QQQ",
+        "SPY",
+        "SMH",
+        "SOXX"
+      ],
+      "source": "Reuters；MarketWatch",
+      "source_url": "https://www.reuters.com/world/europe/wall-st-futures-dip-tech-stocks-take-breather-2026-10-05/",
+      "credibility": "A/B",
+      "status": "new",
+      "first_seen_at": "2026-10-06T08:55:29+10:30",
+      "last_material_change_at": "2026-10-06T08:55:29+10:30",
+      "notified_at": "2026-10-06T08:55:29+10:30",
+      "notification_revision": 1
+    },
+    {
+      "id": "20261006-ism-services-prices",
+      "timestamp": "2026-10-06T08:54:29+10:30",
+      "light": "🔴",
+      "title": "ISM服務價格升至74.0，需求放緩未解除通膨壓力",
+      "summary": "Fact：Services PMI 54.9略低於55共識，Prices升至2022年7月以來最高，supplier deliveries與backlog同步升。Interpretation：US10Y與高久期科技估值壓力未解除。",
+      "tickers": [
+        "QQQ",
+        "SMH",
+        "SOXX",
+        "IGV",
+        "TLT"
+      ],
+      "source": "ISM",
+      "source_url": "https://www.prnewswire.com/news-releases/services-pmi-at-54-9-september-2026-ism-services-pmi-report-302898421.html",
+      "credibility": "A",
+      "status": "new",
+      "first_seen_at": "2026-10-06T08:54:29+10:30",
+      "last_material_change_at": "2026-10-06T08:54:29+10:30",
+      "notified_at": "2026-10-06T08:54:29+10:30",
+      "notification_revision": 1
+    },
+    {
+      "id": "20261006-vistra-doe-conditional-commitment",
+      "timestamp": "2026-10-06T08:53:29+10:30",
+      "light": "🟢",
+      "title": "DOE正式給予VST最高42億美元核電條件式貸款承諾",
+      "summary": "Fact：計畫保留近4GW並增加433MW，但仍須滿足技術、法律、環境與財務條件。Interpretation：VST直接利多獲官方驗證；ETN/GEV/VRT仍需設備PO確認。",
+      "tickers": [
+        "VST",
+        "CEG",
+        "ETN",
+        "GEV",
+        "VRT"
+      ],
+      "source": "U.S. Department of Energy",
+      "source_url": "https://www.energy.gov/articles/energy-department-announces-42-billion-investment-boost-nuclear-power-and-help-lower",
+      "credibility": "A",
+      "status": "updated",
+      "first_seen_at": "2026-10-04T08:57:54+10:30",
+      "last_material_change_at": "2026-10-06T08:53:29+10:30",
+      "notified_at": "2026-10-06T08:53:29+10:30",
+      "notification_revision": 3
+    },
+    {
+      "id": "20261006-ai-power-supply-chain-ranking",
+      "timestamp": "2026-10-06T08:52:29+10:30",
+      "light": "🟡",
+      "title": "AI電力瓶頸開始分化供應鏈，NVDA/AVGO較受保護",
+      "summary": "Fact：Morgan Stanley認為若資料中心部署延後，Memory與Optics等次級元件可能先受壓。Interpretation：AI需求尚未反轉，但供應鏈不再同向，需監控交期、庫存與取消。",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "MU",
+        "MRVL",
+        "LITE",
+        "COHR",
+        "CIEN"
+      ],
+      "source": "Reuters／Morgan Stanley",
+      "source_url": "https://www.reuters.com/business/nvidia-broadcom-shielded-ai-power-crunch-hits-chip-supply-chain-says-morgan-2026-10-05/",
+      "credibility": "B",
+      "status": "new",
+      "first_seen_at": "2026-10-06T08:52:29+10:30",
+      "last_material_change_at": "2026-10-06T08:52:29+10:30",
+      "notified_at": "2026-10-06T08:52:29+10:30",
+      "notification_revision": 1
+    },
+    {
+      "id": "20261006-ptc-schneider-deal",
+      "timestamp": "2026-10-06T08:51:29+10:30",
+      "light": "🟡",
+      "title": "Schneider以226億美元收購PTC，工業軟體獲戰略重估",
+      "summary": "Fact：每股205美元、溢價42.3%，PTC +33.5%而買方近-10%。Interpretation：industrial AI平台價值獲驗證，但債務融資、整合與協同實現成為風險。",
+      "tickers": [
+        "PTC",
+        "ADSK",
+        "ANSS",
+        "ROK",
+        "ETN"
+      ],
+      "source": "SEC；Schneider Electric",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526413124/d174191dex991.htm",
+      "credibility": "A",
+      "status": "new",
+      "first_seen_at": "2026-10-06T08:51:29+10:30",
+      "last_material_change_at": "2026-10-06T08:51:29+10:30",
+      "notified_at": "2026-10-06T08:51:29+10:30",
+      "notification_revision": 1
+    },
     {
       "id": "20261004-iraq-hormuz-vlcc-transit",
       "timestamp": "2026-10-05T08:57:22+10:30",
@@ -73,28 +184,6 @@
       "last_material_change_at": "2026-10-05T08:55:22+10:30",
       "notified_at": "2026-10-05T08:55:22+10:30",
       "notification_revision": 1
-    },
-    {
-      "id": "20261004-vistra-doe-nuclear-loan",
-      "timestamp": "2026-10-05T08:54:22+10:30",
-      "light": "🟡",
-      "title": "Vistra 42億美元核電貸款屬擬議方案，待週一官方公告與條款",
-      "summary": "Fact：Reuters引述消息人士稱DOE將宣布貸款；目前尚非已批准、簽約或金融交割。Interpretation：VST及GEV/ETN/VRT利多需由金額、利率、涵蓋電廠與工程PO確認。",
-      "tickers": [
-        "VST",
-        "CEG",
-        "GEV",
-        "ETN",
-        "VRT"
-      ],
-      "source": "Reuters；DOE公開評估資料",
-      "source_url": "https://www.reuters.com/legal/litigation/us-lend-42-billion-vistra-boost-nuclear-power-output-source-says-2026-10-03/",
-      "credibility": "A/B",
-      "status": "updated",
-      "first_seen_at": "2026-10-04T08:57:54+10:30",
-      "last_material_change_at": "2026-10-05T08:54:22+10:30",
-      "notified_at": "2026-10-05T08:54:22+10:30",
-      "notification_revision": 2
     },
     {
       "id": "20261005-openai-legal-security-risk",
