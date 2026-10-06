@@ -1,6 +1,142 @@
 {
-  "updated_at": "2026-10-06T08:55:29+10:30",
+  "updated_at": "2026-10-07T08:56:56+10:30",
   "signals": [
+    {
+      "id": "20261007-mrvl-investor-day",
+      "timestamp": "2026-10-07T08:56:56+10:30",
+      "light": "🟢",
+      "title": "MRVL 2031 AI收入框架大幅擴張",
+      "summary": "Fact：FY2031 revenue目標US$70–90B、custom silicon US$30B、interconnect US$37.5B、adj. EPS >US$30。Interpretation：AI connectivity平台定位獲量化，但股價年內漲幅大，Price-in高。",
+      "tickers": [
+        "MRVL",
+        "ANET",
+        "LITE",
+        "COHR",
+        "CIEN",
+        "ALAB"
+      ],
+      "source": "Reuters；Barron’s",
+      "source_url": "https://www.reuters.com/business/marvell-technology-raises-revenue-forecast-2028-2026-10-06/",
+      "credibility": "B",
+      "status": "new",
+      "first_seen_at": "2026-10-07T08:56:56+10:30",
+      "last_material_change_at": "2026-10-07T08:56:56+10:30",
+      "notified_at": "2026-10-07T08:56:56+10:30",
+      "notification_revision": 1
+    },
+    {
+      "id": "20261007-amd-taiwan-supply-2027",
+      "timestamp": "2026-10-07T08:55:56+10:30",
+      "light": "🟢",
+      "title": "AMD稱2027將顯著增加晶片供給",
+      "summary": "Fact：Lisa Su在台北表示AI需求可延續數年，需要更多先進晶圓並協調台灣與韓國供應鏈。Interpretation：2330/2317/6669成為AMD ramp的先行驗證層。",
+      "tickers": [
+        "AMD",
+        "TSM",
+        "2330",
+        "2317",
+        "6669",
+        "MU"
+      ],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/amd-ceo-says-company-will-significantly-increase-chip-supply-2027-2026-10-06/",
+      "credibility": "B",
+      "status": "new",
+      "first_seen_at": "2026-10-07T08:55:56+10:30",
+      "last_material_change_at": "2026-10-07T08:55:56+10:30",
+      "notified_at": "2026-10-07T08:55:56+10:30",
+      "notification_revision": 1
+    },
+    {
+      "id": "20261007-google-ceg-power-deal",
+      "timestamp": "2026-10-07T08:54:56+10:30",
+      "light": "🟢",
+      "title": "GOOGL與CEG簽3.59GW長期供電安排",
+      "summary": "Fact：含890MW、20年核電PPA與2.7GW、15年PJM供電；CEG投資逾US$4.3B。Interpretation：AI電力瓶頸進入實體合約，但ETN/VRT/MOD仍需設備PO。",
+      "tickers": [
+        "GOOGL",
+        "CEG",
+        "ETN",
+        "VRT",
+        "MOD",
+        "GEV"
+      ],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/energy/google-enters-massive-36-gw-power-deal-with-constellation-energy-2026-10-06/",
+      "credibility": "B",
+      "status": "new",
+      "first_seen_at": "2026-10-07T08:54:56+10:30",
+      "last_material_change_at": "2026-10-07T08:54:56+10:30",
+      "notified_at": "2026-10-07T08:54:56+10:30",
+      "notification_revision": 1
+    },
+    {
+      "id": "20261007-taiwan-ai-supply-chain",
+      "timestamp": "2026-10-07T08:53:56+10:30",
+      "light": "🟢",
+      "title": "台灣AI供應鏈由Server／PCB／Cooling領先",
+      "summary": "Fact：6669 +6.51%、2383 +5.18%、2368 +3.70%、3017 +2.79%、2308 +2.24%；2345 -1.20%。Interpretation：content-per-rack鏈強，但networking未全面確認。",
+      "tickers": [
+        "6669",
+        "2383",
+        "2368",
+        "3017",
+        "2308",
+        "2345",
+        "MRVL",
+        "ANET"
+      ],
+      "source": "TWSE；台光電月營收",
+      "source_url": "https://www.twse.com.tw/exchangeReport/MI_INDEX?date=20261006&response=html&type=ALLBUT0999",
+      "credibility": "A/B",
+      "status": "new",
+      "first_seen_at": "2026-10-07T08:53:56+10:30",
+      "last_material_change_at": "2026-10-07T08:53:56+10:30",
+      "notified_at": "2026-10-07T08:53:56+10:30",
+      "notification_revision": 1
+    },
+    {
+      "id": "20261007-peng-beat-raise",
+      "timestamp": "2026-10-07T08:52:56+10:30",
+      "light": "🟢",
+      "title": "PENG財報Beat並上修FY2027框架",
+      "summary": "Fact：Adjusted EPS US$1.00 vs 0.77、Revenue US$566.7M vs 521M；FY2027 guide EPS US$4.45、Revenue US$2.43B。Interpretation：AI/HPC system需求正預期差。",
+      "tickers": [
+        "PENG",
+        "SMCI",
+        "DELL"
+      ],
+      "source": "公司財報公開資料；財經媒體",
+      "source_url": "https://ir.penguinsolutions.com/",
+      "credibility": "A/B",
+      "status": "new",
+      "first_seen_at": "2026-10-07T08:52:56+10:30",
+      "last_material_change_at": "2026-10-07T08:52:56+10:30",
+      "notified_at": "2026-10-07T08:52:56+10:30",
+      "notification_revision": 1
+    },
+    {
+      "id": "20261007-records-breadth-mixed",
+      "timestamp": "2026-10-07T08:51:56+10:30",
+      "light": "🟡",
+      "title": "S&P與Nasdaq創高，但Russell與半導體ETF未確認擴散",
+      "summary": "Fact：S&P +0.58%、Nasdaq +0.45%；Russell -0.60%、SMH -0.25%、SOXX近持平。Interpretation：仍是Selective Mark-Up，不能上調為Institutional Accumulation。",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "SMH",
+        "SOXX",
+        "IWM"
+      ],
+      "source": "AP；市場資料",
+      "source_url": "https://apnews.com/article/e8285ec7afbe81e9df277e8ee2127982",
+      "credibility": "B",
+      "status": "new",
+      "first_seen_at": "2026-10-07T08:51:56+10:30",
+      "last_material_change_at": "2026-10-07T08:51:56+10:30",
+      "notified_at": "2026-10-07T08:51:56+10:30",
+      "notification_revision": 1
+    },
     {
       "id": "20261006-nasdaq-record-breadth-divergence",
       "timestamp": "2026-10-06T08:55:29+10:30",
