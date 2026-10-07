@@ -1,6 +1,92 @@
 {
-  "updated_at": "2026-10-07T08:56:56+10:30",
+  "updated_at": "2026-10-08T09:00:45+10:30",
   "signals": [
+    {
+      "id": "20261008-rates-oil",
+      "timestamp": "2026-10-08T09:00:45+10:30",
+      "light": "🔴",
+      "title": "10Y盤中5.36%、Brent仍逾100",
+      "summary": "Fact：長債殖利率創2002年來高位，油價仍在三位數。Interpretation：AI長久期估值與資料中心融資壓力同步升高。",
+      "tickers": [
+        "QQQ",
+        "SMH",
+        "ALAB",
+        "VRT",
+        "APLD"
+      ],
+      "source": "Reuters；AP",
+      "source_url": "https://www.reuters.com/business/wall-st-futures-slip-yields-oil-rebound-fed-minutes-focus-2026-10-07/",
+      "source_time": "2026-10-07T20:00:00Z"
+    },
+    {
+      "id": "20261008-apld-quality",
+      "timestamp": "2026-10-08T09:00:45+10:30",
+      "light": "🟡",
+      "title": "APLD大幅Beat，但收入品質與槓桿分化",
+      "summary": "Fact：Revenue $341.9M、250MW live、1.41GW leased；HPC收入中tenant fit-out $183.5M，debt $6.4B。Interpretation：需求正面但融資品質成為核心KPI。",
+      "tickers": [
+        "APLD",
+        "VRT",
+        "ETN",
+        "MOD",
+        "NVDA"
+      ],
+      "source": "Applied Digital IR",
+      "source_url": "https://ir.applieddigital.com/news-events/press-releases/detail/149/applied-digital-reports-fiscal-first-quarter-2027-results",
+      "source_time": "2026-10-07T20:15:00Z"
+    },
+    {
+      "id": "20261008-sox-breadth",
+      "timestamp": "2026-10-08T09:00:45+10:30",
+      "light": "🔴",
+      "title": "SOX／軟體／等權重同步弱於大盤",
+      "summary": "Fact：SOX約-2.3%、SMH-1.16%、IGV-1.23%、RSP-0.81%。Interpretation：Selective Mark-Up轉Risk-Off test，尚未證實Institutional Selling。",
+      "tickers": [
+        "SMH",
+        "SOXX",
+        "IGV",
+        "RSP",
+        "ALAB"
+      ],
+      "source": "Market data；Reuters",
+      "source_url": "https://www.reuters.com/business/wall-st-futures-slip-yields-oil-rebound-fed-minutes-focus-2026-10-07/",
+      "source_time": "2026-10-07T20:00:00Z"
+    },
+    {
+      "id": "20261008-msft-edge-ai",
+      "timestamp": "2026-10-08T09:00:45+10:30",
+      "light": "🟢",
+      "title": "MSFT/NVDA將Agent AI推向本地PC",
+      "summary": "Fact：MSFT推出本地coding model、MXC agent sandbox與RTX Spark Surface。Interpretation：edge AI用例改善，但高售價與記憶體成本限制滲透。",
+      "tickers": [
+        "MSFT",
+        "NVDA",
+        "MU",
+        "DELL",
+        "AMD"
+      ],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/microsoft-nvidia-ceos-unveil-new-ai-laptop-san-francisco-event-2026-10-07/",
+      "source_time": "2026-10-07T10:05:21Z"
+    },
+    {
+      "id": "20261008-taiwan-divergence",
+      "timestamp": "2026-10-08T09:00:45+10:30",
+      "light": "🟡",
+      "title": "台股近5萬點但AI供應鏈明顯分化",
+      "summary": "Fact：2330持平、2317-1.56%、2308-2.93%，光通訊/CCL盤中相對強。Interpretation：Taiwan Leading Signal仍在，但已從全面risk-on轉成窄幅選股。",
+      "tickers": [
+        "TSM",
+        "ANET",
+        "MRVL",
+        "LITE",
+        "COHR",
+        "VRT"
+      ],
+      "source": "中央社；Yahoo台股",
+      "source_url": "https://tw.stock.yahoo.com/news/%E9%9B%A25%E8%90%AC%E5%A4%A7%E9%97%9C%E9%82%84%E5%B7%AE%E8%87%A8%E9%96%80-%E8%85%B3-%E5%8F%B0%E8%82%A1%E4%BB%8A%E5%B0%8F%E8%B7%8C%E6%94%B649806%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%94%B62585%E5%85%83-055200717.html",
+      "source_time": "2026-10-07T05:52:00Z"
+    },
     {
       "id": "20261007-mrvl-investor-day",
       "timestamp": "2026-10-07T08:56:56+10:30",
