@@ -1,6 +1,106 @@
 {
-  "updated_at": "2026-10-08T09:00:45+10:30",
+  "updated_at": "2026-10-09T08:56:17+10:30",
   "signals": [
+    {
+      "id": "20261009-openai-revenue-reset",
+      "timestamp": "2026-10-09T08:56:17+10:30",
+      "light": "🔴",
+      "title": "OpenAI年化收入較先前訊號低約US$20B",
+      "summary": "Fact：FT投資人文件口徑約US$50B，Reuters未獨立核驗。Interpretation：AI monetization與資本回收期成為估值核心，尚非訂單取消。",
+      "tickers": [
+        "NVDA",
+        "AVGO",
+        "ORCL",
+        "MU",
+        "ALAB"
+      ],
+      "source": "FT；Reuters",
+      "source_url": "https://www.reuters.com/business/openais-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-2026-10-08/",
+      "source_time": "2026-10-08T21:12:00Z"
+    },
+    {
+      "id": "20261009-ai-selective-selling",
+      "timestamp": "2026-10-09T08:55:17+10:30",
+      "light": "🔴",
+      "title": "SOX跌3.4%，AI高Beta集中去風險",
+      "summary": "Fact：NVDA -2.93%、AVGO -4.36%、MU -4.83%、ALAB -9.26%，但RSP +0.63%。Interpretation：Selective Institutional Selling，非全面Capitulation。",
+      "tickers": [
+        "SMH",
+        "SOXX",
+        "NVDA",
+        "AVGO",
+        "ALAB"
+      ],
+      "source": "Reuters；AP；市場資料",
+      "source_url": "https://www.reuters.com/business/wall-st-futures-slide-rising-oil-yields-dampen-mood-2026-10-08/",
+      "source_time": "2026-10-08T20:00:00Z"
+    },
+    {
+      "id": "20261009-samsung-memory-divergence",
+      "timestamp": "2026-10-09T08:54:17+10:30",
+      "light": "🟡",
+      "title": "Samsung創紀錄獲利，Memory仍出現Beat後下跌",
+      "summary": "Fact：Q3 op profit指引KRW107.4T、略高預期；MU仍跌4.83%。Interpretation：shortage成立，但市場轉向成長斜率與Price-in風險。",
+      "tickers": [
+        "MU",
+        "TSM",
+        "NVDA"
+      ],
+      "source": "Samsung Newsroom；Reuters",
+      "source_url": "https://news.samsung.com/global/samsung-electronics-announces-earnings-guidance-for-third-quarter-2026",
+      "source_time": "2026-10-08T00:00:00Z"
+    },
+    {
+      "id": "20261009-tsmc-september-revenue",
+      "timestamp": "2026-10-09T08:53:17+10:30",
+      "light": "🟢",
+      "title": "TSMC 9月營收年增54.6%",
+      "summary": "Fact：9月營收NT$511.857B。Interpretation：先進製程需求仍強，但2330/TSM股價下跌顯示利多Price-in高。",
+      "tickers": [
+        "2330",
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
+      "source": "TSMC monthly revenue",
+      "source_url": "https://investor.tsmc.com/english/monthly-revenue/2026",
+      "source_time": "2026-10-08T05:30:00Z"
+    },
+    {
+      "id": "20261009-taiwan-pcb-leading",
+      "timestamp": "2026-10-09T08:52:17+10:30",
+      "light": "🟢",
+      "title": "台股PCB/CCL在風險日逆勢",
+      "summary": "Fact：2368 +3.21%、2383約+0.84%，TAIEX -0.99%。Interpretation：Taiwan Leading Signal支持高速互連content，但需量比與回踩確認。",
+      "tickers": [
+        "2368",
+        "2383",
+        "ANET",
+        "MRVL",
+        "ALAB"
+      ],
+      "source": "台股公開行情；中央社",
+      "source_url": "https://news.tvbs.com.tw/money/4033147",
+      "source_time": "2026-10-08T05:01:00Z"
+    },
+    {
+      "id": "20261009-oil-fed-risk",
+      "timestamp": "2026-10-09T08:51:17+10:30",
+      "light": "🔴",
+      "title": "Brent升至US$104.28、Fed升息定價升溫",
+      "summary": "Fact：Brent +4.1%、WTI +3.6%，12月升息機率約69.2%。Interpretation：能源→通膨→估值壓力鏈重新加速。",
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX",
+        "QQQ",
+        "SMH"
+      ],
+      "source": "Reuters；AP",
+      "source_url": "https://apnews.com/article/stocks-markets-bonds-oil-us-6a096d714c874db13632794a32cebaa6",
+      "source_time": "2026-10-08T20:00:00Z"
+    },
     {
       "id": "20261008-rates-oil",
       "timestamp": "2026-10-08T09:00:45+10:30",
