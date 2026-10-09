@@ -1,6 +1,100 @@
 {
-  "updated_at": "2026-10-09T08:56:17+10:30",
+  "updated_at": "2026-10-10T09:01:13+10:30",
   "signals": [
+    {
+      "id": "20261010-lite-soldout-2029",
+      "timestamp": "2026-10-10T09:01:13+10:30",
+      "light": "🟢",
+      "title": "LITE稱AI光元件售罄至2029年初",
+      "summary": "Fact：CEO稱供應大幅落後需求，正擴日本產能並評估併購。Interpretation：Optics瓶頸確認，但供給限制也可能壓收入轉化。",
+      "tickers": [
+        "LITE",
+        "COHR",
+        "ANET",
+        "MRVL",
+        "GLW"
+      ],
+      "source": "Investopedia；Barron’s／Bloomberg訪談",
+      "source_url": "https://www.investopedia.com/market-update-nvidia-backed-lumentum-says-it-cant-keep-up-with-ai-demand-the-stock-is-surging-lite-12166244",
+      "source_time": "2026-10-09T20:00:00Z",
+      "credibility": "B",
+      "status": "new"
+    },
+    {
+      "id": "20261010-optics-chip-divergence",
+      "timestamp": "2026-10-10T09:00:13+10:30",
+      "light": "🟢",
+      "title": "Optics領漲、SOX仍下跌",
+      "summary": "Fact：LITE +5.24%、COHR +3.42%、ANET +2.72%，SOX -0.41%。Interpretation：資金由擁擠Compute轉向頻寬瓶頸鏈，需連續相對強確認。",
+      "tickers": [
+        "LITE",
+        "COHR",
+        "ANET",
+        "SMH",
+        "SOXX"
+      ],
+      "source": "Barron’s；市場資料",
+      "source_url": "https://www.barrons.com/livecoverage/stock-market-news-today-100926/card/most-chip-stocks-sit-out-ai-trade-bounce-back-GfVsTNm51HeL5vwg9Oyu",
+      "source_time": "2026-10-09T20:00:00Z",
+      "credibility": "B",
+      "status": "new"
+    },
+    {
+      "id": "20261010-ai-financing-quality",
+      "timestamp": "2026-10-10T08:59:13+10:30",
+      "light": "🔴",
+      "title": "AI基建外部融資估至2028需US$1.5T",
+      "summary": "Fact：Firmus取消約US$5B IPO、改採私募。Interpretation：高利率下，融資→電力→設備PO的落地品質進一步分化。",
+      "tickers": [
+        "VRT",
+        "ETN",
+        "MOD",
+        "ORCL",
+        "APLD"
+      ],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/china/global-markets-view-europe-2026-10-09/",
+      "source_time": "2026-10-09T07:00:00Z",
+      "credibility": "B",
+      "status": "new"
+    },
+    {
+      "id": "20261010-market-breadth-sox",
+      "timestamp": "2026-10-10T08:58:13+10:30",
+      "light": "🟡",
+      "title": "美股廣度修復，但SOX拒絕確認",
+      "summary": "Fact：S&P/Nasdaq +0.6%，Nasdaq A/D 1.38:1；SOX -0.41%、5日 -4.30%。Interpretation：Early Re-accumulation test，不是全面Institutional Accumulation。",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "SMH",
+        "SOXX",
+        "RSP"
+      ],
+      "source": "Reuters；AP",
+      "source_url": "https://www.reuters.com/business/wall-st-futures-gain-oil-slips-telecoms-pressured-by-spacex-spectrum-deal-2026-10-09/",
+      "source_time": "2026-10-09T20:00:00Z",
+      "credibility": "B",
+      "status": "new"
+    },
+    {
+      "id": "20261010-dal-fuel-guide",
+      "timestamp": "2026-10-10T08:57:13+10:30",
+      "light": "🔴",
+      "title": "DAL將高燃油成本納入全年指引",
+      "summary": "Fact：Q3 adjusted EPS US$1.72，全年EPS US$5.10–5.60、FCF約US$2.5B，Q4 fuel假設US$4.25/gal。Interpretation：能源通膨已進入企業margin。",
+      "tickers": [
+        "DAL",
+        "XLE",
+        "XOM",
+        "CVX"
+      ],
+      "source": "Delta IR",
+      "source_url": "https://s2.q4cdn.com/181345880/files/doc_earnings/2026/q3/earnings-result/Delta-Air-Lines-Announces-Third-Quarter-2026.pdf",
+      "source_time": "2026-10-09T11:00:00Z",
+      "credibility": "A",
+      "status": "new"
+    },
     {
       "id": "20261009-openai-revenue-reset",
       "timestamp": "2026-10-09T08:56:17+10:30",
