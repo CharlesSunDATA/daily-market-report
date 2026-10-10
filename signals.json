@@ -1,6 +1,58 @@
 {
-  "updated_at": "2026-10-10T09:01:13+10:30",
+  "updated_at": "2026-10-11T09:07:11+10:30",
   "signals": [
+    {
+      "id": "20261011-riyadh-airport-houthi-attack",
+      "timestamp": "2026-10-11T09:07:11+10:30",
+      "light": "🔴",
+      "title": "利雅德機場遇襲，能源與航空尾部風險升級",
+      "summary": "Fact：10/10本週第三次攻擊造成12死、逾300傷，機場一度全面停航。Interpretation：風險由能源運輸擴散至民航樞紐，週一油價、航空與長久期科技面臨gap風險；美國是否參與沙國打擊成為新KPI。",
+      "tickers": ["XLE","XOM","CVX","DAL","UAL","AAL","QQQ","SMH"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/",
+      "source_time": "2026-10-10",
+      "credibility": "B",
+      "status": "new"
+    },
+    {
+      "id": "20261011-ai-debt-issuance-drop",
+      "timestamp": "2026-10-11T09:06:11+10:30",
+      "light": "🔴",
+      "title": "AI債務發行9月驟降，資料中心融資傳導轉弱",
+      "summary": "Fact：FT公開摘要顯示9月AI相關債務發行降至230億美元、不到8月一半。Interpretation：需求仍稀缺，但高利率已先限制融資，設備PO與上線時點風險上升。",
+      "tickers": ["ORCL","APLD","VRT","ETN","MOD","NVDA","AVGO"],
+      "source": "Financial Times公開摘要",
+      "source_url": "https://www.ft.com/",
+      "source_time": "2026-10-10",
+      "credibility": "B",
+      "status": "new"
+    },
+    {
+      "id": "20261011-usitc-vertical-power-investigation",
+      "timestamp": "2026-10-11T09:05:11+10:30",
+      "light": "🟡",
+      "title": "USITC立案調查AI伺服器垂直供電系統",
+      "summary": "Fact：USITC依Vicor申訴立案337-TA-1526，列台達電、廣達、鴻海等為被調查方；立案不等於侵權成立。Interpretation：AI rack供電鏈新增法律與design-around風險。",
+      "tickers": ["VICR","SMCI","DELL","VRT"],
+      "source": "USITC",
+      "source_url": "https://www.usitc.gov/press_room/news_release/2026/er1009_69342.htm",
+      "source_time": "2026-10-09",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261011-largan-fa-fau-catchup",
+      "timestamp": "2026-10-11T09:04:11+10:30",
+      "light": "🟡",
+      "title": "大立光FA驗證過關，手機11月拉貨可能轉弱",
+      "summary": "漏報回補：10/8法說稱FA已通過客戶驗證、FAU最快2027年中出貨；10月拉貨約持平、11月可能下降。匿名客戶不可自動等同Apple。",
+      "tickers": ["AAPL","LITE","COHR","ANET","MRVL"],
+      "source": "大立光法說公開整理；MoneyDJ",
+      "source_url": "https://www.moneydj.com/",
+      "source_time": "2026-10-08",
+      "credibility": "A/B",
+      "status": "catch_up"
+    },
     {
       "id": "20261010-lite-soldout-2029",
       "timestamp": "2026-10-10T09:01:13+10:30",
@@ -544,7 +596,7 @@
         "SMH"
       ],
       "source": "Reuters",
-      "source_url": "https://www.reuters.com/world/middle-east/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/",
+      "source_url": "https://www.reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/iran-says-strait-hormuz-will-not-reopen-until-conditions-are-met-2026-10-04/",
       "credibility": "A/B",
       "status": "updated",
       "first_seen_at": "2026-10-04T08:56:54+10:30",
@@ -1560,7 +1612,7 @@
       "sources": [
         {
           "name": "Reuters - prior Hormuz diplomacy/traffic baseline",
-          "url": "https://www.reuters.com/world/middle-east/hope-progress-after-us-iran-hold-first-shuttle-talks-months-2026-09-23/",
+          "url": "https://www.reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/hope-progress-after-us-iran-hold-first-shuttle-talks-months-2026-09-23/",
           "source_time": "2026-09-23"
         },
         {
@@ -1742,7 +1794,7 @@
         "LNG"
       ],
       "source": "Reuters；Trump本人公開談話",
-      "source_url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/",
+      "source_url": "https://www.reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/",
       "source_time": "2026-09-26T01:59:00Z",
       "credibility": "A",
       "first_seen_at": "2026-09-26T05:35:00+09:30",
@@ -1758,7 +1810,7 @@
         },
         {
           "name": "Reuters - Trump publicly confirms rejection of Iran proposal",
-          "url": "https://www.reuters.com/world/middle-east/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/",
+          "url": "https://www.reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-2026-09-26/",
           "source_time": "2026-09-26T01:59:00Z"
         }
       ]
