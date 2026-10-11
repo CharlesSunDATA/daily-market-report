@@ -1,6 +1,58 @@
 {
-  "updated_at": "2026-10-11T09:07:11+10:30",
+  "updated_at": "2026-10-12T08:56:19+10:30",
   "signals": [
+    {
+      "id": "20261012-riyadh-repeat-strike",
+      "timestamp": "2026-10-12T08:56:19+10:30",
+      "light": "🔴",
+      "title": "利雅德機場連續第二日受襲，能源設施威脅升級",
+      "summary": "Fact：10/11 Terminal 4再遭擊中起火，死亡數升至13；胡塞另宣稱攻擊達曼機場與Saudi Aramco設施。Interpretation：風險由單點事件升級為攻擊—報復循環，油價、航空與長久期科技面臨事件風險。",
+      "tickers": ["XLE","XOM","CVX","DAL","UAL","AAL","QQQ","SMH"],
+      "source": "Reuters；AP",
+      "source_url": "https://www.reuters.com/world/middle-east/",
+      "source_time": "2026-10-11",
+      "credibility": "B",
+      "status": "increment"
+    },
+    {
+      "id": "20261012-nvidia-reflection-ai-talks",
+      "timestamp": "2026-10-12T08:55:19+10:30",
+      "light": "🟡",
+      "title": "NVIDIA據報洽談加深投資或收購Reflection AI",
+      "summary": "Fact：仍是初步洽談，可能方案包括增資、收購或人才／技術交易，尚無正式協議。Interpretation：NVIDIA可能向開源模型與軟體層深化整合，但交易、監管與資本回報仍待驗證。",
+      "tickers": ["NVDA"],
+      "source": "Reuters轉述Financial Times公開摘要",
+      "source_url": "https://www.reuters.com/technology/",
+      "source_time": "2026-10-10",
+      "credibility": "B",
+      "status": "new"
+    },
+    {
+      "id": "20261012-yandex-datacenter-outage",
+      "timestamp": "2026-10-12T08:54:19+10:30",
+      "light": "🔴",
+      "title": "Yandex資料中心遭無人機攻擊後完全停擺",
+      "summary": "Fact：Yandex稱Vladimir地區資料中心基礎設施受損並完全停運。Interpretation：資料中心物理安全與備援冗餘成為新增成本，但俄羅斯單一事件不可直接外推全球訂單。",
+      "tickers": ["VRT","ETN","ANET","NET"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/europe/",
+      "source_time": "2026-10-11",
+      "credibility": "B",
+      "status": "new"
+    },
+    {
+      "id": "20261012-nanya-q3-event",
+      "timestamp": "2026-10-12T08:53:19+10:30",
+      "light": "🟡",
+      "title": "南亞科Q3法說今日登場，DRAM價格與庫存待驗證",
+      "summary": "Fact：公司IR確認10/12 15:00舉行Q3法說，目前尚未公布結果。Interpretation：對MU與DRAM鏈的關鍵read-through是ASP、毛利、庫存、利用率與CapEx，不能預填數據。",
+      "tickers": ["MU"],
+      "source": "南亞科技IR",
+      "source_url": "https://www.nanya.com/en/IR/14?IRId=5298",
+      "source_time": "2026-10-12",
+      "credibility": "A",
+      "status": "event"
+    },
     {
       "id": "20261011-riyadh-airport-houthi-attack",
       "timestamp": "2026-10-11T09:07:11+10:30",
