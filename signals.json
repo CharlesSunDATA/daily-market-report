@@ -1,6 +1,58 @@
 {
-  "updated_at": "2026-10-12T08:56:19+10:30",
+  "updated_at": "2026-10-13T08:57:02+10:30",
   "signals": [
+    {
+      "id": "20261013-sox-optics-deleveraging",
+      "timestamp": "2026-10-13T08:57:02+10:30",
+      "light": "🔴",
+      "title": "SOX全成分股下跌，Optics高預期交易急速去風險",
+      "summary": "Fact：SOX -2.3%、30檔全跌；LITE -9.81%、COHR -7.87%、CIEN -10%。Interpretation：屬高預期與擁擠交易重設，尚未出現訂單取消＋lead time縮短的基本面反轉雙證據。",
+      "tickers": ["SMH","LITE","COHR","CIEN","ALAB","MRVL"],
+      "source": "MarketWatch公開摘要；市場價格",
+      "source_url": "https://www.marketwatch.com/story/why-ciena-lumentum-and-other-optical-stocks-were-among-the-markets-biggest-losers-on-monday-b3e53f6a",
+      "source_time": "2026-10-12",
+      "credibility": "B",
+      "status": "new"
+    },
+    {
+      "id": "20261013-nanya-q3-asp-ai",
+      "timestamp": "2026-10-13T08:56:02+10:30",
+      "light": "🟢",
+      "title": "南亞科Q3 ASP季增逾60%，AI基礎設施占營收逾20%",
+      "summary": "Fact：Q3營收季增61.9%、毛利率85.7%、bit shipment中個位數下降；公司稱AI基礎設施相關業務占比超過20%。Interpretation：DRAM價格與長約證據強，但MU股價仍反映高預期與CXMT供給風險。",
+      "tickers": ["MU"],
+      "source": "南亞科技IR",
+      "source_url": "https://www.nanya.com/en/IR/14/Investor%20Calendar?IRId=5298",
+      "source_time": "2026-10-12",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261013-lite-alab-pcie-optics-poc",
+      "timestamp": "2026-10-13T08:55:02+10:30",
+      "light": "🟡",
+      "title": "LITE與ALAB完成rack-level PCIe-over-optics展示",
+      "summary": "Fact：Scorpio交換器、1060nm VCSEL光引擎與Corning光纖完成error-free PCIe-5 PoC。Interpretation：由概念進至可運作demo，但仍非客戶design win、量產訂單或確認營收。",
+      "tickers": ["LITE","ALAB","GLW"],
+      "source": "Lumentum IR",
+      "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Astera-Labs-and-Corning-to-Demonstrate-1060-nm-VCSEL-Based-PCIe-over-Optics-for-AI-Rack-Scale-Connectivity-at-the-2026-OCP-Global-Summit/default.aspx",
+      "source_time": "2026-10-12",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261013-oil-dollar-macro-pressure",
+      "timestamp": "2026-10-13T08:54:02+10:30",
+      "light": "🔴",
+      "title": "Brent升至106.65美元、美元觸及18個月高點",
+      "summary": "Fact：Brent +1.8%、WTI +2.0%；美元升至18個月高點，利雅德機場關閉延至10/17。Interpretation：油價→通膨→Fed／長端→AI估值的壓力鏈仍在，今日需以US10Y復市與CPI預期驗證。",
+      "tickers": ["XLE","XOM","CVX","QQQ","SMH"],
+      "source": "Reuters；AP",
+      "source_url": "https://www.reuters.com/business/energy/",
+      "source_time": "2026-10-12",
+      "credibility": "B",
+      "status": "increment"
+    },
     {
       "id": "20261012-riyadh-repeat-strike",
       "timestamp": "2026-10-12T08:56:19+10:30",
