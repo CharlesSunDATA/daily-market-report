@@ -1,6 +1,71 @@
 {
-  "updated_at": "2026-10-13T08:57:02+10:30",
+  "updated_at": "2026-10-14T09:04:19+10:30",
   "signals": [
+    {
+      "id": "20261014-sox-five-day-ai-deleveraging",
+      "timestamp": "2026-10-14T09:04:19+10:30",
+      "light": "🔴",
+      "title": "SOX連跌第五日，Nasdaq新低擴至408檔",
+      "summary": "Fact：10/13 SOX -0.23%、五日累跌逾8%；Nasdaq僅跌0.15%，但47個新高對408個新低。Interpretation：AI高Beta仍在選擇性機構降風險，尚未見訂單取消與lead time縮短的雙重基本面反證。",
+      "tickers": ["SMH","SOXX","MU","AMAT","NVDA","AMD"],
+      "source": "Reuters；Nasdaq Indexes",
+      "source_url": "https://www.reuters.com/business/sp-500-futures-muted-investors-await-big-bank-earnings-chip-weakness-weighs-2026-10-13/",
+      "source_time": "2026-10-13",
+      "credibility": "B",
+      "status": "new"
+    },
+    {
+      "id": "20261014-taiwan-foreign-selling-ai-chain",
+      "timestamp": "2026-10-14T09:03:19+10:30",
+      "light": "🔴",
+      "title": "台股跌1.95%，外資賣超1653億台幣為史上第三大",
+      "summary": "Fact：TAIEX收48,341.31；TSMC -1.97%、台達電 -6.58%、台光電 -9.84%、金像電 -5.26%。Interpretation：Taiwan Leading Signal顯示Power、PCB/CCL與Compute同步去風險，對美股AI鏈形成風險警示，但不能直接推論訂單取消。",
+      "tickers": ["TSM","NVDA","VRT","ANET","MRVL","ALAB"],
+      "source": "TWSE；CNA",
+      "source_url": "https://focustaiwan.tw/business/202610130017",
+      "source_time": "2026-10-13",
+      "credibility": "A/B",
+      "status": "new"
+    },
+    {
+      "id": "20261014-ai-financing-cost-bottleneck",
+      "timestamp": "2026-10-14T09:02:19+10:30",
+      "light": "🔴",
+      "title": "AI瓶頸由晶片轉向融資，CoreWeave債券殖利率升至15%",
+      "summary": "Fact：Firmus擱置50億美元IPO，CoreWeave 6月債券殖利率由9.625%升至15%；Broadcom稱資本是AI成長最大限制。Interpretation：需求未崩，但融資成本開始提高資料中心開工、設備PO與上線延遲風險。",
+      "tickers": ["CRWV","APLD","ORCL","VRT","ETN","NVDA","AVGO"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/asia-pacific/global-markets-ai-selloff-analysis-pix-2026-10-13/",
+      "source_time": "2026-10-13",
+      "credibility": "B",
+      "status": "increment"
+    },
+    {
+      "id": "20261014-cxmt-server-dram-competition",
+      "timestamp": "2026-10-14T09:01:19+10:30",
+      "light": "🟡",
+      "title": "CXMT宣稱server DRAM進展，Memory供給風險升級待驗證",
+      "summary": "Fact：CXMT計畫年底推出新server-memory產品，但量產能力、良率與OEM adoption尚未獨立證實。Interpretation：提高commodity/server DRAM中期供給風險，尚不足以推翻HBM或MU整體thesis。",
+      "tickers": ["MU"],
+      "source": "Reuters；公開產業報導",
+      "source_url": "https://www.reuters.com/world/asia-pacific/global-markets-ai-selloff-analysis-pix-2026-10-13/",
+      "source_time": "2026-10-13",
+      "credibility": "B",
+      "status": "new"
+    },
+    {
+      "id": "20261014-cpi-asml-event-window",
+      "timestamp": "2026-10-14T09:00:19+10:30",
+      "light": "🟡",
+      "title": "CPI與ASML形成今日雙重驗證窗",
+      "summary": "Fact：9月CPI將於10/14 08:30 ET公布，市場約預期headline +0.6% MoM、core +0.2%；ASML同日公布財報。Interpretation：通膨與設備訂單將共同決定半導體去風險是延續還是止跌，數據尚未公布。",
+      "tickers": ["QQQ","SMH","SOXX","ASML","TSM","AMAT","LRCX"],
+      "source": "BLS；公開財報日曆",
+      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "source_time": "2026-10-14",
+      "credibility": "A/B",
+      "status": "event"
+    },
     {
       "id": "20261013-sox-optics-deleveraging",
       "timestamp": "2026-10-13T08:57:02+10:30",
