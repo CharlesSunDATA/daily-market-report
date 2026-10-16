@@ -1,6 +1,71 @@
 {
-  "updated_at": "2026-10-16T08:55:06+10:30",
+  "updated_at": "2026-10-17T08:59:30+10:30",
   "signals": [
+    {
+      "id": "20261017-ai-de-risking-eight-day-sox",
+      "timestamp": "2026-10-17T08:59:30+10:30",
+      "light": "🔴",
+      "title": "SOX連跌第八日，AI去風險擴散至軟體",
+      "summary": "Fact：S&P 500 -1.10%、Nasdaq -2.15%、SOX約-2.5%；SOXX -4.15%、IGV -4.68%。Interpretation：前日防禦與軟體輪動失效，市場更接近Institutional Selling。",
+      "tickers": ["QQQ","SMH","SOXX","IGV","NVDA","AMD","AVGO"],
+      "source": "Reuters；AP；市場價格",
+      "source_url": "https://www.reuters.com/markets/us/",
+      "source_time": "2026-10-16",
+      "credibility": "A/B",
+      "status": "increment"
+    },
+    {
+      "id": "20261017-coreweave-credit-governance",
+      "timestamp": "2026-10-17T08:58:30+10:30",
+      "light": "🔴",
+      "title": "CoreWeave股債壓力與治理觀感同步惡化",
+      "summary": "Fact：股價單日約跌12%、五日約跌25%，債券殖利率逾15%；CEO及關聯實體自IPO後出售近10億美元股票，多數依預排計畫。Interpretation：融資瓶頸升級，但預排出售不等於管理層主觀轉空。",
+      "tickers": ["CRWV","NVDA","VRT","ETN","MOD","ORCL"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/markets/us/",
+      "source_time": "2026-10-16",
+      "credibility": "B",
+      "status": "increment"
+    },
+    {
+      "id": "20261017-schneider-datacenter-demand",
+      "timestamp": "2026-10-17T08:57:30+10:30",
+      "light": "🟢",
+      "title": "Schneider上修展望，資料中心需求三位數成長",
+      "summary": "Fact：Q3有機營收成長16.9%並高於共識，2026 adjusted EBITDA growth上修至18–21%。Interpretation：終端電力／散熱需求未反轉，但不能消除neocloud融資與設備PO風險。",
+      "tickers": ["VRT","ETN","MOD"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/markets/us/",
+      "source_time": "2026-10-16",
+      "credibility": "B",
+      "status": "new"
+    },
+    {
+      "id": "20261017-oil-yanbu-geopolitical-risk",
+      "timestamp": "2026-10-17T08:56:30+10:30",
+      "light": "🔴",
+      "title": "Brent逼近110美元，Yanbu導彈事件升高週一尾部風險",
+      "summary": "Fact：Brent收109.86美元、WTI 101.41美元；飛向Yanbu的導彈遭攔截且無設施受損。Interpretation：油價、通膨與地緣風險同向壓縮長久期AI估值。",
+      "tickers": ["QQQ","SMH","SOXX","XLE"],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/business/energy/",
+      "source_time": "2026-10-16",
+      "credibility": "B",
+      "status": "new"
+    },
+    {
+      "id": "20261017-optical-relative-weakness",
+      "timestamp": "2026-10-17T08:55:30+10:30",
+      "light": "🔴",
+      "title": "Optical價格反轉擴大，COHR再度弱於LITE",
+      "summary": "Fact：LITE -5.32%、COHR -7.07%、CIEN -6.59%，均弱於QQQ；未見同日新增訂單取消公告。Interpretation：價格層反轉確認，基本面仍需PO、backlog與收入驗證。",
+      "tickers": ["LITE","COHR","CIEN","MRVL","ALAB"],
+      "source": "市場價格；公司IR查核",
+      "source_url": "https://investor.lumentum.com/",
+      "source_time": "2026-10-16",
+      "credibility": "A/B",
+      "status": "increment"
+    },
     {
       "id": "20261016-tsmc-q3-beat-raise",
       "timestamp": "2026-10-16T08:55:06+10:30",
