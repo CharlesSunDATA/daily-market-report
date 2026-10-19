@@ -25,6 +25,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Add weekly calendar cards to the newest published report
+        run: python scripts/inject_calendar.py
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 

@@ -10,3 +10,5 @@ The shared JSON stores originally company-IR-verified earnings events, and offic
 The workflow attempts to refresh daily at ~09:00 Adelaide, adjusted for daylight saving; GitHub schedule delays and feed blocks are possible. The original verified snapshot remains available even if providers fail. Earnings after the seeded week might be incomplete if Nasdaq is unavailable: the UI explicitly says so. Please cross-check company IR before acting.
 
 Unit tests: `python -m unittest discover -s tests -v`.
+
+For all future reports: the Deploy Pages workflow runs `scripts/inject_calendar.py`, adding the same two dynamic cards to **only the latest dated HTML report** in the Pages build if that report has not already included them. Historical source files are not rewritten.
