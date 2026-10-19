@@ -1,0 +1,12 @@
+{
+  "last_scan_at": null,
+  "last_success_at": null,
+  "status": "not_started",
+  "rss_feeds_ok": 0,
+  "rss_feeds_total": 11,
+  "sec_issuers_ok": 0,
+  "sec_issuers_total": 0,
+  "new_signals": 0,
+  "errors": [],
+  "note": "Auto scan not run yet. Original manually written signals remain unchanged."
+}
