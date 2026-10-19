@@ -1,0 +1,230 @@
+{
+  "as_of": "2026-10-20",
+  "timezone_reference": "America/New_York",
+  "verification_note": "官方公司IR／美國官方日曆核實；財報電話會議時間不等於財報發布時間。",
+  "earnings": [
+    {
+      "symbol": "NFLX",
+      "name": "Netflix",
+      "date": "2026-10-20",
+      "session": "AMC",
+      "event_type": "results",
+      "datetime_et": "2026-10-20T16:01:00-04:00",
+      "time_label": "財報約 16:01 ET",
+      "priority": 2,
+      "focus": "串流需求與獲利趨勢",
+      "status": "official",
+      "source_url": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2026/Netflix-to-Announce-Third-Quarter-2026-Financial-Results/default.aspx"
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "date": "2026-10-21",
+      "session": "AMC",
+      "event_type": "call",
+      "datetime_et": "2026-10-21T16:30:00-04:00",
+      "time_label": "盤後公布；16:30 ET 電話會議",
+      "priority": 3,
+      "focus": "AI CapEx、資料中心投資、AI 變現",
+      "status": "official",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "date": "2026-10-21",
+      "session": "unknown",
+      "event_type": "results",
+      "datetime_et": null,
+      "time_label": "官方確認日期；精確時刻未核實",
+      "priority": 2,
+      "focus": "儲能、機器人、AI 投資和現金流",
+      "status": "official",
+      "source_url": "https://ir.tesla.com/"
+    },
+    {
+      "symbol": "LRCX",
+      "name": "Lam Research",
+      "date": "2026-10-21",
+      "session": "unknown",
+      "event_type": "call",
+      "datetime_et": "2026-10-21T17:00:00-04:00",
+      "time_label": "17:00 ET 財報電話會議；公布時刻待確認",
+      "priority": 3,
+      "focus": "晶圓設備訂單、記憶體及 AI 製程資本支出",
+      "status": "official",
+      "source_url": "https://investor.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call"
+    },
+    {
+      "symbol": "TXN",
+      "name": "Texas Instruments",
+      "date": "2026-10-21",
+      "session": "unknown",
+      "event_type": "call",
+      "datetime_et": "2026-10-21T16:30:00-04:00",
+      "time_label": "16:30 ET 財報電話會議；公布時刻待確認",
+      "priority": 2,
+      "focus": "類比晶片與工業終端需求",
+      "status": "official",
+      "source_url": "https://investor.ti.com/"
+    },
+    {
+      "symbol": "IBM",
+      "name": "IBM",
+      "date": "2026-10-21",
+      "session": "unknown",
+      "event_type": "call",
+      "datetime_et": "2026-10-21T17:00:00-04:00",
+      "time_label": "17:00 ET 財報電話會議；公布時刻待確認",
+      "priority": 2,
+      "focus": "企業 AI、軟體訂單、自由現金流",
+      "status": "official",
+      "source_url": "https://newsroom.ibm.com/2026-10-07-ibm-to-announce-third-quarter-2026-financial-results"
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "date": "2026-10-22",
+      "session": "AMC",
+      "event_type": "call",
+      "datetime_et": "2026-10-22T16:30:00-04:00",
+      "time_label": "盤後公布；16:30 ET 電話會議",
+      "priority": 3,
+      "focus": "雲端儲存需求、HDD 交期與毛利",
+      "status": "official",
+      "source_url": "https://investor.wdc.com/news-releases/news-release-details/wd-announce-first-quarter-fiscal-year-2027-financial-results"
+    }
+  ],
+  "economic": [
+    {
+      "id": "eco-20261020-housing",
+      "date": "2026-10-20",
+      "datetime_et": "2026-10-20T08:30:00-04:00",
+      "title": "美國新屋開工／建築許可",
+      "impact": "中",
+      "focus": "住宅景氣、利率敏感度",
+      "status": "official",
+      "source_url": "https://www.newyorkfed.org/research/calendars/i-oct26.html"
+    },
+    {
+      "id": "eco-20261020-pending",
+      "date": "2026-10-20",
+      "datetime_et": "2026-10-20T10:00:00-04:00",
+      "title": "成屋待售銷售",
+      "impact": "中",
+      "focus": "房地產需求",
+      "status": "official",
+      "source_url": "https://www.newyorkfed.org/research/calendars/i-oct26.html"
+    },
+    {
+      "id": "eco-20261022-claims",
+      "date": "2026-10-22",
+      "datetime_et": "2026-10-22T08:30:00-04:00",
+      "title": "初領失業救濟金人數",
+      "impact": "中",
+      "focus": "就業市場轉弱訊號",
+      "status": "official",
+      "source_url": "https://www.newyorkfed.org/research/calendars/i-oct26.html"
+    },
+    {
+      "id": "eco-20261023-mich",
+      "date": "2026-10-23",
+      "datetime_et": "2026-10-23T10:00:00-04:00",
+      "title": "密西根大學消費者信心（終值）",
+      "impact": "中",
+      "focus": "通膨預期與消費信心",
+      "status": "official",
+      "source_url": "https://www.newyorkfed.org/research/calendars/i-oct26.html"
+    },
+    {
+      "id": "eco-20261027-durable",
+      "date": "2026-10-27",
+      "datetime_et": "2026-10-27T08:30:00-04:00",
+      "title": "耐久財訂單",
+      "impact": "中",
+      "focus": "企業設備投資趨勢",
+      "status": "official",
+      "source_url": "https://www.newyorkfed.org/research/calendars/i-oct26.html"
+    },
+    {
+      "id": "eco-20261028-fomc",
+      "date": "2026-10-28",
+      "datetime_et": "2026-10-28T14:00:00-04:00",
+      "title": "Fed FOMC 利率決議",
+      "impact": "高",
+      "focus": "利率路徑、資金成本與風險資產",
+      "status": "official",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "id": "eco-20261029-gdp",
+      "date": "2026-10-29",
+      "datetime_et": "2026-10-29T08:30:00-04:00",
+      "title": "美國第三季 GDP（初值）",
+      "impact": "高",
+      "focus": "經濟成長與市場預期差",
+      "status": "official",
+      "source_url": "https://www.bea.gov/news/schedule/"
+    },
+    {
+      "id": "eco-20261029-pce",
+      "date": "2026-10-29",
+      "datetime_et": "2026-10-29T08:30:00-04:00",
+      "title": "個人所得與支出／PCE 通膨",
+      "impact": "高",
+      "focus": "Fed 關注的核心通膨趨勢",
+      "status": "official",
+      "source_url": "https://www.bea.gov/news/schedule/"
+    },
+    {
+      "id": "eco-20261030-eci",
+      "date": "2026-10-30",
+      "datetime_et": "2026-10-30T08:30:00-04:00",
+      "title": "就業成本指數 ECI",
+      "impact": "高",
+      "focus": "薪資通膨壓力",
+      "status": "official",
+      "source_url": "https://www.bls.gov/schedule/2026/"
+    },
+    {
+      "id": "eco-20261106-nfp",
+      "date": "2026-11-06",
+      "datetime_et": "2026-11-06T08:30:00-05:00",
+      "title": "非農就業報告",
+      "impact": "高",
+      "focus": "就業增速、失業率、薪資",
+      "status": "official",
+      "source_url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+    },
+    {
+      "id": "eco-20261110-cpi",
+      "date": "2026-11-10",
+      "datetime_et": "2026-11-10T08:30:00-05:00",
+      "title": "美國 CPI 通膨",
+      "impact": "高",
+      "focus": "利率預期和股市估值",
+      "status": "official",
+      "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm"
+    },
+    {
+      "id": "eco-20261125-pce",
+      "date": "2026-11-25",
+      "datetime_et": "2026-11-25T08:30:00-05:00",
+      "title": "個人所得與支出／PCE 通膨",
+      "impact": "高",
+      "focus": "通膨與 Fed 路徑",
+      "status": "official",
+      "source_url": "https://www.bea.gov/news/schedule/"
+    },
+    {
+      "id": "eco-20261209-fomc",
+      "date": "2026-12-09",
+      "datetime_et": "2026-12-09T14:00:00-05:00",
+      "title": "Fed FOMC 利率決議",
+      "impact": "高",
+      "focus": "年底政策聲明與經濟預測",
+      "status": "official",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    }
+  ]
+}

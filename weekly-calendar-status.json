@@ -1,0 +1,10 @@
+{
+  "last_scan_at": null,
+  "status": "not_started",
+  "earnings_provider": "Nasdaq 日曆（如可連線則補充）",
+  "earnings_provider_ok": false,
+  "bls_ok": false,
+  "notes": [
+    "官方人工核實事件已顯示；其他日期可能尚未涵蓋。"
+  ]
+}
