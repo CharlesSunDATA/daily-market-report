@@ -1,6 +1,45 @@
 {
-  "updated_at": "2026-10-17T08:59:30+10:30",
+  "updated_at": "2026-10-21T08:58:09+10:30",
   "signals": [
+    {
+      "id": "20261021-spcx-ai-profit-inflection",
+      "timestamp": "2026-10-21T08:56:00+10:30",
+      "light": "🟢",
+      "title": "SPCX AI收入與獲利跨過可驗證轉折",
+      "summary": "Fact：Q3營收US$14.58B、AI收入US$7.6B、淨利US$4.4B，均顯示AI算力已由建置轉入收入；但AI CapEx US$16.4B，下一步仍需FCF驗證。",
+      "tickers": ["SPCX","NVDA","TSM","MRVL","VRT"],
+      "source": "公開財報數據；Reuters/LSEG",
+      "source_url": "https://www.theguardian.com/science/2026/oct/20/spacex-revenue-earnings-report",
+      "source_time": "2026-10-20",
+      "credibility": "A/B",
+      "status": "new"
+    },
+    {
+      "id": "20261021-crwv-bank-risk-vs-cashflow",
+      "timestamp": "2026-10-21T08:55:00+10:30",
+      "light": "🟡",
+      "title": "CRWV銀行系統風險有限，但公司現金流錯配未解除",
+      "summary": "JPM估多數銀行曝險有限且DDTL按專案里程碑撥款；同時公司約US$50B債務、2031債殖利率曾近16%，並預期至2030前FCF為負。",
+      "tickers": ["CRWV","NVDA","VRT","ETN","MOD"],
+      "source": "Reuters／J.P. Morgan",
+      "source_url": "https://www.reuters.com/business/finance/coreweave-debt-selloff-poses-limited-risk-global-banks-jp-morgan-says-2026-10-20/",
+      "source_time": "2026-10-20T07:30:59Z",
+      "credibility": "B",
+      "status": "increment"
+    },
+    {
+      "id": "20261021-nflx-beat-guidance-reset",
+      "timestamp": "2026-10-21T08:54:00+10:30",
+      "light": "🔴",
+      "title": "NFLX小幅Beat仍跌：廣告展望與組織重整觸發預期重設",
+      "summary": "Q3 EPS 0.87高於0.82預期、營收約US$12.87B，但廣告收入展望下修至US$2.7B、Q4營收略低預期，盤後約跌4.1%。",
+      "tickers": ["NFLX","QQQ","IGV"],
+      "source": "AP；公司財報",
+      "source_url": "https://apnews.com/article/332fc9ae36c9ecc788cb163a70e655ed",
+      "source_time": "2026-10-20",
+      "credibility": "A/B",
+      "status": "new"
+    },
     {
       "id": "20261017-ai-de-risking-eight-day-sox",
       "timestamp": "2026-10-17T08:59:30+10:30",

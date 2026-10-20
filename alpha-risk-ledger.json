@@ -1,0 +1,82 @@
+{
+  "as_of": "2026-10-21T08:58:09+10:30",
+  "methodology": "First-seen, no backfill. Validation windows use 5/20/60 trading days from first_seen_date. Ratings are research states, not probabilities or credit ratings.",
+  "performance": {
+    "sample_size": 0,
+    "win_rate": null,
+    "false_positive_rate": null,
+    "note": "No completed validation windows; statistics are unavailable."
+  },
+  "signals": [
+    {
+      "id": "AR-20261021-SPCX-Q3-AI-INFLECT",
+      "source_date": "2026-10-20",
+      "first_seen_date": "2026-10-21",
+      "ticker": "SPCX",
+      "direction": "positive",
+      "state": "Confirmed",
+      "baseline_price": null,
+      "baseline_price_date": null,
+      "evidence": "A/B",
+      "catalyst": "AI revenue, margin and free-cash-flow conversion",
+      "invalidation": "AI revenue growth fails to convert to operating profit and cash flow",
+      "windows": {"5d":"open","20d":"open","60d":"open"}
+    },
+    {
+      "id": "AR-20261021-TSM-RS-CONFIRM",
+      "source_date": "2026-10-20",
+      "first_seen_date": "2026-10-21",
+      "ticker": "TSM",
+      "direction": "positive",
+      "state": "Improving",
+      "baseline_price": 425.20,
+      "baseline_price_date": "2026-10-20",
+      "evidence": "A+Price",
+      "catalyst": "Reclaim 50DMA and 20DMA with order confirmation",
+      "invalidation": "Break 200DMA with an independent fundamental negative",
+      "windows": {"5d":"open","20d":"open","60d":"open"}
+    },
+    {
+      "id": "AR-20261021-CRWV-SPV-CASHFLOW",
+      "source_date": "2026-10-20",
+      "first_seen_date": "2026-10-21",
+      "ticker": "CRWV",
+      "direction": "negative",
+      "state": "Orange",
+      "baseline_price": 62.11,
+      "baseline_price_date": "2026-10-20",
+      "evidence": "B+Price",
+      "catalyst": "Bond spread, draw schedule, delivery milestones and operating cash flow",
+      "invalidation": "Refinancing cost falls and free-cash-flow path materially improves",
+      "windows": {"5d":"open","20d":"open","60d":"open"}
+    },
+    {
+      "id": "AR-20261021-NBIS-FUNDING-PRICE",
+      "source_date": "2026-10-20",
+      "first_seen_date": "2026-10-21",
+      "ticker": "NBIS",
+      "direction": "negative",
+      "state": "Yellow",
+      "baseline_price": 171.48,
+      "baseline_price_date": "2026-10-20",
+      "evidence": "A+Price",
+      "catalyst": "Revenue conversion, capex and cash runway",
+      "invalidation": "Revenue and gross margin accelerate while cash runway improves",
+      "windows": {"5d":"open","20d":"open","60d":"open"}
+    },
+    {
+      "id": "AR-20261021-IREN-TRANSITION-PRICE",
+      "source_date": "2026-10-20",
+      "first_seen_date": "2026-10-21",
+      "ticker": "IREN",
+      "direction": "negative",
+      "state": "Yellow",
+      "baseline_price": 26.61,
+      "baseline_price_date": "2026-10-20",
+      "evidence": "A+Price",
+      "catalyst": "AI utilization, revenue and CFO-to-capex coverage",
+      "invalidation": "AI revenue scales with improving cash conversion and no further impairments",
+      "windows": {"5d":"open","20d":"open","60d":"open"}
+    }
+  ]
+}

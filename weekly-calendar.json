@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-20",
+  "as_of": "2026-10-21",
   "timezone_reference": "America/New_York",
   "verification_note": "官方公司IR／美國官方日曆核實；財報電話會議時間不等於財報發布時間。",
   "earnings": [
@@ -12,9 +12,22 @@
       "datetime_et": "2026-10-20T16:01:00-04:00",
       "time_label": "財報約 16:01 ET",
       "priority": 2,
-      "focus": "串流需求與獲利趨勢",
+      "focus": "已發布：EPS優於預期，但廣告收入展望下修、盤後走弱",
       "status": "official",
       "source_url": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2026/Netflix-to-Announce-Third-Quarter-2026-Financial-Results/default.aspx"
+    },
+    {
+      "symbol": "SPCX",
+      "name": "SpaceX",
+      "date": "2026-10-20",
+      "session": "AMC",
+      "event_type": "results",
+      "datetime_et": null,
+      "time_label": "已發布；精確公告時刻未核實",
+      "priority": 3,
+      "focus": "已發布：AI收入與淨利顯著超預期，CapEx仍高",
+      "status": "reported",
+      "source_url": "https://www.theguardian.com/science/2026/oct/20/spacex-revenue-earnings-report"
     },
     {
       "symbol": "META",
