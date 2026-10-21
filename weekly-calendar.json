@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-21",
+  "as_of": "2026-10-22",
   "timezone_reference": "America/New_York",
   "verification_note": "官方公司IR／美國官方日曆核實；財報電話會議時間不等於財報發布時間。",
   "earnings": [
@@ -34,12 +34,12 @@
       "name": "Meta Platforms",
       "date": "2026-10-21",
       "session": "AMC",
-      "event_type": "call",
+      "event_type": "results",
       "datetime_et": "2026-10-21T16:30:00-04:00",
       "time_label": "盤後公布；16:30 ET 電話會議",
       "priority": 3,
-      "focus": "AI CapEx、資料中心投資、AI 變現",
-      "status": "official",
+      "focus": "已發布：營收與Q4指引強；CapEx高、FCF轉負",
+      "status": "reported",
       "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx"
     },
     {
@@ -51,8 +51,8 @@
       "datetime_et": null,
       "time_label": "官方確認日期；精確時刻未核實",
       "priority": 2,
-      "focus": "儲能、機器人、AI 投資和現金流",
-      "status": "official",
+      "focus": "已發布：FCF優於預期，但CapEx低於預期",
+      "status": "reported",
       "source_url": "https://ir.tesla.com/"
     },
     {
@@ -60,12 +60,12 @@
       "name": "Lam Research",
       "date": "2026-10-21",
       "session": "unknown",
-      "event_type": "call",
+      "event_type": "results",
       "datetime_et": "2026-10-21T17:00:00-04:00",
       "time_label": "17:00 ET 財報電話會議；公布時刻待確認",
       "priority": 3,
-      "focus": "晶圓設備訂單、記憶體及 AI 製程資本支出",
-      "status": "official",
+      "focus": "已發布：營收與利潤率強，盤後價格負反應",
+      "status": "reported",
       "source_url": "https://investor.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call"
     },
     {
@@ -73,12 +73,12 @@
       "name": "Texas Instruments",
       "date": "2026-10-21",
       "session": "unknown",
-      "event_type": "call",
+      "event_type": "results",
       "datetime_et": "2026-10-21T16:30:00-04:00",
       "time_label": "16:30 ET 財報電話會議；公布時刻待確認",
       "priority": 2,
-      "focus": "類比晶片與工業終端需求",
-      "status": "official",
+      "focus": "已發布：工業需求與AI資料中心帶動改善",
+      "status": "reported",
       "source_url": "https://investor.ti.com/"
     },
     {
@@ -86,12 +86,12 @@
       "name": "IBM",
       "date": "2026-10-21",
       "session": "unknown",
-      "event_type": "call",
+      "event_type": "results",
       "datetime_et": "2026-10-21T17:00:00-04:00",
       "time_label": "17:00 ET 財報電話會議；公布時刻待確認",
       "priority": 2,
-      "focus": "企業 AI、軟體訂單、自由現金流",
-      "status": "official",
+      "focus": "已發布：軟體增速與自由現金流展望改善",
+      "status": "reported",
       "source_url": "https://newsroom.ibm.com/2026-10-07-ibm-to-announce-third-quarter-2026-financial-results"
     },
     {
@@ -106,6 +106,19 @@
       "focus": "雲端儲存需求、HDD 交期與毛利",
       "status": "official",
       "source_url": "https://investor.wdc.com/news-releases/news-release-details/wd-announce-first-quarter-fiscal-year-2027-financial-results"
+    },
+    {
+      "symbol": "BE",
+      "name": "Bloom Energy",
+      "date": "2026-10-22",
+      "session": "AMC",
+      "event_type": "results",
+      "datetime_et": null,
+      "time_label": "盤後；精確公告時刻待公司IR確認",
+      "priority": 2,
+      "focus": "資料中心現場發電訂單、毛利與現金流",
+      "status": "calendar-confirmed",
+      "source_url": "https://investor.bloomenergy.com/"
     }
   ],
   "economic": [

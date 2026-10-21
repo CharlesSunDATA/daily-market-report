@@ -1,6 +1,71 @@
 {
-  "updated_at": "2026-10-21T08:58:09+10:30",
+  "updated_at": "2026-10-22T08:48:00+10:30",
   "signals": [
+    {
+      "id": "20261022-meta-revenue-fcf-divergence",
+      "timestamp": "2026-10-22T08:47:00+10:30",
+      "light": "🟡",
+      "title": "META營收與AI採用強，但FCF首度轉負",
+      "summary": "Q3營收US$64.60B、Q4指引US$73–76B；同時CapEx US$34.91B、FCF -US$2.12B。公司Thesis改善，security thesis仍需回報率驗證。",
+      "tickers": ["META","NVDA","VRT","ANET","LITE","COHR"],
+      "source": "Meta IR；Reuters",
+      "source_url": "https://investor.atmeta.com/",
+      "source_time": "2026-10-21",
+      "credibility": "A/B",
+      "status": "new"
+    },
+    {
+      "id": "20261022-lrcx-beat-expectations-reset",
+      "timestamp": "2026-10-22T08:46:00+10:30",
+      "light": "🟡",
+      "title": "LRCX強財報後盤後下跌，顯示高預期重置",
+      "summary": "季營收US$8.22B、GAAP EPS US$2.19、毛利52.3%、營業率40%；下季營收中值略高共識，但盤後約跌6.8%。不是需求反轉證據。",
+      "tickers": ["LRCX","AMAT","KLAC","TSM","MU"],
+      "source": "Lam Research IR；公開市場報價",
+      "source_url": "https://investor.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27%2C-2026",
+      "source_time": "2026-10-21",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261022-txn-industrial-ai-inflection",
+      "timestamp": "2026-10-22T08:45:00+10:30",
+      "light": "🟢",
+      "title": "TXN工業復甦與AI資料中心形成雙重改善",
+      "summary": "Q3營收US$6.06B、EPS US$2.62；Analog +32%、Embedded +21%，Q4營收與EPS區間中值高於公開共識。下一步看利用率與毛利。",
+      "tickers": ["TXN","ADI","ETN","VRT"],
+      "source": "Texas Instruments IR；Reuters",
+      "source_url": "https://investor.ti.com/static-files/92651fc5-a8bf-4327-b864-55e178f45abd",
+      "source_time": "2026-10-21",
+      "credibility": "A/B",
+      "status": "new"
+    },
+    {
+      "id": "20261022-smci-demand-margin-update",
+      "timestamp": "2026-10-22T08:44:00+10:30",
+      "light": "🟢",
+      "title": "SMCI大幅上修收入與毛利，AI伺服器需求獲確認",
+      "summary": "初步季營收US$18.5–19.5B，高於原指引US$14.5–15.5B，毛利率12–12.5%；股價已大幅反映，11/3應收與CFO是品質檢驗。",
+      "tickers": ["SMCI","DELL","NVDA","AMD","VRT"],
+      "source": "公司初步更新；Reuters",
+      "source_url": "https://www.reuters.com/technology/super-micro-expects-first-quarter-revenue-above-estimates-2026-10-20/",
+      "source_time": "2026-10-20",
+      "credibility": "A/B",
+      "status": "new"
+    },
+    {
+      "id": "20261022-tsla-fcf-capex-divergence",
+      "timestamp": "2026-10-22T08:43:00+10:30",
+      "light": "🟡",
+      "title": "TSLA FCF beat與CapEx underspend同時成立",
+      "summary": "Q3 FCF US$1.53B優於市場預期現金消耗，但CapEx US$4.7B遠低於約US$7.5B預期；需判斷是效率還是AI投資延後。",
+      "tickers": ["TSLA","NVDA","MU","VRT"],
+      "source": "Reuters；公司財報",
+      "source_url": "https://www.reuters.com/business/media-telecom/tesla-revenue-beats-estimates-deliveries-rebound-energy-storage-grows-2026-10-21/",
+      "source_time": "2026-10-21",
+      "credibility": "B",
+      "status": "new"
+    },
     {
       "id": "20261021-spcx-ai-profit-inflection",
       "timestamp": "2026-10-21T08:56:00+10:30",

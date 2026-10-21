@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-21T08:58:09+10:30",
+  "as_of": "2026-10-22T08:48:00+10:30",
   "methodology": "First-seen, no backfill. Validation windows use 5/20/60 trading days from first_seen_date. Ratings are research states, not probabilities or credit ratings.",
   "performance": {
     "sample_size": 0,
@@ -21,6 +21,7 @@
       "catalyst": "AI revenue, margin and free-cash-flow conversion",
       "invalidation": "AI revenue growth fails to convert to operating profit and cash flow",
       "windows": {"5d":"open","20d":"open","60d":"open"}
+      ,"latest_observation": {"date":"2026-10-21","price":431.77,"note":"1d +1.55%; still below 20DMA and 50DMA"}
     },
     {
       "id": "AR-20261021-TSM-RS-CONFIRM",
@@ -35,6 +36,7 @@
       "catalyst": "Reclaim 50DMA and 20DMA with order confirmation",
       "invalidation": "Break 200DMA with an independent fundamental negative",
       "windows": {"5d":"open","20d":"open","60d":"open"}
+      ,"latest_observation": {"date":"2026-10-21","price":61.83,"note":"1d -0.45%; 20d -28.87%; state unchanged"}
     },
     {
       "id": "AR-20261021-CRWV-SPV-CASHFLOW",
@@ -49,6 +51,7 @@
       "catalyst": "Bond spread, draw schedule, delivery milestones and operating cash flow",
       "invalidation": "Refinancing cost falls and free-cash-flow path materially improves",
       "windows": {"5d":"open","20d":"open","60d":"open"}
+      ,"latest_observation": {"date":"2026-10-21","price":171.58,"note":"1d +0.06%; below 20DMA/50DMA"}
     },
     {
       "id": "AR-20261021-NBIS-FUNDING-PRICE",
@@ -76,6 +79,77 @@
       "evidence": "A+Price",
       "catalyst": "AI utilization, revenue and CFO-to-capex coverage",
       "invalidation": "AI revenue scales with improving cash conversion and no further impairments",
+      "windows": {"5d":"open","20d":"open","60d":"open"}
+      ,"latest_observation": {"date":"2026-10-21","price":27.84,"note":"1d +4.60%; rebound is not cash-flow proof"}
+    },
+    {
+      "id": "AR-20261022-TXN-INDUSTRIAL-AI-INFLECT",
+      "source_date": "2026-10-21",
+      "first_seen_date": "2026-10-22",
+      "ticker": "TXN",
+      "direction": "positive",
+      "state": "Improving",
+      "baseline_price": 284.70,
+      "baseline_price_date": "2026-10-21",
+      "evidence": "A+B+Price",
+      "catalyst": "Industrial recovery and AI data-center demand convert to utilization and margin",
+      "invalidation": "Q4 revenue lands at the low end while margin and utilization weaken",
+      "windows": {"5d":"open","20d":"open","60d":"open"}
+    },
+    {
+      "id": "AR-20261022-IBM-SOFTWARE-FCF",
+      "source_date": "2026-10-21",
+      "first_seen_date": "2026-10-22",
+      "ticker": "IBM",
+      "direction": "positive",
+      "state": "Improving",
+      "baseline_price": 251.38,
+      "baseline_price_date": "2026-10-21",
+      "evidence": "B+Price",
+      "catalyst": "Software growth and higher free-cash-flow outlook",
+      "invalidation": "Software growth decelerates and free cash flow misses the raised outlook",
+      "windows": {"5d":"open","20d":"open","60d":"open"}
+    },
+    {
+      "id": "AR-20261022-META-REVENUE-CAPEX",
+      "source_date": "2026-10-21",
+      "first_seen_date": "2026-10-22",
+      "ticker": "META",
+      "direction": "positive",
+      "state": "Confirmed-Conditional",
+      "baseline_price": 698.54,
+      "baseline_price_date": "2026-10-21",
+      "evidence": "A+B",
+      "catalyst": "AI product adoption and ad monetization convert capex into revenue",
+      "invalidation": "Spending grows faster than revenue and free cash flow does not recover",
+      "windows": {"5d":"open","20d":"open","60d":"open"}
+    },
+    {
+      "id": "AR-20261022-LRCX-EXPECTATIONS-RESET",
+      "source_date": "2026-10-21",
+      "first_seen_date": "2026-10-22",
+      "ticker": "LRCX",
+      "direction": "negative",
+      "state": "Yellow",
+      "baseline_price": 261.035,
+      "baseline_price_date": "2026-10-21",
+      "evidence": "A+Price",
+      "catalyst": "Post-earnings price reaction reveals elevated expectations",
+      "invalidation": "Shares recover the post-earnings drop while bookings and guidance remain strong",
+      "windows": {"5d":"open","20d":"open","60d":"open"}
+    },
+    {
+      "id": "AR-20261022-TSLA-FCF-CAPEX-DIVERGENCE",
+      "source_date": "2026-10-21",
+      "first_seen_date": "2026-10-22",
+      "ticker": "TSLA",
+      "direction": "negative",
+      "state": "Observe",
+      "baseline_price": 386.63,
+      "baseline_price_date": "2026-10-21",
+      "evidence": "B",
+      "catalyst": "Clarification of AI, robotaxi and energy capex timing",
+      "invalidation": "Lower capex is proven to be efficiency with on-time milestones and durable cash flow",
       "windows": {"5d":"open","20d":"open","60d":"open"}
     }
   ]
