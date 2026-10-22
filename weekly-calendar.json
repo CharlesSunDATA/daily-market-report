@@ -125,20 +125,20 @@
           "indicator": "營收（USD）",
           "actual": "$8.22B",
           "forecast": "$8.31B",
-          "previous": "$6.72B",
+          "previous": null,
           "surprise": "-1.1%"
         },
         {
           "indicator": "EPS（Non-GAAP，每股美元）",
           "actual": "$2.20",
           "forecast": "$2.22",
-          "previous": "$1.82（前季）",
+          "previous": null,
           "surprise": "-0.9%"
         }
       ],
       "result_source_url": "https://investor.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27%2C-2026",
       "consensus_source_url": "https://terminal.hyperstocks.io/earnings-calendar/2026-10-21",
-      "result_note": "前季 EPS 僅供環比參考，不是去年同期。",
+      "result_note": "前季營收 $6.72B、Non-GAAP EPS $1.82（環比參考，非去年同期）；所採市場共識來自 HyperStocks。",
       "guidance": "Non-GAAP 毛利率 52.4%；設備需求強，但營收及 EPS 略低於所採市場共識。",
       "verified_at": "2026-10-22"
     },
