@@ -55,17 +55,58 @@ def calendar_panels(doc, status=None, now=None):
                        if start <= x.get("date", "") <= end),
                       key=lambda x: (x["date"], str(x.get("datetime_et") or "")))
     def earning_card(x):
-        label = "官方已確認" if x.get("status") == "official" else "來源日曆／待核IR"
-        local = adelaide_time(x.get("datetime_et"))
-        if x.get("event_type") == "call" and x.get("datetime_et"):
-            local += "（電話會議，非發布時間）"
-        return ('<article class="calEvent"><div><strong>' +
-                h(x.get("date", "")[5:]) + " · " + h(x.get("symbol", "")) +
-                "</strong> " + h(x.get("name", "")) + '<span class="calTag">' +
-                label + '</span></div><div>' + h(x.get("time_label", "公布時段待核實")) +
-                '</div><div class="calMuted">' + h(local) +
-                '</div><div class="calMuted">重點：' + h(x.get("focus", "")) +
-                source(x.get("source_url")) + '</div></article>')
+        values = x.get("results") or []
+        verified = (x.get("result_status") == "published" and
+                    any(v.get("actual") is not None for v in values))
+        timestamp = x.get("datetime_et")
+        past = x.get("date", "") < now.astimezone(ET).date().isoformat()
+        if timestamp:
+            try:
+                event_time = datetime.fromisoformat(timestamp.replace("Z", "+00:00"))
+                if event_time.tzinfo is not None and event_time <= now:
+                    past = True
+            except (ValueError, TypeError):
+                pass
+        label = ("已公布・數據核實" if verified else
+                 "日期已過・結果待核實" if past else
+                 "公司確認日期・待公布" if x.get("status") == "official" else
+                 "預告・待核IR")
+        intro = ('<article class="calEvent"><div><strong>' +
+                 h(x.get("date", "")[5:]) + " · " + h(x.get("symbol", "")) +
+                 "</strong> " + h(x.get("name", "")) +
+                 '<span class="calTag">' + label + '</span></div>')
+        if verified:
+            rows = []
+            for v in values:
+                last = v.get("previous")
+                prefix = "前季" if last and "前季" in str(last) else "去年同期"
+                rows.append(
+                    '<div class="calResult"><strong>' + h(v.get("indicator", "")) +
+                    '</strong><div>實際 <b>' + h(v.get("actual")) +
+                    '</b> · 預期 ' + h(v.get("forecast") or "未取得同口徑預期") +
+                    (" · " + prefix + " " + h(last) if last else "") +
+                    (" · 差異 <b>" + h(v["surprise"]) + "</b>" if v.get("surprise") else "") +
+                    "</div></div>")
+            body = '<div class="calResults">' + "".join(rows) + "</div>"
+            if x.get("guidance"):
+                body += '<div class="calMuted"><strong>財測／關鍵：</strong>' + h(x["guidance"]) + "</div>"
+            if x.get("result_note"):
+                body += '<div class="calMuted">' + h(x["result_note"]) + "</div>"
+            body += ('<div class="calMuted">' +
+                     source(x.get("result_source_url") or x.get("source_url"), "正式財報") +
+                     source(x.get("consensus_source_url"), "預期來源") + "</div>")
+        else:
+            local = adelaide_time(timestamp)
+            if x.get("event_type") == "call" and timestamp:
+                local += "（電話會議，非財報發布時刻）"
+            body = ('<div>' + h(x.get("time_label", "公布日期預告")) + '</div>' +
+                    '<div class="calMuted">' + h(local) + "</div>")
+            if past:
+                body += ('<div class="calMuted">該日期已過，但尚未取得可核實的數字；'
+                         '不代表公司未發布。</div>')
+            body += ('<div class="calMuted">重點：' + h(x.get("focus", "")) +
+                     source(x.get("source_url")) + "</div>")
+        return intro + body + "</article>"
     def economic_card(x):
         actual_rows = x.get("results", [])
         verified = x.get("result_status") == "published" and any(
