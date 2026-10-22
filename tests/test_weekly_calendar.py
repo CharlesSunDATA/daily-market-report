@@ -55,6 +55,8 @@ END:VCALENDAR'''
    self.assertEqual(result["status"],"success")
    self.assertIn("META",[v["symbol"] for v in saved["earnings"]])
    self.assertIn("WDC",[v["symbol"] for v in saved["earnings"]])
+   self.assertEqual(len([v for v in saved["earnings"] if v["symbol"]=="META"]),1)
+   self.assertEqual(len([v for v in saved["earnings"] if v["symbol"]=="WDC"]),1)
    self.assertEqual(len([x for x in requests if "nasdaq.com" in x]),10)
 
 if __name__=="__main__":unittest.main()
