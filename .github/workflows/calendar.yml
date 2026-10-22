@@ -1,6 +1,15 @@
 name: Refresh Weekly Market Calendar
 on:
+  # Kick off a real refresh on fixes, in addition to daily cron.
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/calendar.yml"
+      - "scripts/update_weekly_calendar.py"
+      - "tests/test_weekly_calendar.py"
   schedule:
+    # Two DST-safe slots. The updater deduplicates successful scans by local day;
+    # GitHub Actions runs can start late, so don't enforce a 9 AM wall-clock gate.
     - cron: '30 22 * * *'
     - cron: '30 23 * * *'
   workflow_dispatch:
@@ -18,13 +27,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Validate local source transformations
-        run: python -m unittest discover -s tests -v
+      - name: Validate calendar transforms and JavaScript syntax
+        run: |
+          python -m unittest discover -s tests -v
+          node --check weekly-calendar.js
       - name: Refresh Nasdaq and BLS sources
         shell: bash
         run: |
           if [[ "$GITHUB_EVENT_NAME" == "schedule" ]]; then
-            python scripts/update_weekly_calendar.py --adelaide-9am
+            python scripts/update_weekly_calendar.py --once-per-local-day
           else
             python scripts/update_weekly_calendar.py
           fi
@@ -36,4 +47,5 @@ jobs:
           git add weekly-calendar.json weekly-calendar-status.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "Refresh weekly earnings and economic events"
-          git push
+          git pull --rebase origin main
+          git push origin HEAD:main
