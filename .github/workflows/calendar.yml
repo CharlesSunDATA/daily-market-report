@@ -7,6 +7,7 @@ on:
       - ".github/workflows/calendar.yml"
       - "scripts/update_weekly_calendar.py"
       - "tests/test_weekly_calendar.py"
+      - "weekly-calendar.js"
   schedule:
     # Two DST-safe slots. The updater deduplicates successful scans by local day;
     # GitHub Actions runs can start late, so don't enforce a 9 AM wall-clock gate.
