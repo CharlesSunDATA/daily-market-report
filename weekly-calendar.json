@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-21",
+  "as_of": "2026-10-22",
   "timezone_reference": "America/New_York",
   "verification_note": "官方公司IR／美國官方日曆核實；財報電話會議時間不等於財報發布時間。",
   "earnings": [
@@ -619,7 +619,7 @@
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     }
   ],
-  "last_scan_at": "2026-10-22T03:21:42.499289+00:00",
+  "last_scan_at": "2026-10-22T05:30:33.449464+00:00",
   "results_verified_as_of": "2026-10-22",
   "earnings_results_verified_as_of": "2026-10-22"
 }
