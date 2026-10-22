@@ -76,7 +76,7 @@
        :'<div>'+escapeHTML(x.time_label||"公布日期預告")+'</div>'+
         '<div class="calMuted">'+escapeHTML(timeNote)+'</div>'+
         (passed?'<div class="calMuted">該日期已過，但尚未取得可核實的數字；不代表公司未發布。</div>':"")+
-        '<div class="calMuted">重點：'+escapeHTML(x.focus||"財測、CapEx、毛利")+safeLink(x.source_url,"來源")+'</div>'))+
+        '<div class="calMuted">重點：'+escapeHTML(x.focus||"財測、CapEx、毛利")+safeLink(x.source_url,"來源")+'</div>')+
       '</article>';
   };
   const heading='<p class="calIntro">美東事件日 '+escapeHTML(begin)+" 至 "+escapeHTML(end)+"；以下時間另換算南澳。未確認的公布時刻不會推算。</p>";
