@@ -13,8 +13,30 @@
       "time_label": "已發布；精確公告時刻未核實",
       "priority": 3,
       "focus": "已發布：AI收入與淨利顯著超預期，CapEx仍高",
-      "status": "reported",
-      "source_url": "https://www.theguardian.com/science/2026/oct/20/spacex-revenue-earnings-report"
+      "status": "official",
+      "source_url": "https://www.theguardian.com/science/2026/oct/20/spacex-revenue-earnings-report",
+      "result_status": "published",
+      "results": [
+        {
+          "indicator": "營收（USD）",
+          "actual": "$14.58B",
+          "forecast": "$12.87B",
+          "previous": "$5.6B",
+          "surprise": "+13.3%"
+        },
+        {
+          "indicator": "EPS（每股美元）",
+          "actual": "$0.35",
+          "forecast": "$0.13",
+          "previous": "-$0.36",
+          "surprise": "+169.2%"
+        }
+      ],
+      "result_source_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026066482/spaceexplorationtechnologi.htm",
+      "consensus_source_url": "https://au.investing.com/equities/spacex-earnings",
+      "result_note": "EPS 與預期取自同一市場統計來源；去年同期 EPS 依公開市場報導，估計口徑可能不同。",
+      "guidance": "Super Intelligence 與 Connectivity 推動成長；AI 業務佔比與資本支出效率為觀察重點。",
+      "verified_at": "2026-10-22"
     },
     {
       "symbol": "NFLX",
@@ -27,20 +49,63 @@
       "priority": 2,
       "focus": "已發布：EPS優於預期，但廣告收入展望下修、盤後走弱",
       "status": "official",
-      "source_url": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2026/Netflix-to-Announce-Third-Quarter-2026-Financial-Results/default.aspx"
+      "source_url": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2026/Netflix-to-Announce-Third-Quarter-2026-Financial-Results/default.aspx",
+      "result_status": "published",
+      "results": [
+        {
+          "indicator": "營收（USD）",
+          "actual": "$12.87B",
+          "forecast": "$12.87B",
+          "previous": null,
+          "surprise": "符合預期"
+        },
+        {
+          "indicator": "EPS（每股美元）",
+          "actual": "$0.87",
+          "forecast": "$0.82",
+          "previous": "$0.59",
+          "surprise": "+6.1%"
+        }
+      ],
+      "result_source_url": "https://ir.netflix.net/files/doc_financials/2026/q3/FINAL-Q3-26-Shareholder-Letter.pdf",
+      "consensus_source_url": "https://www.earningswhispers.com/epsdetails/NFLX/202609",
+      "result_note": "公司 EPS 及營收取自股東信；EPS 市場共識取自 Earnings Whispers。",
+      "guidance": "Q4 營收指引約 $13.4B；2026 全年廣告收入預期降至約 $2.7B（原約 $3B）。",
+      "verified_at": "2026-10-22"
     },
     {
       "symbol": "VICR",
       "name": "Vicor Corporation",
       "date": "2026-10-20",
-      "session": "unknown",
-      "event_type": "estimate",
-      "datetime_et": null,
-      "time_label": "Nasdaq 日曆預告（未確認時段）",
+      "session": "BMO",
+      "event_type": "results",
+      "datetime_et": "2026-10-20T07:00:00-04:00",
+      "time_label": "10/20 07:00 ET 正式公布；08:00 ET 電話會議",
       "focus": "確認營收、指引、訂單、CapEx 與毛利",
       "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+      "status": "official",
+      "source_url": "https://www.nasdaq.com/market-activity/earnings",
+      "result_status": "published",
+      "results": [
+        {
+          "indicator": "營收（USD）",
+          "actual": "$197.1M",
+          "forecast": null,
+          "previous": "$110.4M",
+          "surprise": null
+        },
+        {
+          "indicator": "EPS（GAAP，每股美元）",
+          "actual": "$1.33",
+          "forecast": null,
+          "previous": "$0.63",
+          "surprise": null
+        }
+      ],
+      "result_source_url": "https://vicorcorporation.gcs-web.com/node/17956",
+      "result_note": "尚未取得可靠、同口徑的市場預估，因此不推算 Beat/Miss。",
+      "guidance": "Q3 毛利率 68.3%，年增；AI OEM 電源專利授權及產品需求為觀察重點。",
+      "verified_at": "2026-10-22"
     },
     {
       "symbol": "LRCX",
@@ -52,8 +117,30 @@
       "time_label": "17:00 ET 財報電話會議；公布時刻待確認",
       "priority": 3,
       "focus": "已發布：營收與利潤率強，盤後價格負反應",
-      "status": "reported",
-      "source_url": "https://investor.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call"
+      "status": "official",
+      "source_url": "https://investor.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call",
+      "result_status": "published",
+      "results": [
+        {
+          "indicator": "營收（USD）",
+          "actual": "$8.22B",
+          "forecast": "$8.31B",
+          "previous": "$6.72B",
+          "surprise": "-1.1%"
+        },
+        {
+          "indicator": "EPS（Non-GAAP，每股美元）",
+          "actual": "$2.20",
+          "forecast": "$2.22",
+          "previous": "$1.82（前季）",
+          "surprise": "-0.9%"
+        }
+      ],
+      "result_source_url": "https://investor.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27%2C-2026",
+      "consensus_source_url": "https://terminal.hyperstocks.io/earnings-calendar/2026-10-21",
+      "result_note": "前季 EPS 僅供環比參考，不是去年同期。",
+      "guidance": "Non-GAAP 毛利率 52.4%；設備需求強，但營收及 EPS 略低於所採市場共識。",
+      "verified_at": "2026-10-22"
     },
     {
       "symbol": "META",
@@ -65,8 +152,30 @@
       "time_label": "盤後公布；16:30 ET 電話會議",
       "priority": 3,
       "focus": "已發布：營收與Q4指引強；CapEx高、FCF轉負",
-      "status": "reported",
-      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx"
+      "status": "official",
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
+      "result_status": "published",
+      "results": [
+        {
+          "indicator": "營收（USD）",
+          "actual": "$64.60B",
+          "forecast": "$64.57B",
+          "previous": "$51.24B",
+          "surprise": "+0.05%"
+        },
+        {
+          "indicator": "EPS（GAAP，每股美元）",
+          "actual": "$3.83",
+          "forecast": null,
+          "previous": "$1.05",
+          "surprise": null
+        }
+      ],
+      "result_source_url": "https://www.prnewswire.com/news-releases/meta-reports-third-quarter-2026-results-302915964.html",
+      "consensus_source_url": "https://terminal.hyperstocks.io/earnings-calendar/2026-10-21",
+      "result_note": "市場通常以調整後 EPS 估值；本列 GAAP EPS 不與其他調整後 EPS 共識直接比較。",
+      "guidance": "Q4 營收預期 $73–76B；Q3 FCF -$2.12B。約 $9.89B 法律協議費用拉低 GAAP EPS，公司提供扣除此費用之 $7.40 參考數字。",
+      "verified_at": "2026-10-22"
     },
     {
       "symbol": "IBM",
@@ -78,8 +187,30 @@
       "time_label": "17:00 ET 財報電話會議；公布時刻待確認",
       "priority": 2,
       "focus": "已發布：軟體增速與自由現金流展望改善",
-      "status": "reported",
-      "source_url": "https://newsroom.ibm.com/2026-10-07-ibm-to-announce-third-quarter-2026-financial-results"
+      "status": "official",
+      "source_url": "https://newsroom.ibm.com/2026-10-07-ibm-to-announce-third-quarter-2026-financial-results",
+      "result_status": "published",
+      "results": [
+        {
+          "indicator": "營收（USD）",
+          "actual": "$17.10B",
+          "forecast": "$16.99B",
+          "previous": null,
+          "surprise": "+0.6%"
+        },
+        {
+          "indicator": "EPS（Non-GAAP，每股美元）",
+          "actual": "$2.95",
+          "forecast": "$2.90",
+          "previous": "$2.65",
+          "surprise": "+1.7%"
+        }
+      ],
+      "result_source_url": "https://www.prnewswire.com/news-releases/ibm-releases-third-quarter-results-302915985.html",
+      "consensus_source_url": "https://terminal.hyperstocks.io/earnings-calendar/2026-10-21",
+      "result_note": "Non-GAAP EPS 為公司 operating EPS，與所採市場 EPS 共識比較。",
+      "guidance": "軟體收入年增約 8%；全年自由現金流預計較去年增加超過 $1B。",
+      "verified_at": "2026-10-22"
     },
     {
       "symbol": "TSLA",
@@ -91,8 +222,37 @@
       "time_label": "官方確認日期；精確時刻未核實",
       "priority": 2,
       "focus": "已發布：FCF優於預期，但CapEx低於預期",
-      "status": "reported",
-      "source_url": "https://ir.tesla.com/"
+      "status": "official",
+      "source_url": "https://ir.tesla.com/",
+      "result_status": "published",
+      "results": [
+        {
+          "indicator": "營收（USD）",
+          "actual": "$28.046B",
+          "forecast": "$28.341B",
+          "previous": "$28.095B",
+          "surprise": "-1.0%"
+        },
+        {
+          "indicator": "EPS（Non-GAAP，每股美元）",
+          "actual": "$0.48",
+          "forecast": "$0.45",
+          "previous": "$0.50",
+          "surprise": "+6.7%"
+        },
+        {
+          "indicator": "EPS（GAAP，每股美元）",
+          "actual": "$0.22",
+          "forecast": "$0.23",
+          "previous": "$0.39",
+          "surprise": "-4.3%"
+        }
+      ],
+      "result_source_url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026066738/tsla-20261021-gen.pdf",
+      "consensus_source_url": "https://ir.tesla.com/press-release/earnings-consensus-third-quarter-2026",
+      "result_note": "公司官方自彙共識與實際值，同口徑比較；Non-GAAP 與 GAAP EPS 分列。",
+      "guidance": "Q3 FCF $1.531B，CapEx $4.732B（低於公司彙整的約 $7.77B 預期），全年 CapEx 規劃下修至約 $20B。",
+      "verified_at": "2026-10-22"
     },
     {
       "symbol": "TXN",
@@ -104,8 +264,30 @@
       "time_label": "16:30 ET 財報電話會議；公布時刻待確認",
       "priority": 2,
       "focus": "已發布：工業需求與AI資料中心帶動改善",
-      "status": "reported",
-      "source_url": "https://investor.ti.com/"
+      "status": "official",
+      "source_url": "https://investor.ti.com/",
+      "result_status": "published",
+      "results": [
+        {
+          "indicator": "營收（USD）",
+          "actual": "$6.055B",
+          "forecast": "$5.94B",
+          "previous": "$4.742B",
+          "surprise": "+1.9%"
+        },
+        {
+          "indicator": "EPS（GAAP，每股美元）",
+          "actual": "$2.62",
+          "forecast": "$2.44",
+          "previous": "$1.48",
+          "surprise": "+7.4%"
+        }
+      ],
+      "result_source_url": "https://www.prnewswire.com/news-releases/ti-reports-third-quarter-2026-financial-results-and-shareholder-returns-302915896.html",
+      "consensus_source_url": "https://www.investors.com/news/technology/texas-instruments-txn-stock-q3-2026-earnings/",
+      "result_note": "EPS/營收預期取自 Investors Business Daily；公司數據取自 TI 正式財報。",
+      "guidance": "Q4 營收指引 $5.80–6.30B、EPS $2.45–2.79；工業、汽車與資料中心需求同步改善。",
+      "verified_at": "2026-10-22"
     },
     {
       "symbol": "WDC",
@@ -438,5 +620,6 @@
     }
   ],
   "last_scan_at": "2026-10-22T03:21:42.499289+00:00",
-  "results_verified_as_of": "2026-10-22"
+  "results_verified_as_of": "2026-10-22",
+  "earnings_results_verified_as_of": "2026-10-22"
 }
