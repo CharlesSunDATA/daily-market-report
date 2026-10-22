@@ -1,13 +1,112 @@
 {
-  "updated_at": "2026-10-22T08:48:00+10:30",
+  "updated_at": "2026-10-23T08:58:00+10:30",
   "signals": [
+    {
+      "id": "20261023-wdc-margin-fcf-inflection",
+      "timestamp": "2026-10-23T08:58:00+10:30",
+      "light": "🟢",
+      "title": "WDC收入、毛利與FCF同步確認Storage轉折",
+      "summary": "Q1收入US$4.381B、non-GAAP毛利58.1%、FCF US$1.377B；Q2收入中值US$5.1B、毛利中值60.5%。下一步看庫存與事件後價格。",
+      "tickers": [
+        "WDC",
+        "STX"
+      ],
+      "source": "Western Digital IR",
+      "source_url": "https://investor.wdc.com/news-releases/news-release-details/wd-reports-fiscal-first-quarter-2027-financial-results",
+      "source_time": "2026-10-22",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261023-be-power-revenue-inflection",
+      "timestamp": "2026-10-23T08:57:00+10:30",
+      "light": "🟢",
+      "title": "BE創紀錄營收並再上修全年展望",
+      "summary": "Q3收入US$1.236B、年增138.1%，non-GAAP EPS US$0.94；FY收入上修至US$4.4–4.6B。需求確認，仍需CFO與客戶集中驗證。",
+      "tickers": [
+        "BE",
+        "ETN",
+        "PWR",
+        "VST"
+      ],
+      "source": "Bloom Energy IR",
+      "source_url": "https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-Reports-Record-Third-Quarter-2026-Financial-Results-and-Raises-Full-Year-2026-Guidance/default.aspx",
+      "source_time": "2026-10-22",
+      "credibility": "A/B",
+      "status": "new"
+    },
+    {
+      "id": "20261023-crwv-price-credit-acceleration",
+      "timestamp": "2026-10-23T08:56:00+10:30",
+      "light": "🔴",
+      "title": "CRWV再跌10.1%，融資與FCF折價持續加深",
+      "summary": "10/22收US$55.57；價格與既有高融資／負FCF風險同向。缺個債即時OAS/CDS，維持Orange而非判定違約。",
+      "tickers": [
+        "CRWV",
+        "NVDA",
+        "VRT",
+        "MOD",
+        "LITE",
+        "COHR"
+      ],
+      "source": "IEX日線；既有公司／Reuters信用框架",
+      "source_url": "https://www.reuters.com/business/finance/coreweave-debt-selloff-poses-limited-risk-global-banks-jp-morgan-says-2026-10-20/",
+      "source_time": "2026-10-22",
+      "credibility": "B+Price",
+      "status": "increment"
+    },
+    {
+      "id": "20261023-lrcx-expectations-reset-confirmed",
+      "timestamp": "2026-10-23T08:55:00+10:30",
+      "light": "🔴",
+      "title": "LRCX強財報後正式跌11.9%，高預期重置確認",
+      "summary": "10/22收US$229.98；公司收入、margin與指引仍強，負面訊號屬security expectations而非需求反轉。",
+      "tickers": [
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "TSM",
+        "MU"
+      ],
+      "source": "Lam Research IR；IEX日線",
+      "source_url": "https://investor.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27%2C-2026",
+      "source_time": "2026-10-22",
+      "credibility": "A+Price",
+      "status": "increment"
+    },
+    {
+      "id": "20261023-optics-rack-price-break",
+      "timestamp": "2026-10-23T08:54:00+10:30",
+      "light": "🟡",
+      "title": "Optics與Rack同步破位，尚缺第二項基本面反證",
+      "summary": "LITE -11.6%、COHR -12.6%、ALAB -11.2%、VRT -7.9%、MOD -9.7%；無同日訂單取消或lead-time縮短公告，維持Yellow。",
+      "tickers": [
+        "LITE",
+        "COHR",
+        "ALAB",
+        "VRT",
+        "MOD"
+      ],
+      "source": "IEX日線；公司IR查核",
+      "source_url": "https://investor.lumentum.com/",
+      "source_time": "2026-10-22",
+      "credibility": "Price",
+      "status": "new"
+    },
     {
       "id": "20261022-meta-revenue-fcf-divergence",
       "timestamp": "2026-10-22T08:47:00+10:30",
       "light": "🟡",
       "title": "META營收與AI採用強，但FCF首度轉負",
       "summary": "Q3營收US$64.60B、Q4指引US$73–76B；同時CapEx US$34.91B、FCF -US$2.12B。公司Thesis改善，security thesis仍需回報率驗證。",
-      "tickers": ["META","NVDA","VRT","ANET","LITE","COHR"],
+      "tickers": [
+        "META",
+        "NVDA",
+        "VRT",
+        "ANET",
+        "LITE",
+        "COHR"
+      ],
       "source": "Meta IR；Reuters",
       "source_url": "https://investor.atmeta.com/",
       "source_time": "2026-10-21",
@@ -20,7 +119,13 @@
       "light": "🟡",
       "title": "LRCX強財報後盤後下跌，顯示高預期重置",
       "summary": "季營收US$8.22B、GAAP EPS US$2.19、毛利52.3%、營業率40%；下季營收中值略高共識，但盤後約跌6.8%。不是需求反轉證據。",
-      "tickers": ["LRCX","AMAT","KLAC","TSM","MU"],
+      "tickers": [
+        "LRCX",
+        "AMAT",
+        "KLAC",
+        "TSM",
+        "MU"
+      ],
       "source": "Lam Research IR；公開市場報價",
       "source_url": "https://investor.lamresearch.com/2026-10-21-Lam-Research-Corporation-Reports-Financial-Results-for-the-Quarter-Ended-September-27%2C-2026",
       "source_time": "2026-10-21",
@@ -33,7 +138,12 @@
       "light": "🟢",
       "title": "TXN工業復甦與AI資料中心形成雙重改善",
       "summary": "Q3營收US$6.06B、EPS US$2.62；Analog +32%、Embedded +21%，Q4營收與EPS區間中值高於公開共識。下一步看利用率與毛利。",
-      "tickers": ["TXN","ADI","ETN","VRT"],
+      "tickers": [
+        "TXN",
+        "ADI",
+        "ETN",
+        "VRT"
+      ],
       "source": "Texas Instruments IR；Reuters",
       "source_url": "https://investor.ti.com/static-files/92651fc5-a8bf-4327-b864-55e178f45abd",
       "source_time": "2026-10-21",
@@ -46,7 +156,13 @@
       "light": "🟢",
       "title": "SMCI大幅上修收入與毛利，AI伺服器需求獲確認",
       "summary": "初步季營收US$18.5–19.5B，高於原指引US$14.5–15.5B，毛利率12–12.5%；股價已大幅反映，11/3應收與CFO是品質檢驗。",
-      "tickers": ["SMCI","DELL","NVDA","AMD","VRT"],
+      "tickers": [
+        "SMCI",
+        "DELL",
+        "NVDA",
+        "AMD",
+        "VRT"
+      ],
       "source": "公司初步更新；Reuters",
       "source_url": "https://www.reuters.com/technology/super-micro-expects-first-quarter-revenue-above-estimates-2026-10-20/",
       "source_time": "2026-10-20",
@@ -59,7 +175,12 @@
       "light": "🟡",
       "title": "TSLA FCF beat與CapEx underspend同時成立",
       "summary": "Q3 FCF US$1.53B優於市場預期現金消耗，但CapEx US$4.7B遠低於約US$7.5B預期；需判斷是效率還是AI投資延後。",
-      "tickers": ["TSLA","NVDA","MU","VRT"],
+      "tickers": [
+        "TSLA",
+        "NVDA",
+        "MU",
+        "VRT"
+      ],
       "source": "Reuters；公司財報",
       "source_url": "https://www.reuters.com/business/media-telecom/tesla-revenue-beats-estimates-deliveries-rebound-energy-storage-grows-2026-10-21/",
       "source_time": "2026-10-21",
@@ -72,7 +193,13 @@
       "light": "🟢",
       "title": "SPCX AI收入與獲利跨過可驗證轉折",
       "summary": "Fact：Q3營收US$14.58B、AI收入US$7.6B、淨利US$4.4B，均顯示AI算力已由建置轉入收入；但AI CapEx US$16.4B，下一步仍需FCF驗證。",
-      "tickers": ["SPCX","NVDA","TSM","MRVL","VRT"],
+      "tickers": [
+        "SPCX",
+        "NVDA",
+        "TSM",
+        "MRVL",
+        "VRT"
+      ],
       "source": "公開財報數據；Reuters/LSEG",
       "source_url": "https://www.theguardian.com/science/2026/oct/20/spacex-revenue-earnings-report",
       "source_time": "2026-10-20",
@@ -85,7 +212,13 @@
       "light": "🟡",
       "title": "CRWV銀行系統風險有限，但公司現金流錯配未解除",
       "summary": "JPM估多數銀行曝險有限且DDTL按專案里程碑撥款；同時公司約US$50B債務、2031債殖利率曾近16%，並預期至2030前FCF為負。",
-      "tickers": ["CRWV","NVDA","VRT","ETN","MOD"],
+      "tickers": [
+        "CRWV",
+        "NVDA",
+        "VRT",
+        "ETN",
+        "MOD"
+      ],
       "source": "Reuters／J.P. Morgan",
       "source_url": "https://www.reuters.com/business/finance/coreweave-debt-selloff-poses-limited-risk-global-banks-jp-morgan-says-2026-10-20/",
       "source_time": "2026-10-20T07:30:59Z",
@@ -98,7 +231,11 @@
       "light": "🔴",
       "title": "NFLX小幅Beat仍跌：廣告展望與組織重整觸發預期重設",
       "summary": "Q3 EPS 0.87高於0.82預期、營收約US$12.87B，但廣告收入展望下修至US$2.7B、Q4營收略低預期，盤後約跌4.1%。",
-      "tickers": ["NFLX","QQQ","IGV"],
+      "tickers": [
+        "NFLX",
+        "QQQ",
+        "IGV"
+      ],
       "source": "AP；公司財報",
       "source_url": "https://apnews.com/article/332fc9ae36c9ecc788cb163a70e655ed",
       "source_time": "2026-10-20",
@@ -111,7 +248,15 @@
       "light": "🔴",
       "title": "SOX連跌第八日，AI去風險擴散至軟體",
       "summary": "Fact：S&P 500 -1.10%、Nasdaq -2.15%、SOX約-2.5%；SOXX -4.15%、IGV -4.68%。Interpretation：前日防禦與軟體輪動失效，市場更接近Institutional Selling。",
-      "tickers": ["QQQ","SMH","SOXX","IGV","NVDA","AMD","AVGO"],
+      "tickers": [
+        "QQQ",
+        "SMH",
+        "SOXX",
+        "IGV",
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
       "source": "Reuters；AP；市場價格",
       "source_url": "https://www.reuters.com/markets/us/",
       "source_time": "2026-10-16",
@@ -124,7 +269,14 @@
       "light": "🔴",
       "title": "CoreWeave股債壓力與治理觀感同步惡化",
       "summary": "Fact：股價單日約跌12%、五日約跌25%，債券殖利率逾15%；CEO及關聯實體自IPO後出售近10億美元股票，多數依預排計畫。Interpretation：融資瓶頸升級，但預排出售不等於管理層主觀轉空。",
-      "tickers": ["CRWV","NVDA","VRT","ETN","MOD","ORCL"],
+      "tickers": [
+        "CRWV",
+        "NVDA",
+        "VRT",
+        "ETN",
+        "MOD",
+        "ORCL"
+      ],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/markets/us/",
       "source_time": "2026-10-16",
@@ -137,7 +289,11 @@
       "light": "🟢",
       "title": "Schneider上修展望，資料中心需求三位數成長",
       "summary": "Fact：Q3有機營收成長16.9%並高於共識，2026 adjusted EBITDA growth上修至18–21%。Interpretation：終端電力／散熱需求未反轉，但不能消除neocloud融資與設備PO風險。",
-      "tickers": ["VRT","ETN","MOD"],
+      "tickers": [
+        "VRT",
+        "ETN",
+        "MOD"
+      ],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/markets/us/",
       "source_time": "2026-10-16",
@@ -150,7 +306,12 @@
       "light": "🔴",
       "title": "Brent逼近110美元，Yanbu導彈事件升高週一尾部風險",
       "summary": "Fact：Brent收109.86美元、WTI 101.41美元；飛向Yanbu的導彈遭攔截且無設施受損。Interpretation：油價、通膨與地緣風險同向壓縮長久期AI估值。",
-      "tickers": ["QQQ","SMH","SOXX","XLE"],
+      "tickers": [
+        "QQQ",
+        "SMH",
+        "SOXX",
+        "XLE"
+      ],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/business/energy/",
       "source_time": "2026-10-16",
@@ -163,7 +324,13 @@
       "light": "🔴",
       "title": "Optical價格反轉擴大，COHR再度弱於LITE",
       "summary": "Fact：LITE -5.32%、COHR -7.07%、CIEN -6.59%，均弱於QQQ；未見同日新增訂單取消公告。Interpretation：價格層反轉確認，基本面仍需PO、backlog與收入驗證。",
-      "tickers": ["LITE","COHR","CIEN","MRVL","ALAB"],
+      "tickers": [
+        "LITE",
+        "COHR",
+        "CIEN",
+        "MRVL",
+        "ALAB"
+      ],
       "source": "市場價格；公司IR查核",
       "source_url": "https://investor.lumentum.com/",
       "source_time": "2026-10-16",
@@ -176,7 +343,15 @@
       "light": "🟢",
       "title": "TSMC Q3 beat，2026成長展望提高至約44%",
       "summary": "Fact：Q3營收US$46.72B、高於原指引上緣，淨利NT$763.06B；Q4營收指引US$52.3–54.3B。Interpretation：AI晶圓需求未反轉，但價格仍需確認。",
-      "tickers": ["TSM","NVDA","AMD","AVGO","ASML","AMAT","LRCX"],
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "ASML",
+        "AMAT",
+        "LRCX"
+      ],
       "source": "TSMC Investor Relations；Reuters",
       "source_url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
       "source_time": "2026-10-15",
@@ -189,7 +364,14 @@
       "light": "🔴",
       "title": "SOX連跌第七日，與TSMC強勁需求形成背離",
       "summary": "Fact：S&P 500 +0.33%、Nasdaq +0.08%，但SOX -0.90%；TSM ADR -1.76%。Interpretation：基本面改善尚未轉化為AI硬體價格確認。",
-      "tickers": ["SOX","SMH","SOXX","TSM","NVDA","AMD"],
+      "tickers": [
+        "SOX",
+        "SMH",
+        "SOXX",
+        "TSM",
+        "NVDA",
+        "AMD"
+      ],
       "source": "Reuters；市場價格",
       "source_url": "https://www.reuters.com/markets/us/",
       "source_time": "2026-10-15",
@@ -202,7 +384,14 @@
       "light": "🔴",
       "title": "9月PPI月增1.3%，通膨與估值風險未解除",
       "summary": "Fact：final demand PPI +1.3% MoM，goods +2.6%、services +0.8%。Interpretation：Fed與長端利率仍可壓縮長久期AI估值。",
-      "tickers": ["QQQ","SMH","SOXX","NVDA","AMD","AVGO"],
+      "tickers": [
+        "QQQ",
+        "SMH",
+        "SOXX",
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
       "source": "U.S. Bureau of Labor Statistics",
       "source_url": "https://www.bls.gov/news.release/ppi.nr0.htm",
       "source_time": "2026-10-15",
@@ -215,7 +404,14 @@
       "light": "🔴",
       "title": "CoreWeave信用壓力顯示AI資本可能成為瓶頸",
       "summary": "Fact：CoreWeave債券低於85、CDS逾1,000bp；公司以約US$100B backlog回應。Interpretation：backlog尚未消除融資市場疑慮，設備PO落地風險升高。",
-      "tickers": ["CRWV","ORCL","NVDA","VRT","ETN","MOD"],
+      "tickers": [
+        "CRWV",
+        "ORCL",
+        "NVDA",
+        "VRT",
+        "ETN",
+        "MOD"
+      ],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/markets/us/",
       "source_time": "2026-10-15",
@@ -228,7 +424,14 @@
       "light": "🔴",
       "title": "Networking與Optics未跟隨大盤反彈",
       "summary": "Fact：ANET -5.05%、COHR -4.84%、LITE -2.96%，均弱於SMH -1.05%。Interpretation：TSMC長期需求正向，但PO、認證與量產收入仍未獲價格確認。",
-      "tickers": ["ANET","MRVL","LITE","COHR","CIEN","ALAB"],
+      "tickers": [
+        "ANET",
+        "MRVL",
+        "LITE",
+        "COHR",
+        "CIEN",
+        "ALAB"
+      ],
       "source": "市場價格；公司IR查核",
       "source_url": "https://www.reuters.com/markets/us/",
       "source_time": "2026-10-15",
@@ -241,7 +444,14 @@
       "light": "🔴",
       "title": "9月CPI高於預期，Fed升息定價回升",
       "summary": "Fact：headline CPI +0.6% MoM、+3.7% YoY，core +0.3%、+2.6%；汽油月增9.1%。Interpretation：油價、通膨與長端殖利率再度同向壓縮AI估值。",
-      "tickers": ["QQQ","SMH","SOXX","NVDA","AMD","AVGO"],
+      "tickers": [
+        "QQQ",
+        "SMH",
+        "SOXX",
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
       "source": "U.S. Bureau of Labor Statistics；Reuters",
       "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
       "source_time": "2026-10-14",
@@ -254,7 +464,15 @@
       "light": "🔴",
       "title": "SOX跌4.3%並連跌第六日，AI去風險擴散",
       "summary": "Fact：Nasdaq -1.88%，SOX -4.3%；Nasdaq僅27個新高對521個新低。Interpretation：市場由選擇性賣壓升級為Institutional Selling／AI De-risking，但VIX約16.9，尚非capitulation。",
-      "tickers": ["SMH","SOXX","NVDA","AMD","MU","MRVL","ANET"],
+      "tickers": [
+        "SMH",
+        "SOXX",
+        "NVDA",
+        "AMD",
+        "MU",
+        "MRVL",
+        "ANET"
+      ],
       "source": "Reuters；市場價格",
       "source_url": "https://www.reuters.com/markets/us/",
       "source_time": "2026-10-14",
@@ -267,7 +485,14 @@
       "light": "🟢",
       "title": "ASML稱2027至2028供應仍難完全滿足AI需求",
       "summary": "Fact：Q3營收116.62億歐元、毛利率57.5%；公司稱客戶已討論2029至2030訂單，並研究額外2028產能。Interpretation：反駁AI設備需求已崩，但高利率仍可壓過基本面。",
-      "tickers": ["ASML","TSM","AMAT","LRCX","NVDA","AVGO"],
+      "tickers": [
+        "ASML",
+        "TSM",
+        "AMAT",
+        "LRCX",
+        "NVDA",
+        "AVGO"
+      ],
       "source": "ASML Investor Relations",
       "source_url": "https://www.asml.com/en/news/press-releases/2026/q3-2026-financial-results-dd17ac18-b5e7-4be5-9c24-e46bb428fddd",
       "source_time": "2026-10-14",
@@ -280,7 +505,15 @@
       "light": "🔴",
       "title": "ORCL、CRWV、NBIS與DELL同步重挫",
       "summary": "Fact：ORCL -8.8%、CRWV -15%、NBIS -10%、DELL -11.4%。Interpretation：資本市場開始要求AI資料中心的融資品質與收入可見度，宣布CapEx不再自動等同設備PO。",
-      "tickers": ["ORCL","CRWV","NBIS","DELL","VRT","ETN","MOD"],
+      "tickers": [
+        "ORCL",
+        "CRWV",
+        "NBIS",
+        "DELL",
+        "VRT",
+        "ETN",
+        "MOD"
+      ],
       "source": "Reuters；市場價格",
       "source_url": "https://www.reuters.com/markets/us/",
       "source_time": "2026-10-14",
@@ -293,7 +526,13 @@
       "light": "🔴",
       "title": "Optical鏈再跌約9%，價格層進入反轉警報",
       "summary": "Fact：LITE -9.26%、COHR -9.24%、CIEN -10.22%；未見同日新訂單取消或交期縮短公告。Interpretation：價格與擁擠度反轉已確認，基本面反轉雙證據仍不足。",
-      "tickers": ["LITE","COHR","CIEN","MRVL","ALAB"],
+      "tickers": [
+        "LITE",
+        "COHR",
+        "CIEN",
+        "MRVL",
+        "ALAB"
+      ],
       "source": "市場價格；公司IR查核",
       "source_url": "https://investor.lumentum.com/events-and-presentations/default.aspx",
       "source_time": "2026-10-14",
@@ -306,7 +545,13 @@
       "light": "🟡",
       "title": "台股反彈0.59%，但TSMC持平且外資續賣",
       "summary": "Fact：TAIEX收48,625.83，TSMC收2,490持平，外資續賣超200.4億台幣。Interpretation：反彈未構成Taiwan Leading Signal全面轉強，TSMC法說仍是美股AI鏈的下一個核心驗證。",
-      "tickers": ["TSM","NVDA","AMD","AVGO","ASML"],
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "ASML"
+      ],
       "source": "TWSE；CNA",
       "source_url": "https://focustaiwan.tw/business/202610140014",
       "source_time": "2026-10-14",
@@ -319,7 +564,15 @@
       "light": "🟡",
       "title": "TSMC Q3法說今日登場，實績尚未公布",
       "summary": "Fact：公司先前Q3營收指引446至458億美元、毛利率65%至67%；本報截點尚無Q3實績。Interpretation：市場真正要驗證的是Q4、CoWoS、N2/N3與2027 CapEx，不是只看EPS beat。",
-      "tickers": ["TSM","NVDA","AMD","AVGO","ASML","AMAT","LRCX"],
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "ASML",
+        "AMAT",
+        "LRCX"
+      ],
       "source": "TSMC Investor Relations",
       "source_url": "https://investor.tsmc.com/english/quarterly-results/2026/q3",
       "source_time": "2026-10-15",
@@ -332,7 +585,14 @@
       "light": "🔴",
       "title": "SOX連跌第五日，Nasdaq新低擴至408檔",
       "summary": "Fact：10/13 SOX -0.23%、五日累跌逾8%；Nasdaq僅跌0.15%，但47個新高對408個新低。Interpretation：AI高Beta仍在選擇性機構降風險，尚未見訂單取消與lead time縮短的雙重基本面反證。",
-      "tickers": ["SMH","SOXX","MU","AMAT","NVDA","AMD"],
+      "tickers": [
+        "SMH",
+        "SOXX",
+        "MU",
+        "AMAT",
+        "NVDA",
+        "AMD"
+      ],
       "source": "Reuters；Nasdaq Indexes",
       "source_url": "https://www.reuters.com/business/sp-500-futures-muted-investors-await-big-bank-earnings-chip-weakness-weighs-2026-10-13/",
       "source_time": "2026-10-13",
@@ -345,7 +605,14 @@
       "light": "🔴",
       "title": "台股跌1.95%，外資賣超1653億台幣為史上第三大",
       "summary": "Fact：TAIEX收48,341.31；TSMC -1.97%、台達電 -6.58%、台光電 -9.84%、金像電 -5.26%。Interpretation：Taiwan Leading Signal顯示Power、PCB/CCL與Compute同步去風險，對美股AI鏈形成風險警示，但不能直接推論訂單取消。",
-      "tickers": ["TSM","NVDA","VRT","ANET","MRVL","ALAB"],
+      "tickers": [
+        "TSM",
+        "NVDA",
+        "VRT",
+        "ANET",
+        "MRVL",
+        "ALAB"
+      ],
       "source": "TWSE；CNA",
       "source_url": "https://focustaiwan.tw/business/202610130017",
       "source_time": "2026-10-13",
@@ -358,7 +625,15 @@
       "light": "🔴",
       "title": "AI瓶頸由晶片轉向融資，CoreWeave債券殖利率升至15%",
       "summary": "Fact：Firmus擱置50億美元IPO，CoreWeave 6月債券殖利率由9.625%升至15%；Broadcom稱資本是AI成長最大限制。Interpretation：需求未崩，但融資成本開始提高資料中心開工、設備PO與上線延遲風險。",
-      "tickers": ["CRWV","APLD","ORCL","VRT","ETN","NVDA","AVGO"],
+      "tickers": [
+        "CRWV",
+        "APLD",
+        "ORCL",
+        "VRT",
+        "ETN",
+        "NVDA",
+        "AVGO"
+      ],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/world/asia-pacific/global-markets-ai-selloff-analysis-pix-2026-10-13/",
       "source_time": "2026-10-13",
@@ -371,7 +646,9 @@
       "light": "🟡",
       "title": "CXMT宣稱server DRAM進展，Memory供給風險升級待驗證",
       "summary": "Fact：CXMT計畫年底推出新server-memory產品，但量產能力、良率與OEM adoption尚未獨立證實。Interpretation：提高commodity/server DRAM中期供給風險，尚不足以推翻HBM或MU整體thesis。",
-      "tickers": ["MU"],
+      "tickers": [
+        "MU"
+      ],
       "source": "Reuters；公開產業報導",
       "source_url": "https://www.reuters.com/world/asia-pacific/global-markets-ai-selloff-analysis-pix-2026-10-13/",
       "source_time": "2026-10-13",
@@ -384,7 +661,15 @@
       "light": "🟡",
       "title": "CPI與ASML形成今日雙重驗證窗",
       "summary": "Fact：9月CPI將於10/14 08:30 ET公布，市場約預期headline +0.6% MoM、core +0.2%；ASML同日公布財報。Interpretation：通膨與設備訂單將共同決定半導體去風險是延續還是止跌，數據尚未公布。",
-      "tickers": ["QQQ","SMH","SOXX","ASML","TSM","AMAT","LRCX"],
+      "tickers": [
+        "QQQ",
+        "SMH",
+        "SOXX",
+        "ASML",
+        "TSM",
+        "AMAT",
+        "LRCX"
+      ],
       "source": "BLS；公開財報日曆",
       "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
       "source_time": "2026-10-14",
@@ -397,7 +682,14 @@
       "light": "🔴",
       "title": "SOX全成分股下跌，Optics高預期交易急速去風險",
       "summary": "Fact：SOX -2.3%、30檔全跌；LITE -9.81%、COHR -7.87%、CIEN -10%。Interpretation：屬高預期與擁擠交易重設，尚未出現訂單取消＋lead time縮短的基本面反轉雙證據。",
-      "tickers": ["SMH","LITE","COHR","CIEN","ALAB","MRVL"],
+      "tickers": [
+        "SMH",
+        "LITE",
+        "COHR",
+        "CIEN",
+        "ALAB",
+        "MRVL"
+      ],
       "source": "MarketWatch公開摘要；市場價格",
       "source_url": "https://www.marketwatch.com/story/why-ciena-lumentum-and-other-optical-stocks-were-among-the-markets-biggest-losers-on-monday-b3e53f6a",
       "source_time": "2026-10-12",
@@ -410,7 +702,9 @@
       "light": "🟢",
       "title": "南亞科Q3 ASP季增逾60%，AI基礎設施占營收逾20%",
       "summary": "Fact：Q3營收季增61.9%、毛利率85.7%、bit shipment中個位數下降；公司稱AI基礎設施相關業務占比超過20%。Interpretation：DRAM價格與長約證據強，但MU股價仍反映高預期與CXMT供給風險。",
-      "tickers": ["MU"],
+      "tickers": [
+        "MU"
+      ],
       "source": "南亞科技IR",
       "source_url": "https://www.nanya.com/en/IR/14/Investor%20Calendar?IRId=5298",
       "source_time": "2026-10-12",
@@ -423,7 +717,11 @@
       "light": "🟡",
       "title": "LITE與ALAB完成rack-level PCIe-over-optics展示",
       "summary": "Fact：Scorpio交換器、1060nm VCSEL光引擎與Corning光纖完成error-free PCIe-5 PoC。Interpretation：由概念進至可運作demo，但仍非客戶design win、量產訂單或確認營收。",
-      "tickers": ["LITE","ALAB","GLW"],
+      "tickers": [
+        "LITE",
+        "ALAB",
+        "GLW"
+      ],
       "source": "Lumentum IR",
       "source_url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Astera-Labs-and-Corning-to-Demonstrate-1060-nm-VCSEL-Based-PCIe-over-Optics-for-AI-Rack-Scale-Connectivity-at-the-2026-OCP-Global-Summit/default.aspx",
       "source_time": "2026-10-12",
@@ -436,7 +734,13 @@
       "light": "🔴",
       "title": "Brent升至106.65美元、美元觸及18個月高點",
       "summary": "Fact：Brent +1.8%、WTI +2.0%；美元升至18個月高點，利雅德機場關閉延至10/17。Interpretation：油價→通膨→Fed／長端→AI估值的壓力鏈仍在，今日需以US10Y復市與CPI預期驗證。",
-      "tickers": ["XLE","XOM","CVX","QQQ","SMH"],
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX",
+        "QQQ",
+        "SMH"
+      ],
       "source": "Reuters；AP",
       "source_url": "https://www.reuters.com/business/energy/",
       "source_time": "2026-10-12",
@@ -449,7 +753,16 @@
       "light": "🔴",
       "title": "利雅德機場連續第二日受襲，能源設施威脅升級",
       "summary": "Fact：10/11 Terminal 4再遭擊中起火，死亡數升至13；胡塞另宣稱攻擊達曼機場與Saudi Aramco設施。Interpretation：風險由單點事件升級為攻擊—報復循環，油價、航空與長久期科技面臨事件風險。",
-      "tickers": ["XLE","XOM","CVX","DAL","UAL","AAL","QQQ","SMH"],
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX",
+        "DAL",
+        "UAL",
+        "AAL",
+        "QQQ",
+        "SMH"
+      ],
       "source": "Reuters；AP",
       "source_url": "https://www.reuters.com/world/middle-east/",
       "source_time": "2026-10-11",
@@ -462,7 +775,9 @@
       "light": "🟡",
       "title": "NVIDIA據報洽談加深投資或收購Reflection AI",
       "summary": "Fact：仍是初步洽談，可能方案包括增資、收購或人才／技術交易，尚無正式協議。Interpretation：NVIDIA可能向開源模型與軟體層深化整合，但交易、監管與資本回報仍待驗證。",
-      "tickers": ["NVDA"],
+      "tickers": [
+        "NVDA"
+      ],
       "source": "Reuters轉述Financial Times公開摘要",
       "source_url": "https://www.reuters.com/technology/",
       "source_time": "2026-10-10",
@@ -475,7 +790,12 @@
       "light": "🔴",
       "title": "Yandex資料中心遭無人機攻擊後完全停擺",
       "summary": "Fact：Yandex稱Vladimir地區資料中心基礎設施受損並完全停運。Interpretation：資料中心物理安全與備援冗餘成為新增成本，但俄羅斯單一事件不可直接外推全球訂單。",
-      "tickers": ["VRT","ETN","ANET","NET"],
+      "tickers": [
+        "VRT",
+        "ETN",
+        "ANET",
+        "NET"
+      ],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/world/europe/",
       "source_time": "2026-10-11",
@@ -488,7 +808,9 @@
       "light": "🟡",
       "title": "南亞科Q3法說今日登場，DRAM價格與庫存待驗證",
       "summary": "Fact：公司IR確認10/12 15:00舉行Q3法說，目前尚未公布結果。Interpretation：對MU與DRAM鏈的關鍵read-through是ASP、毛利、庫存、利用率與CapEx，不能預填數據。",
-      "tickers": ["MU"],
+      "tickers": [
+        "MU"
+      ],
       "source": "南亞科技IR",
       "source_url": "https://www.nanya.com/en/IR/14?IRId=5298",
       "source_time": "2026-10-12",
@@ -501,7 +823,16 @@
       "light": "🔴",
       "title": "利雅德機場遇襲，能源與航空尾部風險升級",
       "summary": "Fact：10/10本週第三次攻擊造成12死、逾300傷，機場一度全面停航。Interpretation：風險由能源運輸擴散至民航樞紐，週一油價、航空與長久期科技面臨gap風險；美國是否參與沙國打擊成為新KPI。",
-      "tickers": ["XLE","XOM","CVX","DAL","UAL","AAL","QQQ","SMH"],
+      "tickers": [
+        "XLE",
+        "XOM",
+        "CVX",
+        "DAL",
+        "UAL",
+        "AAL",
+        "QQQ",
+        "SMH"
+      ],
       "source": "Reuters",
       "source_url": "https://www.reuters.com/world/middle-east/loud-blast-heard-riyadh-airport-airlines-cancel-more-flights-2026-10-10/",
       "source_time": "2026-10-10",
@@ -514,7 +845,15 @@
       "light": "🔴",
       "title": "AI債務發行9月驟降，資料中心融資傳導轉弱",
       "summary": "Fact：FT公開摘要顯示9月AI相關債務發行降至230億美元、不到8月一半。Interpretation：需求仍稀缺，但高利率已先限制融資，設備PO與上線時點風險上升。",
-      "tickers": ["ORCL","APLD","VRT","ETN","MOD","NVDA","AVGO"],
+      "tickers": [
+        "ORCL",
+        "APLD",
+        "VRT",
+        "ETN",
+        "MOD",
+        "NVDA",
+        "AVGO"
+      ],
       "source": "Financial Times公開摘要",
       "source_url": "https://www.ft.com/",
       "source_time": "2026-10-10",
@@ -527,7 +866,12 @@
       "light": "🟡",
       "title": "USITC立案調查AI伺服器垂直供電系統",
       "summary": "Fact：USITC依Vicor申訴立案337-TA-1526，列台達電、廣達、鴻海等為被調查方；立案不等於侵權成立。Interpretation：AI rack供電鏈新增法律與design-around風險。",
-      "tickers": ["VICR","SMCI","DELL","VRT"],
+      "tickers": [
+        "VICR",
+        "SMCI",
+        "DELL",
+        "VRT"
+      ],
       "source": "USITC",
       "source_url": "https://www.usitc.gov/press_room/news_release/2026/er1009_69342.htm",
       "source_time": "2026-10-09",
@@ -540,7 +884,13 @@
       "light": "🟡",
       "title": "大立光FA驗證過關，手機11月拉貨可能轉弱",
       "summary": "漏報回補：10/8法說稱FA已通過客戶驗證、FAU最快2027年中出貨；10月拉貨約持平、11月可能下降。匿名客戶不可自動等同Apple。",
-      "tickers": ["AAPL","LITE","COHR","ANET","MRVL"],
+      "tickers": [
+        "AAPL",
+        "LITE",
+        "COHR",
+        "ANET",
+        "MRVL"
+      ],
       "source": "大立光法說公開整理；MoneyDJ",
       "source_url": "https://www.moneydj.com/",
       "source_time": "2026-10-08",
