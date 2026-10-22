@@ -160,6 +160,17 @@ def calendar_panels(doc, status=None, now=None):
 
 
 def render_html(html, doc, status=None, now=None):
+    # Minimal mobile-first data cells; includes a marker to avoid duplicate styles.
+    if "</head>" in html and "data-calendar-results-style" not in html:
+        css = ("<style data-calendar-results-style>"
+               ".calResults{display:grid;gap:8px;margin:9px 0}"
+               ".calResult{background:rgba(125,145,165,.08);"
+               "border-left:3px solid #9ca9ba;padding:9px 10px;border-radius:7px;"
+               "line-height:1.65;overflow-wrap:anywhere}"
+               ".calResult strong{font-size:.92em}"
+               ".calEvent .calMuted{margin-top:5px;line-height:1.6}"
+               "</style>")
+        html = html.replace("</head>", css + "</head>", 1)
     for element_id, content in calendar_panels(doc, status, now).items():
         # Existing reports use different Chinese loading messages. Replace the
         # initial text in the exact calendar container without touching HTML nearby.
