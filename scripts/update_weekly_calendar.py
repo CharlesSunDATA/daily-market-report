@@ -112,10 +112,12 @@ def execute(now=None,root=ROOT,fetch=request):
     status_path=root/"weekly-calendar-status.json"
     doc=json.loads(data_path.read_text(encoding="utf-8"))
     existing=doc.get("earnings",[])
-    manual=[v for v in existing if v.get("status")=="official"]
+    # Keep all manually curated entries, including reported/calendar-confirmed.
+    # Older versions discarded them on every successful refresh.
+    manual=[v for v in existing if v.get("status")!="provider_unverified"]
     previous=[v for v in existing if v.get("status")=="provider_unverified"]
     errors=[];scraped=[];ok=0
-    for date in market_dates(now)[:10]:
+    for date in market_dates(now):
         if date.weekday()>4:continue
         url="https://api.nasdaq.com/api/calendar/earnings?"+urlencode({"date":date.isoformat()})
         try:
@@ -153,10 +155,18 @@ def execute(now=None,root=ROOT,fetch=request):
 
 if __name__=="__main__":
     parser=argparse.ArgumentParser()
-    parser.add_argument("--adelaide-9am",action="store_true")
+    parser.add_argument("--once-per-local-day",action="store_true")
     args=parser.parse_args()
     current=dt.datetime.now(dt.timezone.utc)
-    if args.adelaide_9am and current.astimezone(AU).hour!=9:
-        print("skip alternate UTC slot")
-    else:
-        execute(current)
+    if args.once_per_local_day:
+        # GitHub cron may run hours late: never reject an otherwise valid run
+        # merely because its execution time has slipped past 9 AM Adelaide.
+        try:
+            previous=json.loads((ROOT/"weekly-calendar-status.json").read_text(encoding="utf-8"))
+            last=previous.get("last_scan_at")
+            if last and previous.get("status")=="success" and dt.datetime.fromisoformat(last.replace('Z','+00:00')).astimezone(AU).date()==current.astimezone(AU).date():
+                print("Daily calendar already successfully scanned today; skipping duplicate slot")
+                raise SystemExit(0)
+        except (ValueError,TypeError,OSError):
+            pass
+    execute(current)
