@@ -1,13 +1,14 @@
 /* Shared, read-only calendar view for the homepage and current report. */
 (async function(){
   const script=document.currentScript;
-  const root=script?.getAttribute("data-root")||"";
+  // Resolve assets from this JavaScript file on home and nested report pages.
+  const root=new URL(".",script?.src||document.baseURI).href;
   const earnings=document.getElementById("weeklyEarnings");
   const macro=document.getElementById("weeklyMacro");
   if(!earnings||!macro)return;
   const escapeHTML=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   const isoToday=()=>{
-    const p=Object.fromEntries(new Intl.DateTimeFormat("en-GB",{timeZone:"Australia/Adelaide",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date()).map(x=>[x.type,x.value]));
+    const p=Object.fromEntries(new Intl.DateTimeFormat("en-GB",{timeZone:"America/New_York",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date()).map(x=>[x.type,x.value]));
     return p.year+"-"+p.month+"-"+p.day;
   };
   const today=isoToday();
@@ -30,10 +31,18 @@
   };
   const block=rows=>'<div class="calRows">'+rows.join("")+"</div>";
   const heading='<p class="calIntro">美東事件日 '+escapeHTML(begin)+" 至 "+escapeHTML(end)+"；以下時間另換算南澳。未確認的公布時刻不會推算。</p>";
-  earnings.innerHTML=heading+"<p class=\"calMuted\">正在載入已核實的財報清單…</p>";
-  macro.innerHTML=heading+"<p class=\"calMuted\">正在載入官方財經事件…</p>";
+  const hasFallback=!!(earnings.querySelector(".calEvent")||macro.querySelector(".calEvent"));
+  // Display verified build-time data immediately; do not blank it on refresh.
+  if(!hasFallback){
+    earnings.innerHTML=heading+"<p class=\"calMuted\">正在載入已核實的財報清單…</p>";
+    macro.innerHTML=heading+"<p class=\"calMuted\">正在載入官方財經事件…</p>";
+  }
   try{
-    const r=await fetch(root+"weekly-calendar.json?v="+Date.now(),{cache:"no-store"});
+    const controller=new AbortController();
+    const timeout=setTimeout(()=>controller.abort(),12000);
+    let r;
+    try{r=await fetch(root+"weekly-calendar.json?v="+Date.now(),{cache:"no-store",signal:controller.signal});}
+    finally{clearTimeout(timeout)}
     if(!r.ok)throw Error("HTTP "+r.status);
     const c=await r.json();
     const e=(c.earnings||[]).filter(x=>x.date>=begin&&x.date<=end)
@@ -71,7 +80,12 @@
       }
     }catch(_){}
   }catch(_){
-    earnings.innerHTML=heading+'<p class="calMuted">財報資料暫時無法載入。'+safeLink("https://www.nasdaq.com/market-activity/earnings","查看財報日曆")+"</p>";
-    macro.innerHTML=heading+'<p class="calMuted">總經日曆資料暫時無法載入。'+safeLink("https://www.bls.gov/schedule/","查看 BLS")+"</p>";
+    if(hasFallback){
+      earnings.insertAdjacentHTML("afterbegin",'<p class="calFoot">即時更新暫時失敗；目前顯示已發布的最後一份資料。</p>');
+      macro.insertAdjacentHTML("afterbegin",'<p class="calFoot">即時更新暫時失敗；目前顯示已發布的最後一份資料。</p>');
+    }else{
+      earnings.innerHTML=heading+'<p class="calMuted">財報資料暫時無法載入。'+safeLink("https://www.nasdaq.com/market-activity/earnings","查看財報日曆")+"</p>";
+      macro.innerHTML=heading+'<p class="calMuted">總經日曆資料暫時無法載入。'+safeLink("https://www.bls.gov/schedule/","查看 BLS")+"</p>";
+    }
   }
 })();
