@@ -67,12 +67,40 @@ def calendar_panels(doc, status=None, now=None):
                 '</div><div class="calMuted">重點：' + h(x.get("focus", "")) +
                 source(x.get("source_url")) + '</div></article>')
     def economic_card(x):
-        return ('<article class="calEvent"><div><strong>' +
-                h(x.get("date", "")[5:]) + " · " + h(x.get("title", "")) +
-                '</strong><span class="calTag">' +
-                ("重要" if x.get("impact") == "高" else "關注") +
-                '</span></div><div>' + h(adelaide_time(x.get("datetime_et"))) +
-                '</div><div class="calMuted">觀察：' + h(x.get("focus", "")) +
+        actual_rows = x.get("results", [])
+        verified = x.get("result_status") == "published" and any(
+            r.get("actual") is not None for r in actual_rows)
+        timestamp = x.get("datetime_et")
+        past = False
+        if timestamp:
+            try:
+                published_time = datetime.fromisoformat(timestamp.replace("Z", "+00:00"))
+                past = published_time.tzinfo is not None and published_time <= now
+            except (ValueError, TypeError):
+                pass
+        tag = ("已公布" if verified else "已到公布時間・待核實"
+               if past else "重要・待公布" if x.get("impact") == "高"
+               else "關注・待公布")
+        intro = ('<article class="calEvent"><div><strong>' +
+                 h(x.get("date", "")[5:]) + " · " + h(x.get("title", "")) +
+                 '</strong><span class="calTag">' + tag + '</span></div>')
+        if verified:
+            results = '<div class="calResults">' + "".join(
+                '<div class="calResult"><strong>' + h(v.get("indicator", x.get("title", ""))) +
+                '</strong><div>實際 <b>' + h(v.get("actual")) +
+                '</b> · 預期 ' + h(v.get("forecast") or "未取得") +
+                ' · 前值 ' + h(v.get("previous") or "未取得") +
+                '</div></div>' for v in actual_rows) + '</div>'
+            results += ('<div class="calMuted">數據發布：' + h(adelaide_time(timestamp)) +
+                        source(x.get("result_source_url") or x.get("source_url"), "官方實際數據") +
+                        source(x.get("forecast_source_url"), "預期值來源") + '</div>')
+        else:
+            results = '<div class="calMuted">' + h(adelaide_time(timestamp)) + '</div>'
+            if past:
+                results += ('<div class="calMuted">預定發布時刻已過，尚未取得可核實的'
+                            '實際數據；不可視為未公布。</div>')
+        return (intro + results +
+                '<div class="calMuted">觀察：' + h(x.get("focus", "")) +
                 source(x.get("source_url"), "官方日曆") + '</div></article>')
     e = (heading + '<div class="calRows">' +
          "".join(earning_card(x) for x in earnings) + '</div>' if earnings else
