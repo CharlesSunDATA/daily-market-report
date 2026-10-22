@@ -284,9 +284,26 @@
       "datetime_et": "2026-10-20T08:30:00-04:00",
       "title": "美國新屋開工／建築許可",
       "impact": "中",
-      "focus": "住宅景氣、利率敏感度",
+      "focus": "新屋開工低於預期、建築許可略高於預期；住宅活動仍偏弱",
       "status": "official",
-      "source_url": "https://www.newyorkfed.org/research/calendars/i-oct26.html"
+      "source_url": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+      "result_status": "published",
+      "results": [
+        {
+          "indicator": "新屋開工（9 月年化）",
+          "actual": "122.1 萬戶",
+          "forecast": "130.0 萬戶",
+          "previous": "128.8 萬戶"
+        },
+        {
+          "indicator": "建築許可（9 月年化）",
+          "actual": "140.0 萬戶",
+          "forecast": "139.0 萬戶",
+          "previous": "140.3 萬戶"
+        }
+      ],
+      "result_source_url": "https://www.census.gov/construction/nrc/current/",
+      "forecast_source_url": "https://terminal.hyperstocks.io/economic-calendar/2026-10-20"
     },
     {
       "id": "eco-20261020-pending",
@@ -294,9 +311,20 @@
       "datetime_et": "2026-10-20T10:00:00-04:00",
       "title": "成屋待售銷售",
       "impact": "中",
-      "focus": "房地產需求",
+      "focus": "實際月減 7.3%，明顯低於市場預期；美國購屋需求疲弱",
       "status": "official",
-      "source_url": "https://www.newyorkfed.org/research/calendars/i-oct26.html"
+      "source_url": "https://www.newyorkfed.org/research/calendars/i-oct26.html",
+      "result_status": "published",
+      "results": [
+        {
+          "indicator": "成屋待售銷售（9 月月增）",
+          "actual": "-7.3%",
+          "forecast": "-0.7%",
+          "previous": "+0.3%"
+        }
+      ],
+      "result_source_url": "https://www.nar.realtor/newsroom/pending-home-sales-decreased-7-3-percent-in-september",
+      "forecast_source_url": "https://au.investing.com/economic-calendar/pending-home-sales-232"
     },
     {
       "id": "eco-20261022-claims",
@@ -409,5 +437,6 @@
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     }
   ],
-  "last_scan_at": "2026-10-22T03:14:08.514948+00:00"
+  "last_scan_at": "2026-10-22T03:14:08.514948+00:00",
+  "results_verified_as_of": "2026-10-22"
 }
