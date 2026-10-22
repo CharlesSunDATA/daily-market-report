@@ -1,10 +1,12 @@
 {
-  "last_scan_at": null,
-  "status": "not_started",
-  "earnings_provider": "Nasdaq 日曆（如可連線則補充）",
-  "earnings_provider_ok": false,
+  "last_scan_at": "2026-10-22T03:09:02.794296+00:00",
+  "status": "partial",
+  "earnings_provider": "Nasdaq 日曆（日期需再核公司 IR）",
+  "earnings_provider_ok": true,
+  "nasdaq_days_ok": 10,
+  "nasdaq_days_total": 10,
   "bls_ok": false,
   "notes": [
-    "官方人工核實事件已顯示；其他日期可能尚未涵蓋。"
+    "BLS feed: HTTPError"
   ]
 }

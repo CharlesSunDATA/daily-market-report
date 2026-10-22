@@ -4,19 +4,6 @@
   "verification_note": "官方公司IR／美國官方日曆核實；財報電話會議時間不等於財報發布時間。",
   "earnings": [
     {
-      "symbol": "NFLX",
-      "name": "Netflix",
-      "date": "2026-10-20",
-      "session": "AMC",
-      "event_type": "results",
-      "datetime_et": "2026-10-20T16:01:00-04:00",
-      "time_label": "財報約 16:01 ET",
-      "priority": 2,
-      "focus": "已發布：EPS優於預期，但廣告收入展望下修、盤後走弱",
-      "status": "official",
-      "source_url": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2026/Netflix-to-Announce-Third-Quarter-2026-Financial-Results/default.aspx"
-    },
-    {
       "symbol": "SPCX",
       "name": "SpaceX",
       "date": "2026-10-20",
@@ -30,30 +17,43 @@
       "source_url": "https://www.theguardian.com/science/2026/oct/20/spacex-revenue-earnings-report"
     },
     {
-      "symbol": "META",
-      "name": "Meta Platforms",
-      "date": "2026-10-21",
+      "symbol": "NFLX",
+      "name": "Netflix",
+      "date": "2026-10-20",
       "session": "AMC",
       "event_type": "results",
-      "datetime_et": "2026-10-21T16:30:00-04:00",
-      "time_label": "盤後公布；16:30 ET 電話會議",
-      "priority": 3,
-      "focus": "已發布：營收與Q4指引強；CapEx高、FCF轉負",
-      "status": "reported",
-      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx"
+      "datetime_et": "2026-10-20T16:01:00-04:00",
+      "time_label": "財報約 16:01 ET",
+      "priority": 2,
+      "focus": "已發布：EPS優於預期，但廣告收入展望下修、盤後走弱",
+      "status": "official",
+      "source_url": "https://ir.netflix.net/investor-news-and-events/financial-releases/press-release-details/2026/Netflix-to-Announce-Third-Quarter-2026-Financial-Results/default.aspx"
     },
     {
-      "symbol": "TSLA",
-      "name": "Tesla",
-      "date": "2026-10-21",
+      "symbol": "NFLX",
+      "name": "Netflix, Inc.",
+      "date": "2026-10-20",
       "session": "unknown",
-      "event_type": "results",
+      "event_type": "estimate",
       "datetime_et": null,
-      "time_label": "官方確認日期；精確時刻未核實",
+      "time_label": "Nasdaq 日曆預告（未確認時段）",
+      "focus": "確認營收、指引、訂單、CapEx 與毛利",
       "priority": 2,
-      "focus": "已發布：FCF優於預期，但CapEx低於預期",
-      "status": "reported",
-      "source_url": "https://ir.tesla.com/"
+      "status": "provider_unverified",
+      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+    },
+    {
+      "symbol": "VICR",
+      "name": "Vicor Corporation",
+      "date": "2026-10-20",
+      "session": "unknown",
+      "event_type": "estimate",
+      "datetime_et": null,
+      "time_label": "Nasdaq 日曆預告（未確認時段）",
+      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "priority": 2,
+      "status": "provider_unverified",
+      "source_url": "https://www.nasdaq.com/market-activity/earnings"
     },
     {
       "symbol": "LRCX",
@@ -69,17 +69,17 @@
       "source_url": "https://investor.lamresearch.com/2026-09-30-Lam-Research-Corporation-Announces-September-Quarter-Financial-Conference-Call"
     },
     {
-      "symbol": "TXN",
-      "name": "Texas Instruments",
+      "symbol": "META",
+      "name": "Meta Platforms",
       "date": "2026-10-21",
-      "session": "unknown",
+      "session": "AMC",
       "event_type": "results",
       "datetime_et": "2026-10-21T16:30:00-04:00",
-      "time_label": "16:30 ET 財報電話會議；公布時刻待確認",
-      "priority": 2,
-      "focus": "已發布：工業需求與AI資料中心帶動改善",
+      "time_label": "盤後公布；16:30 ET 電話會議",
+      "priority": 3,
+      "focus": "已發布：營收與Q4指引強；CapEx高、FCF轉負",
       "status": "reported",
-      "source_url": "https://investor.ti.com/"
+      "source_url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx"
     },
     {
       "symbol": "IBM",
@@ -93,6 +93,32 @@
       "focus": "已發布：軟體增速與自由現金流展望改善",
       "status": "reported",
       "source_url": "https://newsroom.ibm.com/2026-10-07-ibm-to-announce-third-quarter-2026-financial-results"
+    },
+    {
+      "symbol": "TSLA",
+      "name": "Tesla",
+      "date": "2026-10-21",
+      "session": "unknown",
+      "event_type": "results",
+      "datetime_et": null,
+      "time_label": "官方確認日期；精確時刻未核實",
+      "priority": 2,
+      "focus": "已發布：FCF優於預期，但CapEx低於預期",
+      "status": "reported",
+      "source_url": "https://ir.tesla.com/"
+    },
+    {
+      "symbol": "TXN",
+      "name": "Texas Instruments",
+      "date": "2026-10-21",
+      "session": "unknown",
+      "event_type": "results",
+      "datetime_et": "2026-10-21T16:30:00-04:00",
+      "time_label": "16:30 ET 財報電話會議；公布時刻待確認",
+      "priority": 2,
+      "focus": "已發布：工業需求與AI資料中心帶動改善",
+      "status": "reported",
+      "source_url": "https://investor.ti.com/"
     },
     {
       "symbol": "WDC",
@@ -119,6 +145,149 @@
       "focus": "資料中心現場發電訂單、毛利與現金流",
       "status": "calendar-confirmed",
       "source_url": "https://investor.bloomenergy.com/"
+    },
+    {
+      "symbol": "MOD",
+      "name": "Modine Manufacturing Company",
+      "date": "2026-10-27",
+      "session": "unknown",
+      "event_type": "estimate",
+      "datetime_et": null,
+      "time_label": "Nasdaq 日曆預告（未確認時段）",
+      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "priority": 2,
+      "status": "provider_unverified",
+      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology Holdings PLC",
+      "date": "2026-10-27",
+      "session": "AMC",
+      "event_type": "estimate",
+      "datetime_et": null,
+      "time_label": "Nasdaq 日曆預告（盤後）",
+      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "priority": 2,
+      "status": "provider_unverified",
+      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+    },
+    {
+      "symbol": "GEV",
+      "name": "GE Vernova Inc.",
+      "date": "2026-10-28",
+      "session": "BMO",
+      "event_type": "estimate",
+      "datetime_et": null,
+      "time_label": "Nasdaq 日曆預告（盤前）",
+      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "priority": 2,
+      "status": "provider_unverified",
+      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "date": "2026-10-28",
+      "session": "AMC",
+      "event_type": "estimate",
+      "datetime_et": null,
+      "time_label": "Nasdaq 日曆預告（盤後）",
+      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "priority": 2,
+      "status": "provider_unverified",
+      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
+      "date": "2026-10-28",
+      "session": "AMC",
+      "event_type": "estimate",
+      "datetime_et": null,
+      "time_label": "Nasdaq 日曆預告（盤後）",
+      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "priority": 2,
+      "status": "provider_unverified",
+      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation",
+      "date": "2026-10-28",
+      "session": "AMC",
+      "event_type": "estimate",
+      "datetime_et": null,
+      "time_label": "Nasdaq 日曆預告（盤後）",
+      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "priority": 2,
+      "status": "provider_unverified",
+      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+    },
+    {
+      "symbol": "NOW",
+      "name": "ServiceNow, Inc.",
+      "date": "2026-10-28",
+      "session": "AMC",
+      "event_type": "estimate",
+      "datetime_et": null,
+      "time_label": "Nasdaq 日曆預告（盤後）",
+      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "priority": 2,
+      "status": "provider_unverified",
+      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv Holdings, LLC",
+      "date": "2026-10-28",
+      "session": "BMO",
+      "event_type": "estimate",
+      "datetime_et": null,
+      "time_label": "Nasdaq 日曆預告（盤前）",
+      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "priority": 2,
+      "status": "provider_unverified",
+      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "date": "2026-10-29",
+      "session": "AMC",
+      "event_type": "estimate",
+      "datetime_et": null,
+      "time_label": "Nasdaq 日曆預告（盤後）",
+      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "priority": 2,
+      "status": "provider_unverified",
+      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+    },
+    {
+      "symbol": "PWR",
+      "name": "Quanta Services, Inc.",
+      "date": "2026-10-29",
+      "session": "BMO",
+      "event_type": "estimate",
+      "datetime_et": null,
+      "time_label": "Nasdaq 日曆預告（盤前）",
+      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "priority": 2,
+      "status": "provider_unverified",
+      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk Corporation",
+      "date": "2026-10-29",
+      "session": "AMC",
+      "event_type": "estimate",
+      "datetime_et": null,
+      "time_label": "Nasdaq 日曆預告（盤後）",
+      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "priority": 2,
+      "status": "provider_unverified",
+      "source_url": "https://www.nasdaq.com/market-activity/earnings"
     }
   ],
   "economic": [
@@ -252,5 +421,6 @@
       "status": "official",
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     }
-  ]
+  ],
+  "last_scan_at": "2026-10-22T03:09:02.794296+00:00"
 }
