@@ -127,12 +127,17 @@ def execute(now=None,root=ROOT,fetch=request):
     # Manual verified dates always win when the provider disagrees.
     manual_symbols={r["symbol"] for r in manual
                     if r.get("date","")>=now.astimezone(ET).date().isoformat()}
-    new_entries=[r for r in scraped if r["symbol"] not in manual_symbols]
+    manual_keys={(r["symbol"],r["date"]) for r in manual}
+    new_entries=[r for r in scraped if r["symbol"] not in manual_symbols
+                 and (r["symbol"],r["date"]) not in manual_keys]
     latest={(r["symbol"],r["date"]):r for r in previous}
     if ok:latest.update({(r["symbol"],r["date"]):r for r in new_entries})
     lower=(now.astimezone(ET).date()-dt.timedelta(days=7)).isoformat()
     cutoff=(now.astimezone(ET).date()+dt.timedelta(days=22)).isoformat()
-    provider=[v for v in latest.values() if lower<=v["date"]<=cutoff]
+    provider=[v for v in latest.values()
+              if lower<=v["date"]<=cutoff
+              and (v["symbol"],v["date"]) not in manual_keys
+              and not (v["symbol"] in manual_symbols and v["date"]>=now.astimezone(ET).date().isoformat())]
     doc["earnings"]=sorted(manual+provider,key=lambda r:(r["date"],-r.get("priority",1),r["symbol"]))
     bls_ok=False
     try:
@@ -148,6 +153,7 @@ def execute(now=None,root=ROOT,fetch=request):
             "earnings_provider_ok":bool(ok),"nasdaq_days_ok":ok,"nasdaq_days_total":10,
             "bls_ok":bls_ok,"notes":errors[:12]}
     doc["last_scan_at"]=now.isoformat()
+    doc["as_of"]=now.astimezone(ET).date().isoformat()
     data_path.write_text(json.dumps(doc,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     status_path.write_text(json.dumps(status,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(f"Calendar: Nasdaq {ok}/10, BLS={bls_ok}, earnings={len(doc['earnings'])}, macro={len(doc['economic'])}")
