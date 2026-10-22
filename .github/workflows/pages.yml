@@ -25,8 +25,25 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Validate calendar logic and browser JavaScript
+        run: |
+          python -m unittest discover -s tests -v
+          node --check weekly-calendar.js
+
       - name: Add weekly calendar cards to the newest published report
         run: python scripts/inject_calendar.py
+
+      - name: Pre-render earnings and economic events into both pages
+        run: |
+          python scripts/render_calendar.py
+          python - <<'PY'
+          from pathlib import Path
+          page=Path('index.html').read_text(encoding='utf-8')
+          assert 'id="weeklyEarnings">讀取中' not in page
+          assert 'id="weeklyMacro">讀取中' not in page
+          assert 'calEvent' in page
+          print('Page smoke test: both weekly cards show data without JavaScript')
+          PY
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
