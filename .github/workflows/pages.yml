@@ -5,6 +5,11 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
+  # Calendar commits use GITHUB_TOKEN and do not trigger push-based workflows.
+  # Rebuild Pages after the scanner finishes so the static fallback stays fresh.
+  workflow_run:
+    workflows: ["Refresh Weekly Market Calendar"]
+    types: [completed]
 
 permissions:
   contents: read
@@ -17,6 +22,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
