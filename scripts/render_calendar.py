@@ -7,6 +7,7 @@ JavaScript or an external provider to display the verified data already saved.
 from datetime import datetime, timedelta, timezone
 from html import escape
 import json
+import re
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -91,11 +92,13 @@ def calendar_panels(doc, status=None, now=None):
 
 def render_html(html, doc, status=None, now=None):
     for element_id, content in calendar_panels(doc, status, now).items():
-        placeholder = 'id="' + element_id + '">讀取中…</div>'
-        if placeholder not in html:
+        # Existing reports use different Chinese loading messages. Replace the
+        # initial text in the exact calendar container without touching HTML nearby.
+        pattern = r'(id="' + re.escape(element_id) + r'">)[^<]*(</div>)'
+        html, count = re.subn(pattern, lambda m: m.group(1) + content + m.group(2),
+                              html, count=1)
+        if count != 1:
             raise ValueError("Missing calendar placeholder: " + element_id)
-        html = html.replace(placeholder,
-                            'id="' + element_id + '">' + content + '</div>', 1)
     return html
 
 
