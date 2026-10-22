@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-22",
+  "as_of": "2026-10-23",
   "timezone_reference": "America/New_York",
   "verification_note": "官方公司IR／美國官方日曆核實；財報電話會議時間不等於財報發布時間。",
   "earnings": [
@@ -294,13 +294,42 @@
       "name": "Western Digital",
       "date": "2026-10-22",
       "session": "AMC",
-      "event_type": "call",
+      "event_type": "results",
       "datetime_et": "2026-10-22T16:30:00-04:00",
       "time_label": "盤後公布；16:30 ET 電話會議",
       "priority": 3,
-      "focus": "雲端儲存需求、HDD 交期與毛利",
+      "focus": "已發布：營收、毛利與自由現金流同步改善；Q2毛利指引再上升",
       "status": "official",
-      "source_url": "https://investor.wdc.com/news-releases/news-release-details/wd-announce-first-quarter-fiscal-year-2027-financial-results"
+      "source_url": "https://investor.wdc.com/news-releases/news-release-details/wd-announce-first-quarter-fiscal-year-2027-financial-results",
+      "result_status": "published",
+      "result_source_url": "https://investor.wdc.com/node/28921/pdf",
+      "consensus_source_url": "https://www.investing.com/equities/western-digital-earnings",
+      "result_note": "公司實際值來自官方財報；市場共識為公開彙整口徑。",
+      "guidance": "Q2 FY2027 營收 $5.1B±$0.1B；Non-GAAP 毛利率 60%–61%；Non-GAAP EPS $5.80±$0.20。",
+      "verified_at": "2026-10-23",
+      "results": [
+        {
+          "indicator": "營收（USD）",
+          "actual": "$4.381B",
+          "forecast": "$4.14B",
+          "previous": "$2.821B",
+          "surprise": "+5.8%"
+        },
+        {
+          "indicator": "EPS（Non-GAAP，每股美元）",
+          "actual": "$4.64",
+          "forecast": "$3.78",
+          "previous": "$1.78",
+          "surprise": "+22.8%"
+        },
+        {
+          "indicator": "自由現金流（USD）",
+          "actual": "$1.377B",
+          "forecast": null,
+          "previous": null,
+          "surprise": null
+        }
+      ]
     },
     {
       "symbol": "BE",
@@ -308,12 +337,41 @@
       "date": "2026-10-22",
       "session": "AMC",
       "event_type": "results",
-      "datetime_et": null,
-      "time_label": "盤後；精確公告時刻待公司IR確認",
+      "datetime_et": "2026-10-22T17:00:00-04:00",
+      "time_label": "盤後公布；17:00 ET 電話會議",
       "priority": 2,
-      "focus": "資料中心現場發電訂單、毛利與現金流",
-      "status": "calendar-confirmed",
-      "source_url": "https://investor.bloomenergy.com/"
+      "focus": "已發布：營收年增138%、營業槓桿改善，全年指引再上修",
+      "status": "official",
+      "source_url": "https://investor.bloomenergy.com/",
+      "result_status": "published",
+      "result_source_url": "https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-Reports-Record-Third-Quarter-2026-Financial-Results-and-Raises-Full-Year-2026-Guidance/default.aspx",
+      "consensus_source_url": "https://www.investing.com/equities/bloom-energy-corp-earnings",
+      "result_note": "公司實際值來自官方財報；EPS 市場共識為公開彙整口徑，營收未填入未核實共識。",
+      "guidance": "2026 全年營收 $4.4B–$4.6B、Non-GAAP 毛利率約34%、Non-GAAP營業利益 $960M–$1.03B、Non-GAAP EPS $3.10–$3.40。",
+      "verified_at": "2026-10-23",
+      "results": [
+        {
+          "indicator": "營收（USD）",
+          "actual": "$1.2358B",
+          "forecast": null,
+          "previous": "$519.0M",
+          "surprise": "+138.1% YoY"
+        },
+        {
+          "indicator": "EPS（Non-GAAP，每股美元）",
+          "actual": "$0.94",
+          "forecast": "$0.69",
+          "previous": "$0.15",
+          "surprise": "+36.2%"
+        },
+        {
+          "indicator": "Non-GAAP 毛利率",
+          "actual": "34.5%",
+          "forecast": null,
+          "previous": "30.4%",
+          "surprise": "+410 bps YoY"
+        }
+      ]
     },
     {
       "symbol": "MOD",
@@ -619,7 +677,7 @@
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     }
   ],
-  "last_scan_at": "2026-10-22T05:30:33.449464+00:00",
-  "results_verified_as_of": "2026-10-22",
-  "earnings_results_verified_as_of": "2026-10-22"
+  "last_scan_at": "2026-10-23T00:00:00+00:00",
+  "results_verified_as_of": "2026-10-23",
+  "earnings_results_verified_as_of": "2026-10-23"
 }
