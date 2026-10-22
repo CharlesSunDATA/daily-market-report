@@ -32,4 +32,29 @@ END:VCALENDAR'''
   d=json.loads((path.parents[1]/"weekly-calendar.json").read_text())
   self.assertTrue(all(v["source_url"].startswith("https://") for v in d["earnings"]+d["economic"]))
   self.assertTrue(any(v["symbol"]=="META" for v in d["earnings"]))
+
+ def test_refresh_preserves_curated_rows_and_scans_ten_weekdays(self):
+  from tempfile import TemporaryDirectory
+  with TemporaryDirectory() as td:
+   root=Path(td)
+   data={"as_of":"2026-10-22","earnings":[
+     {"symbol":"META","date":"2026-10-21","status":"reported","priority":3,"source_url":"https://example.com"},
+     {"symbol":"WDC","date":"2026-10-22","status":"official","priority":3,"source_url":"https://example.com"},
+     {"symbol":"NVDA","date":"2026-10-26","status":"provider_unverified","priority":2,"source_url":"https://example.com"}],
+     "economic":[]}
+   (root/"weekly-calendar.json").write_text(json.dumps(data),encoding="utf-8")
+   (root/"weekly-calendar-status.json").write_text('{"status":"not_started"}',encoding="utf-8")
+   requests=[]
+   def fake_fetch(url,accept="application/json"):
+    requests.append(url)
+    if "bls.ics" in url:return b"BEGIN:VCALENDAR\\nEND:VCALENDAR"
+    return b'{"data":{"rows":[]}}'
+   result=u.execute(dt.datetime(2026,10,22,tzinfo=dt.timezone.utc),root,fetch=fake_fetch)
+   saved=json.loads((root/"weekly-calendar.json").read_text())
+   self.assertEqual(result["nasdaq_days_ok"],10)
+   self.assertEqual(result["status"],"success")
+   self.assertIn("META",[v["symbol"] for v in saved["earnings"]])
+   self.assertIn("WDC",[v["symbol"] for v in saved["earnings"]])
+   self.assertEqual(len([x for x in requests if "nasdaq.com" in x]),10)
+
 if __name__=="__main__":unittest.main()
