@@ -55,14 +55,14 @@
       '</div><div class="calMuted">'+(x.datetime_et?escapeHTML(timeLocal(x.datetime_et))+
       (x.event_type==="call"?"（會議時間，非發布時間）":""):"南澳發布時刻待確認")+
       '</div><div class="calMuted">重點：'+escapeHTML(x.focus||"財測、CapEx、毛利")+
-      safeLink(x.source_url,"來源")+"</div></article>")).join("")):
+      safeLink(x.source_url,"來源")+"</div></article>")):
       '<p class="calMuted">本週尚無已收錄的財報時間；不代表沒有公司發布。請查官方 IR 或 Nasdaq 行事曆。</p>');
     macro.innerHTML=heading+(m.length?block(m.map(x=>
       '<article class="calEvent"><div><strong>'+escapeHTML(x.date.slice(5))+' · '+escapeHTML(x.title)+'</strong>'+
       '<span class="calTag">'+(x.impact==="高"?"重要":"關注")+'</span></div>'+
       '<div>'+escapeHTML(timeLocal(x.datetime_et))+'</div>'+
       '<div class="calMuted">觀察：'+escapeHTML(x.focus||"市場反應")+
-      safeLink(x.source_url,"官方日曆")+"</div></article>")).join("")):
+      safeLink(x.source_url,"官方日曆")+"</div></article>")):
       '<p class="calMuted">這一週目前沒有已收錄的重要官方事件；請查看完整官方行事曆。</p>');
     const foot='<p class="calFoot">已核實基準：'+escapeHTML(c.as_of||"未註明")+
       '。未列出的財報不代表沒有公布；排程可能臨時改期。'+safeLink("https://www.nasdaq.com/market-activity/earnings","更多財報")+'</p>';
