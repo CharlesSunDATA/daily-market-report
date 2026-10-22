@@ -55,6 +55,30 @@
       '<div class="calMuted">觀察：'+escapeHTML(x.focus||"市場反應")+
       safeLink(x.source_url,"官方日曆")+'</div></article>';
   };
+  const renderEarning=x=>{
+    const done=released(x);
+    const passed=eventPassed(x)||(!x.datetime_et && x.date<today);
+    const tag=done?"已公布・數據核實":passed?"日期已過・結果待核實":x.status==="official"?"公司確認日期・待公布":"預告・待核IR";
+    const timeNote=x.datetime_et?timeLocal(x.datetime_et)+(x.event_type==="call"?"（電話會議，非財報發布時刻）":""):"公布時刻尚未確認";
+    const metrics=done?'<div class="calResults">'+(x.results||[]).map(v=>
+      '<div class="calResult"><strong>'+escapeHTML(v.indicator)+'</strong><div>實際 <b>'+escapeHTML(v.actual)+
+      '</b> · 預期 '+escapeHTML(v.forecast||"未取得同口徑預期")+
+      (v.previous?' · '+(String(v.previous).includes("前季")?"前季":"去年同期")+' '+escapeHTML(v.previous):"")+
+      (v.surprise?' · 差異 <b>'+escapeHTML(v.surprise)+'</b>':"")+
+      '</div></div>').join("")+'</div>':"";
+    return '<article class="calEvent"><div><strong>'+escapeHTML(x.date.slice(5))+' · '+escapeHTML(x.symbol)+
+      '</strong> '+escapeHTML(x.name)+'<span class="calTag">'+tag+'</span></div>'+
+      (done?metrics+
+        (x.guidance?'<div class="calMuted"><strong>財測／關鍵：</strong>'+escapeHTML(x.guidance)+'</div>':"")+
+        (x.result_note?'<div class="calMuted">'+escapeHTML(x.result_note)+'</div>':"")+
+        '<div class="calMuted">'+safeLink(x.result_source_url||x.source_url,"正式財報")+
+        safeLink(x.consensus_source_url,"預期來源")+'</div>'
+       :'<div>'+escapeHTML(x.time_label||"公布日期預告")+'</div>'+
+        '<div class="calMuted">'+escapeHTML(timeNote)+'</div>'+
+        (passed?'<div class="calMuted">該日期已過，但尚未取得可核實的數字；不代表公司未發布。</div>':"")+
+        '<div class="calMuted">重點：'+escapeHTML(x.focus||"財測、CapEx、毛利")+safeLink(x.source_url,"來源")+'</div>'))+
+      '</article>';
+  };
   const heading='<p class="calIntro">美東事件日 '+escapeHTML(begin)+" 至 "+escapeHTML(end)+"；以下時間另換算南澳。未確認的公布時刻不會推算。</p>";
   const hasFallback=!!(earnings.querySelector(".calEvent")||macro.querySelector(".calEvent"));
   // Display verified build-time data immediately; do not blank it on refresh.
@@ -74,14 +98,8 @@
       .sort((a,b)=>a.date.localeCompare(b.date)||b.priority-a.priority);
     const m=(c.economic||[]).filter(x=>x.date>=begin&&x.date<=end)
       .sort((a,b)=>a.date.localeCompare(b.date)||String(a.datetime_et).localeCompare(String(b.datetime_et)));
-    earnings.innerHTML=heading+(e.length?block(e.map(x=>
-      '<article class="calEvent"><div><strong>'+escapeHTML(x.date.slice(5))+' · '+escapeHTML(x.symbol)+'</strong> '+escapeHTML(x.name)+
-      '<span class="calTag">'+mark(x.status)+'</span></div><div>'+escapeHTML(x.time_label||"公布時段待核實")+
-      '</div><div class="calMuted">'+(x.datetime_et?escapeHTML(timeLocal(x.datetime_et))+
-      (x.event_type==="call"?"（會議時間，非發布時間）":""):"南澳發布時刻待確認")+
-      '</div><div class="calMuted">重點：'+escapeHTML(x.focus||"財測、CapEx、毛利")+
-      safeLink(x.source_url,"來源")+"</div></article>")):
-      '<p class="calMuted">本週尚無已收錄的財報時間；不代表沒有公司發布。請查官方 IR 或 Nasdaq 行事曆。</p>');
+    earnings.innerHTML=heading+(e.length?block(e.map(renderEarning)):
+      '<p class="calMuted">本週尚無已收錄的財報；不代表沒有公司發布。請查公司 IR 或 Nasdaq 日曆。</p>');
     macro.innerHTML=heading+(m.length?block(m.map(renderMacro)):
       '<p class="calMuted">這一週目前沒有已收錄的重要官方事件；請查看完整官方行事曆。</p>');
     const foot='<p class="calFoot">已核實基準：'+escapeHTML(c.as_of||"未註明")+
