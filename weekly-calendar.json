@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-23",
+  "as_of": "2026-10-24T09:00:00+10:30",
   "timezone_reference": "America/New_York",
-  "verification_note": "官方公司IR／美國官方日曆核實；財報電話會議時間不等於財報發布時間。",
+  "verification_note": "官方公司IR／美國官方日曆核實；財報電話會議時間不等於財報發布時間。 2026-10-24：將無consensus forecast的YoY比較移至comparison欄，避免誤標為surprise。",
   "earnings": [
     {
       "symbol": "SPCX",
@@ -355,7 +355,8 @@
           "actual": "$1.2358B",
           "forecast": null,
           "previous": "$519.0M",
-          "surprise": "+138.1% YoY"
+          "surprise": null,
+          "comparison": "+138.1% YoY"
         },
         {
           "indicator": "EPS（Non-GAAP，每股美元）",
@@ -369,7 +370,8 @@
           "actual": "34.5%",
           "forecast": null,
           "previous": "30.4%",
-          "surprise": "+410 bps YoY"
+          "surprise": null,
+          "comparison": "+410 bps YoY"
         }
       ]
     },
