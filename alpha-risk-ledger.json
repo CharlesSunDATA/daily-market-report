@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-23T08:58:00+10:30",
+  "as_of": "2026-10-24T09:00:00+10:30",
   "methodology": "First-seen, no backfill. Validation windows use 5/20/60 trading days from first_seen_date. Ratings are research states, not probabilities or credit ratings.",
   "performance": {
     "sample_size": 0,
@@ -72,9 +72,9 @@
         "60d": "open"
       },
       "latest_observation": {
-        "date": "2026-10-22",
-        "price": 55.57,
-        "note": "1d -10.12%; financing/FCF risk and price moving in same direction"
+        "date": "2026-10-23",
+        "price": 54.235,
+        "note": "1d -2.40%; 20d about -38%; Orange maintained, no current individual bond OAS/CDS quote"
       }
     },
     {
@@ -141,9 +141,9 @@
         "60d": "open"
       },
       "latest_observation": {
-        "date": "2026-10-22",
-        "price": 279.66,
-        "note": "1d -1.77%; more resilient than QQQ"
+        "date": "2026-10-23",
+        "price": 284.77,
+        "note": "1d +1.83%; 5d +2.97%; relative strength vs SOXX"
       }
     },
     {
@@ -164,9 +164,9 @@
         "60d": "open"
       },
       "latest_observation": {
-        "date": "2026-10-22",
-        "price": 252.27,
-        "note": "1d +0.35%; relative strength confirms defensive software/FCF thesis"
+        "date": "2026-10-23",
+        "price": 253.59,
+        "note": "1d +0.52%; 5d +9.25%; price already reflects some improvement"
       }
     },
     {
@@ -254,6 +254,11 @@
         "5d": "open",
         "20d": "open",
         "60d": "open"
+      },
+      "latest_observation": {
+        "date": "2026-10-23",
+        "price": 343.465,
+        "note": "1d -2.92%; fundamental confirmed but price confirmation failed; remains below 20/50/200DMA"
       }
     },
     {
@@ -262,7 +267,7 @@
       "first_seen_date": "2026-10-23",
       "ticker": "BE",
       "direction": "positive",
-      "state": "Improving",
+      "state": "Yellow-security",
       "baseline_price": 217.635,
       "baseline_price_date": "2026-10-22",
       "evidence": "A/B",
@@ -272,6 +277,11 @@
         "5d": "open",
         "20d": "open",
         "60d": "open"
+      },
+      "latest_observation": {
+        "date": "2026-10-23",
+        "price": 193.1,
+        "note": "1d -11.27%; OCF -$27M and FCF -$181M partially trigger cash-conversion invalidation"
       }
     },
     {
@@ -290,6 +300,34 @@
         "5d": "open",
         "20d": "open",
         "60d": "open"
+      },
+      "latest_observation": {
+        "date": "2026-10-23",
+        "price": null,
+        "note": "LITE +0.49%, COHR +0.72%; 5d -8.11%/-10.19%; one-day stabilization insufficient"
+      }
+    },
+    {
+      "id": "AR-20261024-BE-CASH-CONVERSION-GAP",
+      "source_date": "2026-10-22",
+      "first_seen_date": "2026-10-24",
+      "ticker": "BE",
+      "direction": "negative",
+      "state": "Yellow",
+      "baseline_price": 193.1,
+      "baseline_price_date": "2026-10-23",
+      "evidence": "A/B+Price",
+      "catalyst": "Working-capital explanation and operating/free-cash-flow recovery",
+      "invalidation": "Revenue and margin remain strong while operating cash flow turns sustainably positive",
+      "windows": {
+        "5d": "open",
+        "20d": "open",
+        "60d": "open"
+      },
+      "latest_observation": {
+        "date": "2026-10-23",
+        "price": 193.1,
+        "note": "1d -11.27%; Q3 OCF -$27M and FCF -$181M despite record revenue"
       }
     }
   ]
