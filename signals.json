@@ -1,6 +1,60 @@
 {
-  "updated_at": "2026-10-23T08:58:00+10:30",
+  "updated_at": "2026-10-24T09:00:00+10:30",
   "signals": [
+    {
+      "id": "20261024-be-cash-conversion-gap",
+      "timestamp": "2026-10-24T09:00:00+10:30",
+      "light": "🔴",
+      "title": "BE營收創高但OCF／FCF轉負，降級Yellow",
+      "summary": "Q3收入US$1.236B、non-GAAP GM 34.5%，但OCF -US$27M、FCF -US$181M；需求強與現金轉換弱同時成立，10/23股價跌11.27%。",
+      "tickers": [
+        "BE",
+        "ETN",
+        "PWR",
+        "VST"
+      ],
+      "source": "Bloom Energy IR；公開財務數據；IEX",
+      "source_url": "https://investor.bloomenergy.com/press-releases/press-release-details/2026/Bloom-Energy-Reports-Record-Third-Quarter-2026-Financial-Results-and-Raises-Full-Year-2026-Guidance/default.aspx",
+      "source_time": "2026-10-22",
+      "credibility": "A/B+Price",
+      "status": "new"
+    },
+    {
+      "id": "20261024-oil-credit-double-tightening",
+      "timestamp": "2026-10-24T08:59:00+10:30",
+      "light": "🔴",
+      "title": "油價、10Y與CCC信用同步收緊",
+      "summary": "10/23 Brent US$116.72、WTI US$103.27、10Y 4.99%；10/22 CCC OAS升至13.40%。對長久期AI估值與高槓桿neocloud形成雙重壓力。",
+      "tickers": [
+        "QQQ",
+        "SMH",
+        "CRWV",
+        "NVDA",
+        "VRT"
+      ],
+      "source": "Reuters；FRED",
+      "source_url": "https://www.reuters.com/business/energy/oil-little-changed-supply-concern-lingers-amid-houthi-attacks-saudi-arabia-2026-10-23/",
+      "source_time": "2026-10-23",
+      "credibility": "A/B",
+      "status": "increment"
+    },
+    {
+      "id": "20261024-wdc-price-confirmation-failed",
+      "timestamp": "2026-10-24T08:58:00+10:30",
+      "light": "🟡",
+      "title": "WDC基本面確認、價格確認失敗",
+      "summary": "Q1收入/毛利/FCF與Q2指引均強，但10/23跌2.92%，20日趨勢仍弱；維持Confirmed-fundamental，動作改為wait for price proof。",
+      "tickers": [
+        "WDC",
+        "STX",
+        "MU"
+      ],
+      "source": "Western Digital IR；IEX",
+      "source_url": "https://investor.wdc.com/node/28921/pdf",
+      "source_time": "2026-10-23",
+      "credibility": "A+Price",
+      "status": "increment"
+    },
     {
       "id": "20261023-wdc-margin-fcf-inflection",
       "timestamp": "2026-10-23T08:58:00+10:30",
