@@ -1,6 +1,22 @@
 {
-  "updated_at": "2026-10-24T09:00:00+10:30",
+  "updated_at": "2026-10-25T08:56:00+10:30",
   "signals": [
+    {
+      "id": "20261025-0856-saudi-energy-targeting-escalation",
+      "timestamp": "2026-10-25T08:56:00+10:30",
+      "light": "🔴",
+      "title": "沙烏地能源節點遭鎖定的週末風險升級，實際損害未確認",
+      "summary": "胡塞稱鎖定Yanbu Aramco、Rabigh煉廠、泵站與東西輸油管；沙國確認攔截與碎片但未確認設施命中。事件發生於週五收盤後，週一需由Brent、信用利差與官方運轉資料確認。",
+      "tickers": [
+        "XLE",
+        "QQQ",
+        "SMH",
+        "CRWV"
+      ],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/world/middle-east/saudi-civil-defense-says-danger-passed-after-brief-alerts-mecca-jeddah-taif-2026-10-24/",
+      "source_time": "2026-10-24T08:34:00Z"
+    },
     {
       "id": "20261024-be-cash-conversion-gap",
       "timestamp": "2026-10-24T09:00:00+10:30",
