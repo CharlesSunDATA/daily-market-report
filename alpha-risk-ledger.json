@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-24T09:00:00+10:30",
+  "as_of": "2026-10-25T08:56:00+10:30",
   "methodology": "First-seen, no backfill. Validation windows use 5/20/60 trading days from first_seen_date. Ratings are research states, not probabilities or credit ratings.",
   "performance": {
     "sample_size": 0,
@@ -328,6 +328,29 @@
         "date": "2026-10-23",
         "price": 193.1,
         "note": "1d -11.27%; Q3 OCF -$27M and FCF -$181M despite record revenue"
+      }
+    },
+    {
+      "id": "AR-20261025-GULF-ENERGY-SECURITY",
+      "source_date": "2026-10-24",
+      "first_seen_date": "2026-10-25",
+      "ticker": "QQQ/SMH/XLE",
+      "direction": "negative",
+      "state": "Yellow-macro",
+      "baseline_price": 704.21,
+      "baseline_price_date": "2026-10-23",
+      "evidence": "B",
+      "catalyst": "Verified damage to Saudi energy infrastructure, oil gap higher, and/or credit-spread widening",
+      "invalidation": "No confirmed damage, oil risk premium fades, and HY/CCC spreads do not widen",
+      "windows": {
+        "5d": "open",
+        "20d": "open",
+        "60d": "open"
+      },
+      "latest_observation": {
+        "date": "2026-10-25",
+        "price": 704.21,
+        "note": "Weekend event after Friday close; Houthi targeting claims, Saudi interception/debris confirmation, actual damage unconfirmed"
       }
     }
   ]
