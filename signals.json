@@ -1,6 +1,24 @@
 {
-  "updated_at": "2026-10-25T08:56:00+10:30",
+  "updated_at": "2026-10-26T08:58:00+10:30",
   "signals": [
+    {
+      "id": "20261026-0858-gulf-equity-cross-market-confirmation",
+      "timestamp": "2026-10-26T08:58:00+10:30",
+      "light": "🔴",
+      "title": "海灣安全風險獲跨市場確認，仍未構成能源供應中斷",
+      "summary": "10/25沙國TASI跌2.7%、Aramco跌0.9%、埃及EGX30跌3.6%；利雅德機場部分恢復且外交渠道仍在。Gulf風險升為Yellow—跨市場確認，不升Orange。",
+      "tickers": [
+        "XLE",
+        "QQQ",
+        "SMH",
+        "CRWV"
+      ],
+      "source": "Reuters；AP",
+      "source_url": "https://www.reuters.com/world/middle-east/gulf-bourses-slip-houthi-saudi-clashes-rattle-investors-2026-10-25/",
+      "source_time": "2026-10-25",
+      "credibility": "B",
+      "status": "increment"
+    },
     {
       "id": "20261025-0856-saudi-energy-targeting-escalation",
       "timestamp": "2026-10-25T08:56:00+10:30",
