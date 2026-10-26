@@ -378,15 +378,15 @@
     {
       "symbol": "MOD",
       "name": "Modine Manufacturing Company",
-      "date": "2026-10-27",
-      "session": "unknown",
+      "date": "2026-11-03",
+      "session": "AMC",
       "event_type": "estimate",
-      "datetime_et": null,
-      "time_label": "Nasdaq 日曆預告（未確認時段）",
-      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "datetime_et": "2026-11-03T16:00:00-05:00",
+      "time_label": "11/3 盤後公布；11/4 11:00 ET 電話會議",
+      "focus": "官方確認：Q2 FY2027 results、Data Center訂單／margin／OCF",
       "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+      "status": "official",
+      "source_url": "https://investors.modine.com/news/news-details/2026/Modine-to-Host-Second-Quarter-Fiscal-2027-Earnings-Conference-Call-on-November-4-2026/default.aspx"
     },
     {
       "symbol": "STX",
@@ -679,7 +679,7 @@
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     }
   ],
-  "last_scan_at": "2026-10-26T01:29:38.209980+00:00",
+  "last_scan_at": "2026-10-26T22:31:00+00:00",
   "results_verified_as_of": "2026-10-23",
   "earnings_results_verified_as_of": "2026-10-23"
 }
