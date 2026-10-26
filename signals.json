@@ -1,6 +1,63 @@
 {
-  "updated_at": "2026-10-26T08:58:00+10:30",
+  "updated_at": "2026-10-27T09:01:00+10:30",
   "signals": [
+    {
+      "id": "20261027-0901-avgo-anthropic-spv-63b",
+      "timestamp": "2026-10-27T09:01:00+10:30",
+      "light": "🟡",
+      "title": "AVGO–Anthropic US$63B SPV同時確認需求與殘值風險",
+      "summary": "官方揭露SPV將購買Broadcom XPU與networking並自2027交付；Broadcom對第一順位融資等額提供residual value support。需求升級Confirmed-contract-financing，信用結構列Yellow。",
+      "tickers": [
+        "AVGO",
+        "ANT",
+        "TSM",
+        "MU",
+        "ANET",
+        "VRT"
+      ],
+      "source": "Broadcom IR",
+      "source_url": "https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce",
+      "source_time": "2026-10-26",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261027-0901-anthropic-s1-compute-commitments",
+      "timestamp": "2026-10-27T09:01:00+10:30",
+      "light": "🟡",
+      "title": "Anthropic S-1揭露高成長與逾US$600B算力承諾並存",
+      "summary": "S-1於10/26提交；Reuters整理顯示H1營運虧損US$693M、調整後營業收益US$1.62B，淨損受可轉債非營運項目扭曲。高速成長與供應／資本集中並存，列Yellow-watch。",
+      "tickers": [
+        "ANT",
+        "AVGO",
+        "AMZN",
+        "GOOGL",
+        "MSFT"
+      ],
+      "source": "SEC；Reuters",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.htm",
+      "source_time": "2026-10-26",
+      "credibility": "A/B",
+      "status": "new"
+    },
+    {
+      "id": "20261027-0901-market-rebound-weak-breadth",
+      "timestamp": "2026-10-27T09:01:00+10:30",
+      "light": "🟡",
+      "title": "SOX急彈但Nasdaq新低仍壓倒新高，總燈號由紅升黃",
+      "summary": "10/26 S&P +0.70%、Nasdaq +0.83%、SOX +2.8%；但Nasdaq 82個新高對349個新低，成交量低於20日均。判定risk-on rebound，尚非全面Institutional Accumulation。",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "SMH",
+        "SOXX"
+      ],
+      "source": "Reuters；公開市場報價",
+      "source_url": "https://www.reuters.com/business/us-stock-futures-edge-up-oil-falls-heading-into-earnings-barrage-2026-10-26/",
+      "source_time": "2026-10-26",
+      "credibility": "B+Price",
+      "status": "increment"
+    },
     {
       "id": "20261026-0858-gulf-equity-cross-market-confirmation",
       "timestamp": "2026-10-26T08:58:00+10:30",
