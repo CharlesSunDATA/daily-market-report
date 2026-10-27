@@ -1,6 +1,62 @@
 {
-  "updated_at": "2026-10-27T09:01:00+10:30",
+  "updated_at": "2026-10-28T08:56:00+10:30",
   "signals": [
+    {
+      "id": "20261028-0856-stx-margin-fcf-storage-confirmation",
+      "timestamp": "2026-10-28T08:56:00+10:30",
+      "light": "🟢",
+      "title": "STX營收、毛利、FCF與降債同步確認Storage轉折",
+      "summary": "Q1 FY27收入US$4.233B、non-GAAP毛利率57.8%、FCF US$1.5B；Q2收入指引US$4.8B±0.1B。與WDC形成獨立同業交叉確認。",
+      "tickers": [
+        "STX",
+        "WDC",
+        "MU"
+      ],
+      "source": "Seagate IR",
+      "source_url": "https://investors.seagate.com/news/news-details/2026/Seagate-Technology-Reports-Fiscal-First-Quarter-2027-Financial-Results/default.aspx",
+      "source_time": "2026-10-27",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261028-0856-avgo-spv-senior-tranche-quantified",
+      "timestamp": "2026-10-28T08:56:00+10:30",
+      "light": "🟡",
+      "title": "AVGO–Anthropic SPV約US$43.5B senior tranche，殘值風險被量化",
+      "summary": "Reuters新增揭露第一順位／senior debt約US$43.5B、約占總融資69%；residual-value support提升需求可見度，也把資產殘值尾風險留在Broadcom。維持Yellow。",
+      "tickers": [
+        "AVGO",
+        "ANT",
+        "TSM",
+        "MU",
+        "ANET",
+        "VRT"
+      ],
+      "source": "Reuters",
+      "source_url": "https://www.reuters.com/legal/transactional/wall-street-banks-blackstone-line-up-63-billion-finance-broadcom-chips-anthropic-2026-10-26/",
+      "source_time": "2026-10-27",
+      "credibility": "B",
+      "status": "increment"
+    },
+    {
+      "id": "20261028-0856-market-breadth-improves-new-lows-still-high",
+      "timestamp": "2026-10-28T08:56:00+10:30",
+      "light": "🟡",
+      "title": "AI領漲且breadth改善，但Nasdaq新低仍近新高四倍",
+      "summary": "10/27 S&P +0.60%、Nasdaq +1.18%、Russell +1.2%；Nasdaq A/D 1.86:1，但62個新高對239個新低，成交量仍低於20日均，判定Mark-up attempt而非Institutional Accumulation。",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "SMH",
+        "SOXX",
+        "IWM"
+      ],
+      "source": "Reuters；公開市場報價",
+      "source_url": "https://www.reuters.com/business/us-stock-futures-muted-oil-holds-near-april-highs-ahead-fed-decision-2026-10-27/",
+      "source_time": "2026-10-27",
+      "credibility": "B+Price",
+      "status": "increment"
+    },
     {
       "id": "20261027-0901-avgo-anthropic-spv-63b",
       "timestamp": "2026-10-27T09:01:00+10:30",
