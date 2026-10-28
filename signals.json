@@ -1,6 +1,136 @@
 {
-  "updated_at": "2026-10-28T08:56:00+10:30",
+  "updated_at": "2026-10-29T08:58:00+10:30",
   "signals": [
+    {
+      "id": "20261029-0858-now-ai-acv-cRPO-fcf",
+      "timestamp": "2026-10-29T08:58:00+10:30",
+      "light": "🟢",
+      "title": "NOW AI ACV、cRPO與FCF margin同向改善，價格未確認",
+      "summary": "cRPO US$13.65B、固定匯率年增21%；AI ACV目標US$1.7B，FY non-GAAP FCF margin目標36%。最新公開指示價偏弱，列Improving、等待price proof。",
+      "tickers": [
+        "NOW",
+        "IGV",
+        "DDOG",
+        "NET"
+      ],
+      "source": "ServiceNow IR",
+      "source_url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+      "source_time": "2026-10-28",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261029-0858-googl-cloud-fcf-divergence",
+      "timestamp": "2026-10-29T08:58:00+10:30",
+      "light": "🟡",
+      "title": "GOOGL Cloud高增但FCF轉負，升Yellow現金轉換警報",
+      "summary": "Cloud營收US$30.709B、年增103%，但CapEx US$51.4B、FCF -US$9.07B；盤後下跌已先反映部分風險。這是cash-conversion警報，不是信用違約判定。",
+      "tickers": [
+        "GOOGL",
+        "NVDA",
+        "VRT",
+        "ANET",
+        "MU"
+      ],
+      "source": "Alphabet IR / Reuters",
+      "source_url": "https://abc.xyz/investor/",
+      "source_time": "2026-10-28",
+      "credibility": "A/B",
+      "status": "new"
+    },
+    {
+      "id": "20261029-0858-msft-azure-rpo-fcf",
+      "timestamp": "2026-10-29T08:58:00+10:30",
+      "light": "🟢",
+      "title": "MSFT Azure、RPO與FCF同時確認AI變現",
+      "summary": "Azure營收US$33.165B、年增48%；commercial RPO US$677B、年增73%；FCF US$18.6B。第三方capacity delivery延遲是交付時點風險。",
+      "tickers": [
+        "MSFT",
+        "NVDA",
+        "VRT",
+        "ANET",
+        "MU"
+      ],
+      "source": "Microsoft IR",
+      "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+      "source_time": "2026-10-28",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261029-0858-vrt-orders-fcf-guide",
+      "timestamp": "2026-10-29T08:58:00+10:30",
+      "light": "🟢",
+      "title": "VRT orders逾100%、FCF與全年指引同步上修",
+      "summary": "Q3 sales +61%、organic orders逾100%、adjusted operating margin 25.2%、FCF US$652M；股價+16.6%，基本面Confirmed但security已Extended。",
+      "tickers": [
+        "VRT",
+        "MOD",
+        "ETN",
+        "PWR"
+      ],
+      "source": "Vertiv IR",
+      "source_url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Third-Quarter-2026-with-Net-Sales-Growth-of-61-Organic-Orders-Growth-over-100-and-Diluted-EPS-Growth-of-91-Adjusted-Diluted-EPS-Growth-of-78-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/default.aspx",
+      "source_time": "2026-10-28",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261029-0858-klac-q2-guide-fcf",
+      "timestamp": "2026-10-29T08:58:00+10:30",
+      "light": "🟢",
+      "title": "KLAC Q2指引與FCF確認AI／memory設備廣度",
+      "summary": "Q1 revenue US$4.136B、FCF US$1.34B；Q2 revenue guide US$4.7B±0.2B。AI、advanced packaging、memory與PCB inspection共同驅動。",
+      "tickers": [
+        "KLAC",
+        "LRCX",
+        "AMAT",
+        "MU",
+        "TSM"
+      ],
+      "source": "KLA IR",
+      "source_url": "https://ir.kla.com/news-events/press-releases/detail/523/kla-corporation-reports-fiscal-2027-first-quarter-results",
+      "source_time": "2026-10-28",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261029-0858-skhynix-hbm4-lta",
+      "timestamp": "2026-10-29T08:58:00+10:30",
+      "light": "🟢",
+      "title": "SK hynix HBM4、長約與產能緊張強化Memory thesis",
+      "summary": "Q3營收KRW104.6T、營益率80%；HBM4自Q4成主流，與14客戶LTA鎖定逾半2027–28總產能。支持MU與設備鏈，但不得推定逐一客戶訂單。",
+      "tickers": [
+        "MU",
+        "KLAC",
+        "LRCX",
+        "AMAT",
+        "TSM"
+      ],
+      "source": "SK hynix",
+      "source_url": "https://news.skhynix.com/en/q3-2026-business-results/",
+      "source_time": "2026-10-28",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261029-0858-fomc-hold-hawkish",
+      "timestamp": "2026-10-29T08:58:00+10:30",
+      "light": "🟡",
+      "title": "FOMC 10–2票維持3.75–4.00%，通膨與油價提高估值壓力",
+      "summary": "Fed稱經濟活動強、通膨仍高；Cook與Hammack主張升息25bp。10Y約5.03%、油價上升，宏觀估值thesis惡化。",
+      "tickers": [
+        "SPY",
+        "QQQ",
+        "SMH",
+        "CRWV"
+      ],
+      "source": "Federal Reserve",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "source_time": "2026-10-28",
+      "credibility": "A",
+      "status": "new"
+    },
     {
       "id": "20261028-0856-stx-margin-fcf-storage-confirmation",
       "timestamp": "2026-10-28T08:56:00+10:30",
