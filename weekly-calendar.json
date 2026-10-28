@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-27",
+  "as_of": "2026-10-28",
   "timezone_reference": "America/New_York",
-  "verification_note": "官方公司IR／美國官方日曆核實；財報電話會議時間不等於財報發布時間。 2026-10-24：將無consensus forecast的YoY比較移至comparison欄，避免誤標為surprise。",
+  "verification_note": "官方公司IR／美國官方日曆核實；財報電話會議時間不等於財報發布時間。 2026-10-24：將無consensus forecast的YoY比較移至comparison欄，避免誤標為surprise。 2026-10-29：補入MSFT、GOOGL、KLAC、NOW、VRT官方結果；盤後價格僅作指示。",
   "earnings": [
     {
       "symbol": "SPCX",
@@ -436,65 +436,90 @@
       "name": "Alphabet Inc.",
       "date": "2026-10-28",
       "session": "AMC",
-      "event_type": "estimate",
+      "event_type": "results",
       "datetime_et": null,
       "time_label": "Nasdaq 日曆預告（盤後）",
       "focus": "確認營收、指引、訂單、CapEx 與毛利",
       "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+      "status": "official",
+      "source_url": "https://abc.xyz/investor/",
+      "result_status": "published",
+      "result_source_url": "https://abc.xyz/investor/",
+      "result_note": "Q3官方結果：revenue US$127.577B、Cloud US$30.709B、CapEx US$51.4B；公開媒體核對FCF -US$9.07B。",
+      "guidance": "後續驗證Cloud margin、CapEx/CFO與FCF轉正。",
+      "verified_at": "2026-10-28"
     },
     {
       "symbol": "KLAC",
       "name": "KLA Corporation",
       "date": "2026-10-28",
       "session": "AMC",
-      "event_type": "estimate",
+      "event_type": "results",
       "datetime_et": null,
       "time_label": "Nasdaq 日曆預告（盤後）",
       "focus": "確認營收、指引、訂單、CapEx 與毛利",
       "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+      "status": "official",
+      "source_url": "https://ir.kla.com/news-events/press-releases/detail/523/kla-corporation-reports-fiscal-2027-first-quarter-results",
+      "result_status": "published",
+      "result_source_url": "https://ir.kla.com/news-events/press-releases/detail/523/kla-corporation-reports-fiscal-2027-first-quarter-results",
+      "result_note": "Fiscal Q1 revenue US$4.136B、FCF US$1.34B；Q2 revenue guide US$4.7B±0.2B。",
+      "guidance": "Q2 non-GAAP gross margin 62.5%±1.0。",
+      "verified_at": "2026-10-28"
     },
     {
       "symbol": "MSFT",
       "name": "Microsoft Corporation",
       "date": "2026-10-28",
       "session": "AMC",
-      "event_type": "estimate",
+      "event_type": "results",
       "datetime_et": null,
       "time_label": "Nasdaq 日曆預告（盤後）",
       "focus": "確認營收、指引、訂單、CapEx 與毛利",
       "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+      "status": "official",
+      "source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+      "result_status": "published",
+      "result_source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+      "result_note": "FY27 Q1官方結果：revenue US$92.3B、Azure US$33.165B、commercial RPO US$677B、FCF US$18.6B。",
+      "guidance": "後續驗證Azure成長、RPO轉營收與第三方capacity delivery。",
+      "verified_at": "2026-10-28"
     },
     {
       "symbol": "NOW",
       "name": "ServiceNow, Inc.",
       "date": "2026-10-28",
       "session": "AMC",
-      "event_type": "estimate",
+      "event_type": "results",
       "datetime_et": null,
       "time_label": "Nasdaq 日曆預告（盤後）",
       "focus": "確認營收、指引、訂單、CapEx 與毛利",
       "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+      "status": "official",
+      "source_url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+      "result_status": "published",
+      "result_source_url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+      "result_note": "Q3 subscription revenue US$3.988B、cRPO US$13.65B、FCF US$822M；AI ACV target US$1.7B。",
+      "guidance": "FY non-GAAP FCF margin target 36%。",
+      "verified_at": "2026-10-28"
     },
     {
       "symbol": "VRT",
       "name": "Vertiv Holdings, LLC",
       "date": "2026-10-28",
       "session": "BMO",
-      "event_type": "estimate",
+      "event_type": "results",
       "datetime_et": null,
       "time_label": "Nasdaq 日曆預告（盤前）",
       "focus": "確認營收、指引、訂單、CapEx 與毛利",
       "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+      "status": "official",
+      "source_url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Third-Quarter-2026-with-Net-Sales-Growth-of-61-Organic-Orders-Growth-over-100-and-Diluted-EPS-Growth-of-91-Adjusted-Diluted-EPS-Growth-of-78-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/default.aspx",
+      "result_status": "published",
+      "result_source_url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Third-Quarter-2026-with-Net-Sales-Growth-of-61-Organic-Orders-Growth-over-100-and-Diluted-EPS-Growth-of-91-Adjusted-Diluted-EPS-Growth-of-78-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/default.aspx",
+      "result_note": "Q3 sales US$4.313B、organic orders >100%、adjusted EPS US$2.21、FCF US$652M。",
+      "guidance": "FY revenue midpoint US$14.65B；adjusted FCF US$2.6–2.8B。",
+      "verified_at": "2026-10-28"
     },
     {
       "symbol": "AMZN",
@@ -805,7 +830,18 @@
       "impact": "高",
       "focus": "利率路徑、資金成本與風險資產",
       "status": "official",
-      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "result_status": "published",
+      "result_source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "results": [
+        {
+          "indicator": "Fed funds target",
+          "actual": "3.75%–4.00%",
+          "forecast": "維持",
+          "previous": "3.75%–4.00%",
+          "comparison": "10–2票；兩位委員主張+25bp"
+        }
+      ]
     },
     {
       "id": "eco-20261029-gdp",
@@ -878,7 +914,7 @@
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     }
   ],
-  "last_scan_at": "2026-10-28T02:30:46.909536+00:00",
-  "results_verified_as_of": "2026-10-27",
-  "earnings_results_verified_as_of": "2026-10-27"
+  "last_scan_at": "2026-10-28T22:30:00+00:00",
+  "results_verified_as_of": "2026-10-28",
+  "earnings_results_verified_as_of": "2026-10-28"
 }
