@@ -1,12 +1,124 @@
 {
-  "updated_at": "2026-10-29T08:58:00+10:30",
+  "updated_at": "2026-10-30T09:03:00+10:30",
   "signals": [
+    {
+      "id": "20261030-0903-pwr-backlog-fcf",
+      "stable_id": "AR-20261030-PWR-BACKLOG-FCF",
+      "timestamp": "2026-10-30T09:03:00+10:30",
+      "light": "🟢",
+      "title": "PWR record backlog／RPO與FCF同向確認",
+      "summary": "Q3 RPO US$41.8B、backlog US$63.7B、FCF US$1.20B；基本面Confirmed但10/29股價已+4.47%。",
+      "tickers": [
+        "PWR",
+        "ETN",
+        "VRT"
+      ],
+      "source": "Quanta Services IR",
+      "source_url": "https://investors.quantaservices.com/news-events/press-releases/detail/407/quanta-services-reports-third-quarter-2026-results",
+      "source_time": "2026-10-29",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261030-0903-amzn-aws-fcf-divergence",
+      "stable_id": "AR-20261030-AMZN-AWS-FCF-DIVERGENCE",
+      "timestamp": "2026-10-30T09:03:00+10:30",
+      "light": "🟡",
+      "title": "AMZN AWS高增、FCF轉負，新增cash-conversion Yellow",
+      "summary": "AWS US$46.0B、+39.3%，但TTM FCF -US$42.4B、PPE支出US$210.7B；非liquidity crisis。",
+      "tickers": [
+        "AMZN",
+        "NVDA",
+        "MU",
+        "VRT"
+      ],
+      "source": "Amazon IR",
+      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+      "source_time": "2026-10-29",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261030-0903-now-crpo-guide-reset",
+      "stable_id": "AR-20261030-NOW-CRPO-GUIDE-RESET",
+      "timestamp": "2026-10-30T09:03:00+10:30",
+      "light": "🔴",
+      "title": "NOW Q4 guide／cRPO加速度轉弱，風險升Yellow",
+      "summary": "Q4 subscription revenue guide US$4.245–4.255B、cRPO growth 18.5%；10/29股價-26.87%，屬已發生重估而非提前預警。",
+      "tickers": [
+        "NOW",
+        "IGV",
+        "NET",
+        "DDOG"
+      ],
+      "source": "ServiceNow IR / Reuters",
+      "source_url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+      "source_time": "2026-10-28",
+      "credibility": "A/B",
+      "status": "new"
+    },
+    {
+      "id": "20261030-0903-sndk-dc-gm-guide",
+      "stable_id": "AR-20261030-SNDK-DC-GM-GUIDE",
+      "timestamp": "2026-10-30T09:03:00+10:30",
+      "light": "🟡",
+      "title": "SNDK datacenter／毛利／指引強，但證券Extended",
+      "summary": "Q1 revenue US$11.03B、GPM 85%、datacenter US$4.80B；Q2 revenue guide US$12.2–12.6B。10/29跌5.24%、YTD約+383%。",
+      "tickers": [
+        "SNDK",
+        "MU",
+        "WDC",
+        "STX"
+      ],
+      "source": "Sandisk IR",
+      "source_url": "https://sandisk.gcs-web.com/news-releases/news-release-details/sandisk-reports-fiscal-first-quarter-2027-financial-results",
+      "source_time": "2026-10-29",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261030-0903-delta-infrastructure-profit",
+      "timestamp": "2026-10-30T09:03:00+10:30",
+      "light": "🟢",
+      "title": "台達電基礎設施營收／獲利同步增長",
+      "summary": "Q3 Infrastructure sales NT$65.88B、+25%；profit NT$12.07B、+40%。支援power/cooling read-through，但總GPM季降。",
+      "tickers": [
+        "2308.TW",
+        "VRT",
+        "MOD",
+        "ETN"
+      ],
+      "source": "Delta IR",
+      "source_url": "https://filecenter.deltaww.com/ir/download/calendar/3Q26_Analyst%20Meeting.pdf",
+      "source_time": "2026-10-29",
+      "credibility": "A",
+      "status": "new"
+    },
+    {
+      "id": "20261030-0903-tsmc-taichung-facility",
+      "timestamp": "2026-10-30T09:03:00+10:30",
+      "light": "🟡",
+      "title": "TSMC以NT$38.8B取得台中廠房，產能用途待確認",
+      "summary": "取得廠房、無塵室與附屬設施供營運生產；未披露特定CoWoS／客戶用途，不直接量化read-through。",
+      "tickers": [
+        "2330.TW",
+        "TSM",
+        "NVDA",
+        "AMD",
+        "AVGO"
+      ],
+      "source": "TWSE/MOPS",
+      "source_url": "https://goodinfo.tw/tw/StockAnnounceDetail.asp?CLAIM_TIME=2026%2F10%2F29+14%3A05%3A38&STOCK_ID=2330",
+      "source_time": "2026-10-29",
+      "credibility": "A",
+      "status": "new"
+    },
     {
       "id": "20261029-0858-now-ai-acv-cRPO-fcf",
       "timestamp": "2026-10-29T08:58:00+10:30",
-      "light": "🟢",
-      "title": "NOW AI ACV、cRPO與FCF margin同向改善，價格未確認",
-      "summary": "cRPO US$13.65B、固定匯率年增21%；AI ACV目標US$1.7B，FY non-GAAP FCF margin目標36%。最新公開指示價偏弱，列Improving、等待price proof。",
+      "light": "🔴",
+      "title": "NOW 正向 AI ACV／FCF 假說失效",
+      "summary": "Q4 subscription guide 與 cRPO 增速降至18.5%，10/29股價跌26.87%；昨日Improving訊號列為false positive，不回寫歷史。",
       "tickers": [
         "NOW",
         "IGV",
@@ -17,14 +129,16 @@
       "source_url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
       "source_time": "2026-10-28",
       "credibility": "A",
-      "status": "new"
+      "status": "invalidated",
+      "invalidated_at": "2026-10-29",
+      "stable_id": "AR-20261029-NOW-AI-ACV-FCF"
     },
     {
       "id": "20261029-0858-googl-cloud-fcf-divergence",
       "timestamp": "2026-10-29T08:58:00+10:30",
       "light": "🟡",
       "title": "GOOGL Cloud高增但FCF轉負，升Yellow現金轉換警報",
-      "summary": "Cloud營收US$30.709B、年增103%，但CapEx US$51.4B、FCF -US$9.07B；盤後下跌已先反映部分風險。這是cash-conversion警報，不是信用違約判定。",
+      "summary": "Cloud營收US$30.709B、年增103%，但CapEx US$51.4B、FCF -US$9.07B；盤後下跌已先反映部分風險。這是cash-conversion警報，不是信用違約判定。 10/29股價-12.85%確認重估，但首次記錄時價格已反應，lead-time約0。",
       "tickers": [
         "GOOGL",
         "NVDA",
@@ -36,7 +150,8 @@
       "source_url": "https://abc.xyz/investor/",
       "source_time": "2026-10-28",
       "credibility": "A/B",
-      "status": "new"
+      "status": "price_confirmed",
+      "stable_id": "AR-20261029-GOOGL-CLOUD-FCF-DIVERGENCE"
     },
     {
       "id": "20261029-0858-msft-azure-rpo-fcf",
