@@ -1,7 +1,7 @@
 {
-  "as_of": "2026-10-28",
+  "as_of": "2026-10-29",
   "timezone_reference": "America/New_York",
-  "verification_note": "官方公司IR／美國官方日曆核實；財報電話會議時間不等於財報發布時間。 2026-10-24：將無consensus forecast的YoY比較移至comparison欄，避免誤標為surprise。 2026-10-29：補入MSFT、GOOGL、KLAC、NOW、VRT官方結果；盤後價格僅作指示。",
+  "verification_note": "官方公司IR／美國官方日曆核實；財報電話會議時間不等於財報發布時間。 2026-10-24：將無consensus forecast的YoY比較移至comparison欄，避免誤標為surprise。 2026-10-29：補入MSFT、GOOGL、KLAC、NOW、VRT官方結果；盤後價格僅作指示。 2026-10-30：補入AMZN、PWR、SNDK官方結果與PLTR/AMD/DDOG/QCOM官方日期；ALAB/ANET/ETN/MOD/SMCI等既有日期若未再次由IR核實，閱讀時視為待確認。",
   "earnings": [
     {
       "symbol": "SPCX",
@@ -529,10 +529,31 @@
       "event_type": "estimate",
       "datetime_et": null,
       "time_label": "Nasdaq 日曆預告（盤後）",
-      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "focus": "已發布：AWS增長加速，但CapEx/FCF與Q4 guide形成負預期差",
       "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+      "status": "official",
+      "source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+      "result_status": "published",
+      "results": [
+        {
+          "indicator": "營收",
+          "actual": "$201.9B",
+          "forecast": null,
+          "comparison": "+12% YoY"
+        },
+        {
+          "indicator": "AWS營收",
+          "actual": "$46.0B",
+          "forecast": "$45.61B",
+          "surprise": "+0.9%"
+        },
+        {
+          "indicator": "TTM FCF",
+          "actual": "-$42.36B",
+          "forecast": null,
+          "comparison": "prior-year +$14.79B"
+        }
+      ]
     },
     {
       "symbol": "PWR",
@@ -542,10 +563,31 @@
       "event_type": "estimate",
       "datetime_et": null,
       "time_label": "Nasdaq 日曆預告（盤前）",
-      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "focus": "已發布：record RPO/backlog與FCF，grid buildout確認",
       "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+      "status": "official",
+      "source_url": "https://investors.quantaservices.com/news-events/press-releases/detail/407/quanta-services-reports-third-quarter-2026-results",
+      "result_status": "published",
+      "results": [
+        {
+          "indicator": "營收",
+          "actual": "$12.01B",
+          "forecast": null,
+          "comparison": "+57% YoY"
+        },
+        {
+          "indicator": "RPO",
+          "actual": "$41.8B",
+          "forecast": null,
+          "comparison": "record"
+        },
+        {
+          "indicator": "FCF",
+          "actual": "$1.199B",
+          "forecast": null,
+          "comparison": "Q3"
+        }
+      ]
     },
     {
       "symbol": "SNDK",
@@ -555,10 +597,31 @@
       "event_type": "estimate",
       "datetime_et": null,
       "time_label": "Nasdaq 日曆預告（盤後）",
-      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "focus": "已發布：datacenter增長、85%毛利與Q2上修；證券Extended",
       "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+      "status": "official",
+      "source_url": "https://sandisk.gcs-web.com/news-releases/news-release-details/sandisk-reports-fiscal-first-quarter-2027-financial-results",
+      "result_status": "published",
+      "results": [
+        {
+          "indicator": "營收",
+          "actual": "$11.031B",
+          "forecast": null,
+          "comparison": "+23% QoQ"
+        },
+        {
+          "indicator": "GAAP毛利率",
+          "actual": "85.0%",
+          "forecast": null,
+          "comparison": ""
+        },
+        {
+          "indicator": "Q2營收指引",
+          "actual": "$12.2B-$12.6B",
+          "forecast": null,
+          "comparison": "未公布前不能當Actual"
+        }
+      ]
     },
     {
       "symbol": "ALAB",
@@ -581,10 +644,11 @@
       "event_type": "estimate",
       "datetime_et": null,
       "time_label": "Nasdaq 日曆預告（盤後）",
-      "focus": "確認營收、指引、訂單、CapEx 與毛利",
+      "focus": "MI450/Helios、DC GPU revenue-stage、GM、customer concentration",
       "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
+      "status": "official",
+      "source_url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+      "result_status": "scheduled"
     },
     {
       "symbol": "ANET",
@@ -741,6 +805,48 @@
       "priority": 2,
       "status": "provider_unverified",
       "source_url": "https://www.nasdaq.com/market-activity/earnings"
+    },
+    {
+      "symbol": "PLTR",
+      "name": "Palantir",
+      "date": "2026-11-02",
+      "session": "AMC",
+      "event_type": "earnings",
+      "datetime_et": "2026-11-02T17:00:00-05:00",
+      "time_label": "11/2 5:00 PM ET call",
+      "priority": 3,
+      "focus": "AI software demand、commercial growth、RPO、margin/FCF",
+      "status": "official",
+      "source_url": "https://investors.palantir.com/news-details/2026/Palantir-Announces-Date-of-Third-Quarter-2026-Earnings-Release-and-Webcast/",
+      "result_status": "scheduled"
+    },
+    {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "date": "2026-11-04",
+      "session": "BMO",
+      "event_type": "earnings",
+      "datetime_et": "2026-11-04T08:00:00-05:00",
+      "time_label": "11/4 8:00 AM ET call",
+      "priority": 3,
+      "focus": "AI observability、large customers、RPO、margin/FCF",
+      "status": "official",
+      "source_url": "https://datadog.gcs-web.com/news-releases/news-release-details/datadog-announces-date-third-quarter-fiscal-year-2026-earnings",
+      "result_status": "scheduled"
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "date": "2026-11-04",
+      "session": "AMC",
+      "event_type": "earnings",
+      "datetime_et": "2026-11-04T16:45:00-05:00",
+      "time_label": "11/4 1:45 PM PT call",
+      "priority": 2,
+      "focus": "handset/Apple read-through、IoT/Auto、margin",
+      "status": "official",
+      "source_url": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-Schedules-Fourth-Quarter-and-Fiscal-2026-Earnings-Release-and-Conference-Call/default.aspx",
+      "result_status": "scheduled"
     }
   ],
   "economic": [
