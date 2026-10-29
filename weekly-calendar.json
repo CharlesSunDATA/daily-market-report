@@ -553,7 +553,8 @@
           "forecast": null,
           "comparison": "prior-year +$14.79B"
         }
-      ]
+      ],
+      "result_source_url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
     },
     {
       "symbol": "PWR",
@@ -587,7 +588,8 @@
           "forecast": null,
           "comparison": "Q3"
         }
-      ]
+      ],
+      "result_source_url": "https://investors.quantaservices.com/news-events/press-releases/detail/407/quanta-services-reports-third-quarter-2026-results"
     },
     {
       "symbol": "SNDK",
@@ -621,7 +623,8 @@
           "forecast": null,
           "comparison": "未公布前不能當Actual"
         }
-      ]
+      ],
+      "result_source_url": "https://sandisk.gcs-web.com/news-releases/news-release-details/sandisk-reports-fiscal-first-quarter-2027-financial-results"
     },
     {
       "symbol": "ALAB",
