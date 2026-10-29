@@ -447,7 +447,27 @@
       "result_source_url": "https://abc.xyz/investor/",
       "result_note": "Q3官方結果：revenue US$127.577B、Cloud US$30.709B、CapEx US$51.4B；公開媒體核對FCF -US$9.07B。",
       "guidance": "後續驗證Cloud margin、CapEx/CFO與FCF轉正。",
-      "verified_at": "2026-10-28"
+      "verified_at": "2026-10-28",
+      "results": [
+        {
+          "indicator": "營收",
+          "actual": "$127.58B",
+          "forecast": "$128.2B",
+          "surprise": "-0.5%"
+        },
+        {
+          "indicator": "Cloud營收",
+          "actual": "$30.709B",
+          "forecast": null,
+          "comparison": "+103% YoY"
+        },
+        {
+          "indicator": "FCF",
+          "actual": "-$9.07B",
+          "forecast": null,
+          "comparison": "轉負"
+        }
+      ]
     },
     {
       "symbol": "KLAC",
@@ -465,7 +485,27 @@
       "result_source_url": "https://ir.kla.com/news-events/press-releases/detail/523/kla-corporation-reports-fiscal-2027-first-quarter-results",
       "result_note": "Fiscal Q1 revenue US$4.136B、FCF US$1.34B；Q2 revenue guide US$4.7B±0.2B。",
       "guidance": "Q2 non-GAAP gross margin 62.5%±1.0。",
-      "verified_at": "2026-10-28"
+      "verified_at": "2026-10-28",
+      "results": [
+        {
+          "indicator": "營收",
+          "actual": "$4.136B",
+          "forecast": null,
+          "comparison": "Q1"
+        },
+        {
+          "indicator": "FCF",
+          "actual": "$1.34B",
+          "forecast": null,
+          "comparison": "Q1"
+        },
+        {
+          "indicator": "Q2營收指引",
+          "actual": "$4.7B±$0.2B",
+          "forecast": null,
+          "comparison": "公司指引"
+        }
+      ]
     },
     {
       "symbol": "MSFT",
@@ -483,7 +523,27 @@
       "result_source_url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
       "result_note": "FY27 Q1官方結果：revenue US$92.3B、Azure US$33.165B、commercial RPO US$677B、FCF US$18.6B。",
       "guidance": "後續驗證Azure成長、RPO轉營收與第三方capacity delivery。",
-      "verified_at": "2026-10-28"
+      "verified_at": "2026-10-28",
+      "results": [
+        {
+          "indicator": "營收",
+          "actual": "$92.3B",
+          "forecast": null,
+          "comparison": "Q1 FY27"
+        },
+        {
+          "indicator": "Azure營收",
+          "actual": "$33.17B",
+          "forecast": "$32.84B",
+          "surprise": "+1.0%"
+        },
+        {
+          "indicator": "FCF",
+          "actual": "$18.6B",
+          "forecast": null,
+          "comparison": "Q1 FY27"
+        }
+      ]
     },
     {
       "symbol": "NOW",
@@ -501,7 +561,27 @@
       "result_source_url": "https://investor.servicenow.com/news/news-details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
       "result_note": "Q3 subscription revenue US$3.988B、cRPO US$13.65B、FCF US$822M；AI ACV target US$1.7B。",
       "guidance": "FY non-GAAP FCF margin target 36%。",
-      "verified_at": "2026-10-28"
+      "verified_at": "2026-10-28",
+      "results": [
+        {
+          "indicator": "Subscription revenue",
+          "actual": "$3.988B",
+          "forecast": null,
+          "comparison": "+21% YoY"
+        },
+        {
+          "indicator": "Total revenue",
+          "actual": "$4.106B",
+          "forecast": null,
+          "comparison": "+20.5% YoY"
+        },
+        {
+          "indicator": "Q4 cRPO growth guide",
+          "actual": "18.5%",
+          "forecast": null,
+          "comparison": "decelerates"
+        }
+      ]
     },
     {
       "symbol": "VRT",
@@ -519,7 +599,27 @@
       "result_source_url": "https://investors.vertiv.com/news/news-details/2026/Vertiv-Reports-Strong-Third-Quarter-2026-with-Net-Sales-Growth-of-61-Organic-Orders-Growth-over-100-and-Diluted-EPS-Growth-of-91-Adjusted-Diluted-EPS-Growth-of-78-Raises-Full-Year-2026-Guidance-Across-All-Key-Metrics/default.aspx",
       "result_note": "Q3 sales US$4.313B、organic orders >100%、adjusted EPS US$2.21、FCF US$652M。",
       "guidance": "FY revenue midpoint US$14.65B；adjusted FCF US$2.6–2.8B。",
-      "verified_at": "2026-10-28"
+      "verified_at": "2026-10-28",
+      "results": [
+        {
+          "indicator": "營收",
+          "actual": "$4.313B",
+          "forecast": null,
+          "comparison": "+61% YoY"
+        },
+        {
+          "indicator": "Adjusted EPS",
+          "actual": "$2.21",
+          "forecast": null,
+          "comparison": "+78% YoY"
+        },
+        {
+          "indicator": "FCF",
+          "actual": "$652M",
+          "forecast": null,
+          "comparison": "Q3"
+        }
+      ]
     },
     {
       "symbol": "AMZN",
