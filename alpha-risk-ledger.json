@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-25T08:56:00+10:30",
+  "as_of": "2026-10-31T09:14:00+10:30",
   "methodology": "First-seen, no backfill. Validation windows use 5/20/60 trading days from first_seen_date. Ratings are research states, not probabilities or credit ratings.",
   "performance": {
     "sample_size": 0,
@@ -351,6 +351,29 @@
         "date": "2026-10-25",
         "price": 704.21,
         "note": "Weekend event after Friday close; Houthi targeting claims, Saudi interception/debris confirmation, actual damage unconfirmed"
+      }
+    },
+    {
+      "id": "AR-20261031-INTC-GUIDANCE-RESET",
+      "source_date": "2026-10-29",
+      "first_seen_date": "2026-10-31",
+      "ticker": "INTC",
+      "direction": "negative",
+      "state": "Observe",
+      "baseline_price": null,
+      "baseline_price_date": null,
+      "evidence": "B",
+      "catalyst": "Next guidance, foundry utilization and free cash flow",
+      "invalidation": "Guide and FCF improve with independently confirmed orders",
+      "windows": {
+        "5d": "open",
+        "20d": "open",
+        "60d": "open"
+      },
+      "latest_observation": {
+        "date": "2026-10-30",
+        "price": null,
+        "note": "Already fell ~29% before first seen; not an advance warning; not eligible for early-warning win count"
       }
     }
   ]
