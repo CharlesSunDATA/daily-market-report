@@ -422,10 +422,10 @@
       "symbol": "GEV",
       "name": "GE Vernova Inc.",
       "date": "2026-10-28",
-      "session": "BMO",
+      "session": "unknown",
       "event_type": "estimate",
       "datetime_et": null,
-      "time_label": "Nasdaq 日曆預告（盤前）",
+      "time_label": "Nasdaq 日曆預告（未確認時段）",
       "focus": "確認營收、指引、訂單、CapEx 與毛利",
       "priority": 2,
       "status": "provider_unverified",
@@ -727,6 +727,20 @@
       "result_source_url": "https://sandisk.gcs-web.com/news-releases/news-release-details/sandisk-reports-fiscal-first-quarter-2027-financial-results"
     },
     {
+      "symbol": "PLTR",
+      "name": "Palantir",
+      "date": "2026-11-02",
+      "session": "AMC",
+      "event_type": "earnings",
+      "datetime_et": "2026-11-02T17:00:00-05:00",
+      "time_label": "11/2 5:00 PM ET call",
+      "priority": 3,
+      "focus": "AI software demand、commercial growth、RPO、margin/FCF",
+      "status": "official",
+      "source_url": "https://investors.palantir.com/news-details/2026/Palantir-Announces-Date-of-Third-Quarter-2026-Earnings-Release-and-Webcast/",
+      "result_status": "scheduled"
+    },
+    {
       "symbol": "ALAB",
       "name": "Astera Labs, Inc.",
       "date": "2026-11-03",
@@ -806,6 +820,20 @@
       "source_url": "https://www.nasdaq.com/market-activity/earnings"
     },
     {
+      "symbol": "DDOG",
+      "name": "Datadog",
+      "date": "2026-11-04",
+      "session": "BMO",
+      "event_type": "earnings",
+      "datetime_et": "2026-11-04T08:00:00-05:00",
+      "time_label": "11/4 8:00 AM ET call",
+      "priority": 3,
+      "focus": "AI observability、large customers、RPO、margin/FCF",
+      "status": "official",
+      "source_url": "https://datadog.gcs-web.com/news-releases/news-release-details/datadog-announces-date-third-quarter-fiscal-year-2026-earnings",
+      "result_status": "scheduled"
+    },
+    {
       "symbol": "APP",
       "name": "Applovin Corporation",
       "date": "2026-11-04",
@@ -830,6 +858,20 @@
       "priority": 2,
       "status": "provider_unverified",
       "source_url": "https://www.nasdaq.com/market-activity/earnings"
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "date": "2026-11-04",
+      "session": "AMC",
+      "event_type": "earnings",
+      "datetime_et": "2026-11-04T16:45:00-05:00",
+      "time_label": "11/4 1:45 PM PT call",
+      "priority": 2,
+      "focus": "handset/Apple read-through、IoT/Auto、margin",
+      "status": "official",
+      "source_url": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-Schedules-Fourth-Quarter-and-Fiscal-2026-Earnings-Release-and-Conference-Call/default.aspx",
+      "result_status": "scheduled"
     },
     {
       "symbol": "AAOI",
@@ -908,48 +950,6 @@
       "priority": 2,
       "status": "provider_unverified",
       "source_url": "https://www.nasdaq.com/market-activity/earnings"
-    },
-    {
-      "symbol": "PLTR",
-      "name": "Palantir",
-      "date": "2026-11-02",
-      "session": "AMC",
-      "event_type": "earnings",
-      "datetime_et": "2026-11-02T17:00:00-05:00",
-      "time_label": "11/2 5:00 PM ET call",
-      "priority": 3,
-      "focus": "AI software demand、commercial growth、RPO、margin/FCF",
-      "status": "official",
-      "source_url": "https://investors.palantir.com/news-details/2026/Palantir-Announces-Date-of-Third-Quarter-2026-Earnings-Release-and-Webcast/",
-      "result_status": "scheduled"
-    },
-    {
-      "symbol": "DDOG",
-      "name": "Datadog",
-      "date": "2026-11-04",
-      "session": "BMO",
-      "event_type": "earnings",
-      "datetime_et": "2026-11-04T08:00:00-05:00",
-      "time_label": "11/4 8:00 AM ET call",
-      "priority": 3,
-      "focus": "AI observability、large customers、RPO、margin/FCF",
-      "status": "official",
-      "source_url": "https://datadog.gcs-web.com/news-releases/news-release-details/datadog-announces-date-third-quarter-fiscal-year-2026-earnings",
-      "result_status": "scheduled"
-    },
-    {
-      "symbol": "QCOM",
-      "name": "Qualcomm",
-      "date": "2026-11-04",
-      "session": "AMC",
-      "event_type": "earnings",
-      "datetime_et": "2026-11-04T16:45:00-05:00",
-      "time_label": "11/4 1:45 PM PT call",
-      "priority": 2,
-      "focus": "handset/Apple read-through、IoT/Auto、margin",
-      "status": "official",
-      "source_url": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-Schedules-Fourth-Quarter-and-Fiscal-2026-Earnings-Release-and-Conference-Call/default.aspx",
-      "result_status": "scheduled"
     }
   ],
   "economic": [
@@ -1123,7 +1123,7 @@
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     }
   ],
-  "last_scan_at": "2026-10-28T22:30:00+00:00",
+  "last_scan_at": "2026-10-30T02:01:49.840286+00:00",
   "results_verified_as_of": "2026-10-28",
   "earnings_results_verified_as_of": "2026-10-28"
 }
