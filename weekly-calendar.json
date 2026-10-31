@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-29",
+  "as_of": "2026-10-30",
   "timezone_reference": "America/New_York",
   "verification_note": "官方公司IR／美國官方日曆核實；財報電話會議時間不等於財報發布時間。 2026-10-24：將無consensus forecast的YoY比較移至comparison欄，避免誤標為surprise。 2026-10-29：補入MSFT、GOOGL、KLAC、NOW、VRT官方結果；盤後價格僅作指示。 2026-10-30：補入AMZN、PWR、SNDK官方結果與PLTR/AMD/DDOG/QCOM官方日期；ALAB/ANET/ETN/MOD/SMCI等既有日期若未再次由IR核實，閱讀時視為待確認。",
   "earnings": [
@@ -1123,7 +1123,7 @@
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     }
   ],
-  "last_scan_at": "2026-10-30T02:47:40.260424+00:00",
+  "last_scan_at": "2026-10-31T01:40:43.585282+00:00",
   "results_verified_as_of": "2026-10-28",
   "earnings_results_verified_as_of": "2026-10-28"
 }
