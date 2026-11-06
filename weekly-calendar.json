@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-04",
+  "as_of": "2026-11-05",
   "timezone_reference": "America/New_York",
   "verification_note": "官方公司IR／美國官方日曆核實；財報電話會議時間不等於財報發布時間。 2026-10-24：將無consensus forecast的YoY比較移至comparison欄，避免誤標為surprise。 2026-10-29：補入MSFT、GOOGL、KLAC、NOW、VRT官方結果；盤後價格僅作指示。 2026-10-30：補入AMZN、PWR、SNDK官方結果與PLTR/AMD/DDOG/QCOM官方日期；ALAB/ANET/ETN/MOD/SMCI等既有日期若未再次由IR核實，閱讀時視為待確認。",
   "earnings": [
@@ -417,19 +417,6 @@
           "surprise": null
         }
       ]
-    },
-    {
-      "symbol": "GEV",
-      "name": "GE Vernova Inc.",
-      "date": "2026-10-28",
-      "session": "unknown",
-      "event_type": "estimate",
-      "datetime_et": null,
-      "time_label": "Nasdaq 日曆預告（未確認時段）",
-      "focus": "確認營收、指引、訂單、CapEx 與毛利",
-      "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
     },
     {
       "symbol": "GOOGL",
@@ -850,10 +837,10 @@
       "symbol": "APP",
       "name": "Applovin Corporation",
       "date": "2026-11-04",
-      "session": "AMC",
+      "session": "unknown",
       "event_type": "estimate",
       "datetime_et": null,
-      "time_label": "Nasdaq 日曆預告（盤後）",
+      "time_label": "Nasdaq 日曆預告（未確認時段）",
       "focus": "確認營收、指引、訂單、CapEx 與毛利",
       "priority": 2,
       "status": "provider_unverified",
@@ -863,10 +850,10 @@
       "symbol": "COHR",
       "name": "Coherent Corp.",
       "date": "2026-11-04",
-      "session": "AMC",
+      "session": "unknown",
       "event_type": "estimate",
       "datetime_et": null,
-      "time_label": "Nasdaq 日曆預告（盤後）",
+      "time_label": "Nasdaq 日曆預告（未確認時段）",
       "focus": "確認營收、指引、訂單、CapEx 與毛利",
       "priority": 2,
       "status": "provider_unverified",
@@ -1188,7 +1175,7 @@
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     }
   ],
-  "last_scan_at": "2026-11-05T03:37:48.926363+00:00",
+  "last_scan_at": "2026-11-06T02:36:18.056022+00:00",
   "results_verified_as_of": "2026-10-28",
   "earnings_results_verified_as_of": "2026-10-28"
 }
