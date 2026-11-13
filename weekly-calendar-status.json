@@ -1,22 +1,12 @@
 {
-  "last_scan_at": "2026-11-12T04:01:48.550593+00:00",
+  "last_scan_at": "2026-11-13T02:43:12.958502+00:00",
   "status": "partial",
   "earnings_provider": "Nasdaq 日曆（日期需再核公司 IR）",
-  "earnings_provider_ok": false,
-  "nasdaq_days_ok": 0,
+  "earnings_provider_ok": true,
+  "nasdaq_days_ok": 10,
   "nasdaq_days_total": 10,
   "bls_ok": false,
   "notes": [
-    "Nasdaq 2026-11-09: HTTPError",
-    "Nasdaq 2026-11-10: HTTPError",
-    "Nasdaq 2026-11-11: HTTPError",
-    "Nasdaq 2026-11-12: HTTPError",
-    "Nasdaq 2026-11-13: HTTPError",
-    "Nasdaq 2026-11-16: HTTPError",
-    "Nasdaq 2026-11-17: HTTPError",
-    "Nasdaq 2026-11-18: HTTPError",
-    "Nasdaq 2026-11-19: HTTPError",
-    "Nasdaq 2026-11-20: HTTPError",
     "BLS feed: HTTPError"
   ]
 }
