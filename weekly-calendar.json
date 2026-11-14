@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-12",
+  "as_of": "2026-11-13",
   "timezone_reference": "America/New_York",
   "verification_note": "官方公司IR／美國官方日曆核實；財報電話會議時間不等於財報發布時間。 2026-10-24：將無consensus forecast的YoY比較移至comparison欄，避免誤標為surprise。 2026-10-29：補入MSFT、GOOGL、KLAC、NOW、VRT官方結果；盤後價格僅作指示。 2026-10-30：補入AMZN、PWR、SNDK官方結果與PLTR/AMD/DDOG/QCOM官方日期；ALAB/ANET/ETN/MOD/SMCI等既有日期若未再次由IR核實，閱讀時視為待確認。",
   "earnings": [
@@ -783,71 +783,6 @@
       "result_status": "scheduled"
     },
     {
-      "symbol": "AAOI",
-      "name": "Applied Optoelectronics, Inc.",
-      "date": "2026-11-05",
-      "session": "unknown",
-      "event_type": "estimate",
-      "datetime_et": null,
-      "time_label": "Nasdaq 日曆預告（未確認時段）",
-      "focus": "確認營收、指引、訂單、CapEx 與毛利",
-      "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
-    },
-    {
-      "symbol": "EOSE",
-      "name": "Eos Energy Enterprises, Inc.",
-      "date": "2026-11-05",
-      "session": "unknown",
-      "event_type": "estimate",
-      "datetime_et": null,
-      "time_label": "Nasdaq 日曆預告（未確認時段）",
-      "focus": "確認營收、指引、訂單、CapEx 與毛利",
-      "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
-    },
-    {
-      "symbol": "IREN",
-      "name": "IREN Limited",
-      "date": "2026-11-05",
-      "session": "unknown",
-      "event_type": "estimate",
-      "datetime_et": null,
-      "time_label": "Nasdaq 日曆預告（未確認時段）",
-      "focus": "確認營收、指引、訂單、CapEx 與毛利",
-      "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
-    },
-    {
-      "symbol": "LITE",
-      "name": "Lumentum Holdings Inc.",
-      "date": "2026-11-05",
-      "session": "AMC",
-      "event_type": "estimate",
-      "datetime_et": null,
-      "time_label": "Nasdaq 日曆預告（盤後）",
-      "focus": "確認營收、指引、訂單、CapEx 與毛利",
-      "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
-    },
-    {
-      "symbol": "NET",
-      "name": "Cloudflare, Inc.",
-      "date": "2026-11-05",
-      "session": "unknown",
-      "event_type": "estimate",
-      "datetime_et": null,
-      "time_label": "Nasdaq 日曆預告（未確認時段）",
-      "focus": "確認營收、指引、訂單、CapEx 與毛利",
-      "priority": 2,
-      "status": "provider_unverified",
-      "source_url": "https://www.nasdaq.com/market-activity/earnings"
-    },
-    {
       "symbol": "VST",
       "name": "Vistra Corp.",
       "date": "2026-11-06",
@@ -890,10 +825,10 @@
       "symbol": "AMAT",
       "name": "Applied Materials, Inc.",
       "date": "2026-11-12",
-      "session": "AMC",
+      "session": "unknown",
       "event_type": "estimate",
       "datetime_et": null,
-      "time_label": "Nasdaq 日曆預告（盤後）",
+      "time_label": "Nasdaq 日曆預告（未確認時段）",
       "focus": "確認營收、指引、訂單、CapEx 與毛利",
       "priority": 2,
       "status": "provider_unverified",
@@ -903,10 +838,10 @@
       "symbol": "NBIS",
       "name": "Nebius Group N.V.",
       "date": "2026-11-12",
-      "session": "BMO",
+      "session": "unknown",
       "event_type": "estimate",
       "datetime_et": null,
-      "time_label": "Nasdaq 日曆預告（盤前）",
+      "time_label": "Nasdaq 日曆預告（未確認時段）",
       "focus": "確認營收、指引、訂單、CapEx 與毛利",
       "priority": 2,
       "status": "provider_unverified",
@@ -1097,7 +1032,7 @@
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     }
   ],
-  "last_scan_at": "2026-11-13T03:30:35.922017+00:00",
+  "last_scan_at": "2026-11-14T02:31:08.399933+00:00",
   "results_verified_as_of": "2026-10-28",
   "earnings_results_verified_as_of": "2026-10-28"
 }
