@@ -1,12 +1,13 @@
 {
-  "last_scan_at": "2026-11-18T04:38:34.070582+00:00",
+  "last_scan_at": "2026-11-19T03:42:07.921683+00:00",
   "status": "partial",
   "earnings_provider": "Nasdaq 日曆（日期需再核公司 IR）",
   "earnings_provider_ok": true,
-  "nasdaq_days_ok": 10,
+  "nasdaq_days_ok": 9,
   "nasdaq_days_total": 10,
   "bls_ok": false,
   "notes": [
+    "Nasdaq 2026-11-26: ValueError",
     "BLS feed: HTTPError"
   ]
 }
