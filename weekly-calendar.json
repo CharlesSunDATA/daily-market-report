@@ -799,10 +799,10 @@
       "symbol": "FLNC",
       "name": "Fluence Energy, Inc.",
       "date": "2026-11-23",
-      "session": "AMC",
+      "session": "unknown",
       "event_type": "estimate",
       "datetime_et": null,
-      "time_label": "Nasdaq 日曆預告（盤後）",
+      "time_label": "Nasdaq 日曆預告（未確認時段）",
       "focus": "確認營收、指引、訂單、CapEx 與毛利",
       "priority": 2,
       "status": "provider_unverified",
@@ -1006,7 +1006,7 @@
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     }
   ],
-  "last_scan_at": "2026-11-24T07:01:58.960586+00:00",
+  "last_scan_at": "2026-11-25T04:56:59.160508+00:00",
   "results_verified_as_of": "2026-10-28",
   "earnings_results_verified_as_of": "2026-10-28"
 }
