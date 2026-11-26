@@ -799,10 +799,10 @@
       "symbol": "DELL",
       "name": "Dell Technologies Inc.",
       "date": "2026-11-24",
-      "session": "AMC",
+      "session": "unknown",
       "event_type": "estimate",
       "datetime_et": null,
-      "time_label": "Nasdaq 日曆預告（盤後）",
+      "time_label": "Nasdaq 日曆預告（未確認時段）",
       "focus": "確認營收、指引、訂單、CapEx 與毛利",
       "priority": 2,
       "status": "provider_unverified",
@@ -993,7 +993,7 @@
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
     }
   ],
-  "last_scan_at": "2026-11-25T05:35:39.865647+00:00",
+  "last_scan_at": "2026-11-26T04:13:37.309460+00:00",
   "results_verified_as_of": "2026-10-28",
   "earnings_results_verified_as_of": "2026-10-28"
 }
